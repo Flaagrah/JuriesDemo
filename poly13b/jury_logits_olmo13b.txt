@@ -1,0 +1,3000 @@
+Which theory states that 'people tend to rise to their own level of incompetence'?
+Hierarchy of needs
+[[0.017309093847870827, 0.9826908707618713]]
+Which writer was the father of Christopher Robin?
+RW
+[[0.3647775650024414, 0.6352224349975586]]
+The Dance Class and Absinthe are famous works by which painter?
+19th century
+[[0.11716748028993607, 0.8828325867652893]]
+Which American actor also performs with the band Dogstar?
+Slash
+[[0.07423136383295059, 0.9257686138153076]]
+In which city was the British version of Concorde assembled
+1996
+[[0.09138211607933044, 0.9086179733276367]]
+What is taphophobia the fear of?
+Skeletons
+[[0.7759445905685425, 0.2240554541349411]]
+Which bruising 19th century American, the last of the bare knuckle boxing heavyweight champions, was the first athlete to earn over one million dollars?
+Buster Douglas
+[[0.024423088878393173, 0.9755768775939941]]
+Who was the merchant sea-captain who made the first American circumnavigation of the world in 1790, and is known for trading voyages to the northern Pacific coast of North America between 1790 and 1793, which pioneered the fur trade in that region?
+Gerrit Smith
+[[0.16667540371418, 0.8333246111869812]]
+Situated in Piccadilly, what is the name of London’s oldest bookshop?
+19th
+[[0.21337716281414032, 0.7866228222846985]]
+What childhood stories feature a young boy named Mowgli?
+1001 Arabian Nights
+[[0.014281935058534145, 0.9857181310653687]]
+What potent greenhouse gas is produced by the digestive systems of cattle?
+1300 times more than CO2
+[[0.3345894515514374, 0.665410578250885]]
+"Which bandleader was known as ""The sentimental gentleman of swing"" because of his smooth trombone style?"
+Len Barry
+[[0.07159119844436646, 0.9284088015556335]]
+Which male Russian won the 100/200 metre double at the 1972 Olympics?
+100m: Alexander Popov, 200m: Alexander Popov
+[[0.36840569972991943, 0.6315943002700806]]
+Sir Ronald Ross was the first British winner of the Nobel Prize for Medicine in 1902 for his research in combating which disease?
+syphillis
+[[0.46490156650543213, 0.5350984334945679]]
+Which painter married Hortense Fiquet and used her as the subject of many of his paintings?
+19th century
+[[0.3923368752002716, 0.6076632142066956]]
+On this day in 1993, in a UN backed referendum, Eritreans voted overwhelmingly in favour of independence from which country ?
+1993
+[[0.5039061903953552, 0.49609383940696716]]
+Which angel in Charlie's Angels was played by Jaclyn Smith
+Tinkerbell
+[[0.048136770725250244, 0.9518632292747498]]
+Which country has borders with the Central African Republic, Sudan, Zambia, Angola, the Republic of the Congo, Uganda, Rwanda and Burundi (with Tanzania across Lake Tanganyika)?
+10
+[[0.25832599401474, 0.74167400598526]]
+Which battle of 23 June, 1757, was a major victory for the British East India Company's troops over the Nawab of Bengal and his French allies?
+1757 Battle of Plassey
+[[0.8568122982978821, 0.14318770170211792]]
+In woodworking joints, what do you insert into your mortise?
+1/4" dowel
+[[0.3363310396671295, 0.6636689305305481]]
+"What type of car was ""KITT"" from the ""Knightrider"" series?"
+1980s
+[[0.3593641519546509, 0.6406359076499939]]
+In which year did Queen Elizabeth the Queen Mother die?
+1986
+[[0.14804719388484955, 0.8519527316093445]]
+Name the two tiles with the highest score in Scrabble?
+10 and 11
+[[0.31742626428604126, 0.6825737357139587]]
+What was Orson Welles’ first film?
+1915
+[[0.018546564504504204, 0.9814534187316895]]
+"According to the opening line of T.S. Eliot's poem 'The Wasteland', which is ""the cruellest month""?"
+1923
+[[0.16559311747550964, 0.8344069123268127]]
+What are Ponte Vecchio and Pont Neuf?
+2 bridges in Paris
+[[0.8766343593597412, 0.1233656257390976]]
+Which year was renowned as ‘The Year of Revolutions’?
+1917
+[[0.7122321724891663, 0.28776779770851135]]
+Who played the mad legless Captain Rum in the second series of Blackadder?
+Buster Merryfield
+[[0.8221890926361084, 0.17781086266040802]]
+Which musical, for long entrenched at the Palace theatre in London, is currently running at the Queens theatre ?
+42nd Street
+[[0.793105959892273, 0.20689405500888824]]
+"What insect acts as the transmitting agent in the spread of the infectious disease ""Bubonic Plague""?"
+bubonic plague
+[[0.0960254892706871, 0.9039745330810547]]
+Who was born Vera Margaret Welsh on 20th March 1917?
+1917
+[[0.22953520715236664, 0.7704647779464722]]
+Castor (or castoreum) is an oily substance secreted by which animal, and historically used in medicine and perfume?
+castor
+[[0.4532618224620819, 0.5467381477355957]]
+Who did Jai McDowall beat in this years final of Britain's Got Talent?
+100%
+[[0.2845759987831116, 0.7154240012168884]]
+The staging of what enormous annual Afro-Caribbean cultural gathering was put in doubt following the London riots of August 2011?
+2012
+[[0.13117322325706482, 0.8688268065452576]]
+Kronos (or Cronus) was the Greek equivalent of which Roman god?
+Cupid
+[[0.01897803694009781, 0.9810219407081604]]
+What was the capital of West Germany?
+1950s
+[[0.325949490070343, 0.6740504503250122]]
+In which year did the liner Queen Mary gain the blue riband on her maiden voyage?
+1936
+[[0.7461389899253845, 0.2538609802722931]]
+'Simon Tappertit' appears in which novel by Charles Dickens?
+1843
+[[0.18242551386356354, 0.8175744414329529]]
+Which film starring Bill Murray includes the line Roses are red, violets are blue, I'm a schizophrenic and so am I?
+Planes, Trains and Automobiles
+[[0.4765796959400177, 0.5234203934669495]]
+What beer was advertised with the slogan Reach for Greatness
+7 Up
+[[0.08151975274085999, 0.9184802770614624]]
+House, Hogline, Hacks and Button are all terms used in which sport?
+Shuffleboard
+[[0.7662936449050903, 0.23370636999607086]]
+What is the name of the policeman in The Noddy stories
+Buster
+[[0.7634837031364441, 0.23651622235774994]]
+"Who is ""able to leap tall buildings in a single bound""?"
+Tinkerbell
+[[0.02779562398791313, 0.9722043871879578]]
+Name the popular writer, who died in 2010, and who rode the Queen Mother's horse Devon Loch when it inexplicably belly-flopped out of contention in the 1956 Grand National?
+JK Rowling
+[[0.17895589768886566, 0.8210441470146179]]
+During which year did the UK television series ‘Emmerdale Farm’ change its title to ‘Emmerdale’?
+1990
+[[0.9032942056655884, 0.09670578688383102]]
+What atmospheric layer is damaged by chlorofluorocarbons?
+1st
+[[0.1550784707069397, 0.8449215292930603]]
+In which country did Idi Amin settle and die after his exile from Uganda?
+1975
+[[0.11516223102807999, 0.8848377466201782]]
+Which ancient relic was stolen by Scottish Activists from Westminster Abbey and returned to Scotland on Christmas day in 1950?
+12th century crown of thorns
+[[0.28937169909477234, 0.7106282711029053]]
+The cha-cha-cha is a dance developed from the mambo in 1950 in which country?
+Cuba
+[[0.929440438747406, 0.07055959850549698]]
+Where in the body is the stapes bone?
+MIDDLE EAR
+[[0.8577680587768555, 0.14223188161849976]]
+For which minor sport do the USA and Europe compete annually for the Mosconi Cup?
+9-ball
+[[0.7981867790222168, 0.2018132209777832]]
+Nicky Morgan is the current Secretary of State of which Government Department?
+10 Downing Street
+[[0.11596071720123291, 0.8840392827987671]]
+What is the art of decorating materials with marks resulting from the controlled application of a heated object?
+Needlework
+[[0.0384661890566349, 0.961533784866333]]
+In which event did Amy Williams win a gold medal for Britain at the 2010 Winter Olympics?
+Skeleton
+[[0.9704646468162537, 0.029535338282585144]]
+What colour is the flesh of a lychee?
+Translucent
+[[0.5117166042327881, 0.4882833957672119]]
+Which US singer has had albums called 'Daydream', 'Butterfly', 'Rainbow' and 'Glitter'?
+1970s
+[[0.08945459872484207, 0.9105454087257385]]
+Who was Jessica Rabbit's husband?
+1940s
+[[0.18010665476322174, 0.8198933005332947]]
+Which composer's music forms the basis of the ballet Pineapple Poll?
+19th
+[[0.2658804655075073, 0.7341195344924927]]
+Which singer appears as bar-owner 'JD' in the film 'Lock, Stock and two Smoking Barrels'?
+Slash
+[[0.39793840050697327, 0.6020615696907043]]
+In the final Harry Potter novel, who becomes headmaster of Hogwarts School?
+JK Rowling
+[[0.008251599036157131, 0.9917484521865845]]
+Who wrote the play 'Private Lives'?
+Noël Coward
+[[0.9504110217094421, 0.04958902671933174]]
+In which North African country was Yves St. Laurent born as Henri Donat Mathieu?
+1936
+[[0.24508501589298248, 0.7549149990081787]]
+In the George Orwell novel Animal Farm, what sort of animal was Napoleon ?
+Holstein
+[[0.2120688110589981, 0.7879312038421631]]
+Who wrote the books ‘The Good Companions’ and ‘An Inspector Calls’?
+JK Rowling
+[[0.018689308315515518, 0.9813107252120972]]
+Which nickname was given to the American WWII general, George Patton?
+007
+[[0.07263670861721039, 0.9273632764816284]]
+What language did the Pennsylvania Dutch speak?
+Dialect
+[[0.15203224122524261, 0.847967803478241]]
+Which Indian tribe did Sitting Bull belong to?
+Cree
+[[0.20434188842773438, 0.7956580519676208]]
+On this day, 8th November, which famous poet who was blind in his later years, died in his home in London in 1647?
+1647
+[[0.14318770170211792, 0.8568122982978821]]
+The wood from which common tree was traditionally used to make tennis racquets, snooker cues and hockey sticks
+19th
+[[0.10894505679607391, 0.8910549879074097]]
+Who was the son of King John and Isabella of Angoulme who became King of England when 9 years old?
+12th
+[[0.120025634765625, 0.879974365234375]]
+Which country was proclaimed a republic in 1867, following the withdrawal of the French administration and the execution of Emperor Ferdinand Maximilian?
+1867
+[[0.23792991042137146, 0.7620701193809509]]
+Which Grand Slam tournament uses the distinctive serving pose of the Swedish player Stefan Edberg on its logo?
+2004 Wimbledon
+[[0.6076632142066956, 0.3923368752002716]]
+Who acceded the English throne after the death of Edward III?
+1377
+[[0.4843800961971283, 0.5156199336051941]]
+What Latin term is used to mean 'word for word', or 'exactly the same words'?
+verbatim
+[[0.9362850189208984, 0.06371499598026276]]
+The green jersey is worn by the Tour de France's?
+1st
+[[0.16344545781612396, 0.8365545868873596]]
+How many apostles are there in the painting ‘The Last Supper’ by Leonardo da Vinci?
+12
+[[0.7662936449050903, 0.23370636999607086]]
+In which country did the Contras battle the Sandinistas throughout most of the 1980s?
+1980s
+[[0.5926666259765625, 0.4073334336280823]]
+"Who starred as AC Slater in ""Saved by the Bell""?"
+Tiffani Thiessen
+[[0.13296423852443695, 0.8670357465744019]]
+In May 2009, Millvina Dean died aged 97. She was the last survivor of which historic event?
+RMS Titanic
+[[0.9559813141822815, 0.04401864856481552]]
+What country do Legos come from originally?
+Åland
+[[0.18359361588954926, 0.8164063692092896]]
+Which was the 50th and last state to become part of the USA?
+1959
+[[0.272024542093277, 0.7279754281044006]]
+Who wrote the music for 'Billy Elliot, The Musical'?
+Elton John
+[[0.9099069833755493, 0.09009299427270889]]
+Seals, sea lions and walrus belong to which suborder of manunals?
+Carnivora
+[[0.4436004161834717, 0.5563995838165283]]
+Held just outside Bridgeville, DE, Friday marks the start of the world championship in the art of throwing what for distance, using classes such as Air, Centrifugal, Catapult, Trebuchet, and Human Powered?
+100 meter discus
+[[0.36296921968460083, 0.6370307803153992]]
+How are comedians Paul & Barry Elliot better known?
+Whose Line Is It Anyway?
+[[0.9032942056655884, 0.09670578688383102]]
+Which Greek goddess is the muse of erotic poetry?
+Cupid
+[[0.010818448849022388, 0.9891815781593323]]
+What was the name of the dog in Enid Blighton's Famous Five books?
+Buster
+[[0.7853085398674011, 0.2146914005279541]]
+What dangerous type of horse race involves jumping over various fences and ditches?
+1000 Guineas
+[[0.02779562398791313, 0.9722043871879578]]
+A pride is a group of what type of animal?
+Carnivores
+[[0.3775406777858734, 0.622459352016449]]
+The Cantonese/Chinese dish 'foo yong' (also 'fu young') is similar to?
+Hainanese chicken rice
+[[0.169956237077713, 0.8300437331199646]]
+Prudhoe Bay Oil Field, the largest in North America, is in which US state?
+ALASKA
+[[0.879974365234375, 0.120025634765625]]
+What is a large semi-aquatic rodent native to Canada, much of the United States, and parts of northern Mexico that constructs homes out of sticks, twigs, and mud in lakes or streams?
+otter
+[[0.49609383940696716, 0.5039061903953552]]
+The Biba boutiques were at the heart of swinging London and at one time had the highest turnover of any British retail company. Who founded and ran Biba?
+Len Deighton
+[[0.028652669861912727, 0.9713473320007324]]
+Mjosa (more precisely Mjøsa) is the largest lake of which country?
+Norway
+[[0.8606036305427551, 0.13939638435840607]]
+Which US President was known as 'The Rail-Splitter' and 'The Great Emancipator'?
+19th
+[[0.22135069966316223, 0.7786493301391602]]
+Which London museum occupies part of the old Bethlehem Royal Hospital?
+Shard
+[[0.021287353709340096, 0.9787126779556274]]
+What is the flavour of the liqueur Amaretto?
+Citrus
+[[0.006692850962281227, 0.9933071732521057]]
+How often is the Oberammergau Passion Play performed?
+14 times a year
+[[0.4339814782142639, 0.5660185217857361]]
+Whose cottage is on the left of the Constable painting The Hay Wain?
+Tinker Bell
+[[0.04054073989391327, 0.9594592452049255]]
+‘Wot a lot I got’ was the advertising slogan for which confectionery items?
+Baked beans
+[[0.5736784338951111, 0.4263215959072113]]
+What is a cricket umpire signalling when he holds out one arm horizontally?
+Dismiss
+[[0.6206216216087341, 0.37937837839126587]]
+What is a mixture of saturated aliphatic and alicyclic C7 to C12 hydrocarbons with a maximum content of 25% of C7 to C12 alkyl aromatic hydrocarbons, which is used as an extraction, cleaning and degreasing solvent, and as a solvent in aerosols, paints, wood preservatives, lacquers, varnishes, and asphalt products?
+ATF
+[[0.3106943964958191, 0.6893056035041809]]
+Who won the World Darts Championship 4 times in the 1980s?
+1980, 1981, 1983, 1985
+[[0.4263215959072113, 0.5736784338951111]]
+Which river rises on the Tibetan Plateau, flows northwest and then south and southwest to enter the Arabian Gulf in the Seven Rivers area south of Karachi?
+Hyphasis
+[[0.04885777831077576, 0.9511421918869019]]
+In which city is the HQ of Volkswagen cars?
+Saxony
+[[0.16344545781612396, 0.8365545868873596]]
+"Which American pop singer/songwriter who won the first season of the television series American Idol in 2002 won two Grammy Awards in 2006 - for her album ""Breakaway"" and the single ""Since U Been Gone""?"
+2006
+[[0.13660839200019836, 0.863391637802124]]
+The wreck of which warship, one of the largest in the English navy of King Henry VIII in the first half of the 16th century, was rediscovered in 1971 and salvaged in October 1982?
+101
+[[0.10970577597618103, 0.8902942538261414]]
+What seven-letter word means “A Russian tea urn”?
+urn
+[[0.45519861578941345, 0.5448014140129089]]
+What are the first names of David and Victoria Beckham’s daughter?
+Harper Seven
+[[0.14706452190876007, 0.8529354929924011]]
+Which Roman writer, best known for his Natural History (Naturalis Historic), died during the eruption of Vesuvius in 79AD?
+Ælian
+[[0.2254166156053543, 0.7745833992958069]]
+Gary Numan, Cliff Richard and Crystal Gayle were all born with which surname?
+Connelly
+[[0.8267117738723755, 0.17328819632530212]]
+Because it was worn by recently freed slaves in Ancient Rome, what cap became the symbol of liberty?
+Aquila
+[[0.13846179842948914, 0.8615382313728333]]
+What form of bridge is Tower Bridge, London?
+truss
+[[0.5506073832511902, 0.4493926465511322]]
+Published in 2011, 'The House of Silk' is the first new official Sherlock Holmes mystery and was written by which author who has won many awards for his children's books?
+JK Rowling
+[[0.4843800961971283, 0.5156199336051941]]
+Harrison Ford was working as what before his first big break as a film actor?
+1960s
+[[0.14608724415302277, 0.8539127111434937]]
+What type of animal is a shell-less gastropod?
+Amphipod
+[[0.02931223064661026, 0.970687747001648]]
+The Finch family of Maycomb, Alabama feature in which 1960 novel?
+1962's To Kill A Mockingbird
+[[0.4054487347602844, 0.5945512652397156]]
+Which Venetian artist, real name Jacopo Robusti, painted “The Origin of the Milky Way”?
+Agostino Carracci
+[[0.29421496391296387, 0.7057850360870361]]
+To which James Bond film did Nancy Sinatra sing the theme tune?
+007
+[[0.22000709176063538, 0.7799928784370422]]
+Which American President was the teddy bear named after?
+1902
+[[0.14128141105175018, 0.8587185740470886]]
+What country had the Roman name Hibernia?
+1960s
+[[0.30074557662010193, 0.6992543935775757]]
+Who won a Gold Medal for Britain in the men’s 100 metres at the 1992 Summer Olympic Games in Barcelona?
+100m
+[[0.24508501589298248, 0.7549149990081787]]
+Which was the second city to host the modern Olympic Games?
+1932
+[[0.23370636999607086, 0.7662936449050903]]
+The White Stripes 2003 hit single I Just Don't Know What To Do With Myself was originally a hit in 1964 for which female singer?
+1964
+[[0.35398629307746887, 0.6460136771202087]]
+Coriolanus Snow, Peeta Mellark and Haymitch Abernathy are characters in which series of books?
+39 Clues
+[[0.04084571450948715, 0.9591543078422546]]
+What American boxer, who celebrated his birthday on Monday, is the first in history to win 5 world titles in 5 different weight classes, and was nicknamed The Motor City Cobra or The Hitman?
+Buster Douglas
+[[0.3415825068950653, 0.6584175229072571]]
+Which country is the world's largest producer of rice?
+1990s
+[[0.25683197379112244, 0.7431679368019104]]
+Starting in Hong Kong and digging directly through the center of the Earth, in what country would you emerge?
+Sinkhole
+[[0.07921033352613449, 0.9207897186279297]]
+"Which TV character had the catchphrase ""Listen very carefully; I shall say zis only once""?"
+1960s
+[[0.24944724142551422, 0.7505527138710022]]
+Who is the only member of Winston Churchill’s Government (a Parliamentary Secretary of Agriculture) who is still alive (95 years)?
+1920s
+[[0.2240554541349411, 0.7759445905685425]]
+Chartwell, the former home of Winston Churchill is in which county?
+Connaught
+[[0.19682618975639343, 0.8031737804412842]]
+What musical instrument has the nickname 'the devil's box'?
+tuba
+[[0.7106282711029053, 0.28937169909477234]]
+In which country is Verdi's opera 'Aida' set?
+1960s
+[[0.04535258188843727, 0.954647421836853]]
+Who is the Greek God of wine?
+Cupid
+[[0.007460643537342548, 0.9925393462181091]]
+Chequers, the Prime Minister's country residence, is in which English county?
+Buckinghamshire
+[[0.9184802770614624, 0.08151975274085999]]
+"Who is most likely to perform a ""pas de deux""?"
+19th century ballerina Marie Taglioni
+[[0.6513549089431763, 0.3486451804637909]]
+Which American General later President won the Battle of Horseshoe Bend?
+CSA
+[[0.07807816565036774, 0.9219217896461487]]
+Which amendment to the U.S. Constitution ended slavery?
+13th
+[[0.5195213556289673, 0.4804787039756775]]
+Who played Nick Fury in the made for TV movie of the same name?
+Len Wein
+[[0.04054073989391327, 0.9594592452049255]]
+Who was the first female singer with two UK million selling singles?
+1960s
+[[0.18010665476322174, 0.8198933005332947]]
+In which sport did Dave Prowse ('Darth Vader') represent England at the 1962 Commonwealth Games?
+Weights
+[[0.8300437331199646, 0.169956237077713]]
+What was the original UK name of the chocolate bar which de-anglicised its name in 2006?
+5 Star
+[[0.8140527606010437, 0.18594717979431152]]
+Whirligig and Longhorn are types of which creature?
+Amphibian
+[[0.16451646387577057, 0.8354835510253906]]
+Pearl Roundabout was the scene of political protests during 2011, in which country is it?
+Occupied Palestine
+[[0.2422056347131729, 0.7577943801879883]]
+The Costa Smeralda (or Emerald Coast) is a feature of which Mediterranean island?
+Isola di San Pietro
+[[0.24508501589298248, 0.7549149990081787]]
+Who was the mother of King Henry VI of England ?
+3rd
+[[0.3208213150501251, 0.6791787147521973]]
+Which French king was the husband of Marie Antoinette?
+18th
+[[0.28616926074028015, 0.7138307690620422]]
+"""The Last Man In Europe"" was the working title of which novel?"
+1940s
+[[0.10521053522825241, 0.894789457321167]]
+Tataouine in Tunisia was the setting for many scenes in the movies of which blockbuster franchise?
+007
+[[0.07864237576723099, 0.9213575720787048]]
+Edward Fairfax Rochester is a character in which 19th century novel?
+_Jane Eyre
+[[0.9246877431869507, 0.0753123089671135]]
+The Inverted Jenny depicts an upside down plane and is worth almost a million dollars. What is it?
+1928
+[[0.2267836481332779, 0.7732163667678833]]
+What is the name of the wizard who runs the Hogwarts School of Witchcraft and Wizardry in the Harry Potter books and films?
+JK Rowling
+[[0.0018386653391644359, 0.9981613755226135]]
+Newport on the Isle of Wight stands on which river?
+1st
+[[0.4707365930080414, 0.5292633771896362]]
+Officially designated the M9, what was the unofficial name of the shoulder fired rocket deployed by US soldiers during WWII?
+9mm
+[[0.03963883966207504, 0.9603611826896667]]
+What is claimed to be the fastest bird in level flight, (though its record is in dispute from supporters of the White-throated Needletail)?
+Laughing Gull
+[[0.16026602685451508, 0.8397339582443237]]
+Who along with Philips developed the CD in the late 70s?
+RCA
+[[0.36296921968460083, 0.6370307803153992]]
+Shrimps, barnacles, scorpions, spiders, etc., all belong to which phylum?
+Amphibia
+[[0.023330766707658768, 0.976669192314148]]
+Colomba Pasquale (or Easter Dove) is a traditional Easter cake which originated from which country?
+Abruzzo
+[[0.5253688097000122, 0.4746311902999878]]
+Who wrote the play Arms and the Man?
+Len Deighton
+[[0.013020489364862442, 0.9869794845581055]]
+"The first rule of fight club is you do not talk about fight club". What is the second rule?
+2nd rule of fight club is you do not talk about fight club
+[[0.8221890926361084, 0.17781086266040802]]
+What is the chemical symbol for sodium
+117
+[[0.022116590291261673, 0.9778834581375122]]
+What type of creature is a lumpsucker?
+Amphibian
+[[0.039048291742801666, 0.9609517455101013]]
+In which sport is the Uber Cup presented?
+Synchronized swimming
+[[0.21866938471794128, 0.7813306450843811]]
+In humans, the right lung is divided into how many lobes?
+2
+[[0.3849121630191803, 0.6150878667831421]]
+Harrisburg is the capital of which US state?
+1950s
+[[0.15921740233898163, 0.8407825827598572]]
+Vanessa Vankorn represented Thailand in a skiing event at the 2014 Winter Olympic Games, under what professional name is she better known?
+Pongsri
+[[0.6297746300697327, 0.3702253997325897]]
+Which was the first National Park in the United States of America?
+1872 Yellowstone
+[[0.8164063692092896, 0.18359361588954926]]
+Which English city is the setting for the film 'East Is East'?
+Lowestoft
+[[0.2465333491563797, 0.7534666657447815]]
+What city was the sewerage system built by Sir Joseph Bazalgette in the late 19th century designed to serve?
+10 million people
+[[0.37387582659721375, 0.6261242032051086]]
+What is the currency of Malaysia?
+1000 ringgit
+[[0.6039317846298218, 0.39606812596321106]]
+How are Felix Ungar and Oscar Madison described in the title of a play by Neil Simon?
+Opposites
+[[0.6406359076499939, 0.3593641519546509]]
+In which town or city is the University of Abertay?
+Dundee
+[[0.7905303239822388, 0.20946967601776123]]
+Where do littoral creatures live?
+Beneath the sea
+[[0.43014734983444214, 0.5698526501655579]]
+What is Niccolo Machiavelli's famously fascinating book on the art of political leadership, published in 1532?
+1513
+[[0.07369626313447952, 0.9263036847114563]]
+"What novel, alternatively entitled ""There and Back Again"", is a fantasy novel by J R R Tolkien, published in September 1937?"
+1937
+[[0.39606812596321106, 0.6039317846298218]]
+In Scotland, Burns Night is celebrated during which month of the year?
+25th
+[[0.32766830921173096, 0.672331690788269]]
+Mary Anne Evans was the real name of which famous novelist?
+JK Rowling
+[[0.012722708284854889, 0.9872773289680481]]
+What is the common name for a lepidoptera pupa and its silky cocoon?
+Painted lady
+[[0.10669060051441193, 0.8933094143867493]]
+Which artist painted a portrait of Sir Winston Churchill that was later destroyed by Lady Churchill?
+Len Deighton
+[[0.03138042986392975, 0.9686195850372314]]
+Who was chairman of the Watergate hearings?
+1973
+[[0.2751297354698181, 0.7248703241348267]]
+“When You Wish Upon a Star” was recorded for what classic Disney film?
+101 Dalmatians
+[[0.1250653862953186, 0.8749346137046814]]
+Which Prime Minister signed the Common Market membership treaty?
+Macmillan
+[[0.44167301058769226, 0.5583270192146301]]
+Of Mice And Men is a novel by which American novelist?
+Steinbeck
+[[0.9092645049095154, 0.09073548763990402]]
+In which year was the Panama Canal opened?
+1914
+[[0.66888028383255, 0.33111974596977234]]
+Where, 25 miles West of Knoxville, Tennessee, was an Atomic Bomb Research Station set up in 1942?
+NTS
+[[0.17217186093330383, 0.8278281688690186]]
+Which country lies between Zimbabwe and the sea
+1000 miles
+[[0.13296423852443695, 0.8670357465744019]]
+Serbian Pule cheese, said to be the world's most expensive is made from the milk of what animal
+Holstein
+[[0.04401864856481552, 0.9559813141822815]]
+Hamelin is on which river?
+Marne
+[[0.3380770981311798, 0.6619228720664978]]
+Henrietta Maria was the French wife of which British monarch?
+1st
+[[0.46101677417755127, 0.5389832258224487]]
+With which athletics field event is Jan Zelezny associated?
+100m hurdles
+[[0.3345894515514374, 0.665410578250885]]
+What is the name of the effect that deflects winds and currents as a result of the Earth's rotation?
+Convergence
+[[0.0960254892706871, 0.9039745330810547]]
+"In which Shakespeare comedy does 'Theseus' speak the opening line: ""Now fair Hippolyta, our nuptial hour draws apace""?"
+12th Night
+[[0.19682618975639343, 0.8031737804412842]]
+William Howard Russell became famous as what during the Crimean War?
+Interpreter
+[[0.048136770725250244, 0.9518632292747498]]
+The global collection of what is stored in a vault in Svalbard on the Norwegian island of Spitsbergen?
+100,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,
+[[0.46295857429504395, 0.5370413661003113]]
+Which Scottish loch is the largest in area?
+loch Ness
+[[0.5888891220092773, 0.41111084818840027]]
+What is the surname of Aleksandr, the chief meerkat in the comparethemarket.com ads?
+Reilly
+[[0.8807970285415649, 0.11920291185379028]]
+What Swiss psychologist conceived 'extraversion' and 'introversion', and personality tendencies of intuition, sensing, feeling and thinking?
+1905
+[[0.16667540371418, 0.8333246111869812]]
+"In the USA between 1852 and 1883, who were Reelfoot Williams, Tom Bell, Rattlesnake Dick and Charles Bolles (a.k.a. ""Black Bart"")?"
+1850s
+[[0.2598256766796112, 0.740174412727356]]
+In 2003, which planet passed 55.76 million km from earth, the closest since the Stone Age?
+55.76 million km
+[[0.30569732189178467, 0.6943026781082153]]
+Six of the world's top ten highest waterfalls are in which country?
+10. Iguazu Falls
+[[0.5794004201889038, 0.4205995798110962]]
+What was the name for a form of stencil duplicator used for making numerous copies of a document?
+Cylinder
+[[0.314050555229187, 0.6859495043754578]]
+What links the ship Dr Crippen was caught on in 1910 and a coastal resort town in Scotland?
+100 miles
+[[0.39606812596321106, 0.6039317846298218]]
+Which pair of time travellers declared Joan of Arc was the wife of Noah?
+19th century
+[[0.2689414322376251, 0.7310585975646973]]
+In which sea is the Great Barrier Reef?
+20000
+[[0.22135069966316223, 0.7786493301391602]]
+Which large-flowered plant is named after Paeon/Paean, Greek god of medicine and healing?
+Pax
+[[0.10743748396635056, 0.8925625681877136]]
+In which American state is Martha's Vineyard
+1950s
+[[0.15304215252399445, 0.8469578623771667]]
+the Naked Civil Servant starred which character?.
+Buster Keaton
+[[0.024423088878393173, 0.9755768775939941]]
+Rugby league. Which European Super League team are known as the ‘Giants’?
+1995
+[[0.272024542093277, 0.7279754281044006]]
+Who was the beautiful sister of the twins Castor and Pollux and mother to Hermione?
+Alcmene
+[[0.16667540371418, 0.8333246111869812]]
+What disease claimed the life of notorious American gangster, Al Capone?
+bubonic plague
+[[0.05921024829149246, 0.9407896995544434]]
+In the sitcom Terry and June, what was the title characters surname?
+Donnelly
+[[0.7620701193809509, 0.23792991042137146]]
+Also known as mother's ruin, which alcoholic drink is distilled from juniper berries?
+GIN
+[[0.9376689791679382, 0.06233103945851326]]
+Which BAFTA award winning British drama series follows the work of a group of MI5 intelligence officers based at the service's Thames House headquarters, in a highly secure suite of offices known as 'The Grid'?
+24
+[[0.12168575078248978, 0.8783142566680908]]
+On what material was the Mona Lisa painted?
+Plexiglas
+[[0.05877655744552612, 0.9412234425544739]]
+Which astronomer proposed the theory of the expanding universe?
+Planck
+[[0.0384661890566349, 0.961533784866333]]
+What nation is scheduled to host the 2022 World Cup?
+2022
+[[0.169956237077713, 0.8300437331199646]]
+Who was the Republican candidate who lost the Presidential election to Barack Obama in 2012?
+2012
+[[0.11838509142398834, 0.8816148638725281]]
+Which type of spaniel takes its name from a stately home in Nottinghamshire?
+Retriever
+[[0.02280263602733612, 0.9771973490715027]]
+Which island in the Inner Hebrides became a burial place for several kings of Scotland, Ireland and Norway?
+Lochaber
+[[0.034618839621543884, 0.9653811454772949]]
+"During World War II, in north Africa, who was known as ""The Desert Fox""?"
+OSS
+[[0.01798621006309986, 0.9820137619972229]]
+Which scientist was the first, in 1888, to demonstrate the existence of electromagnetic waves?
+Planck
+[[0.0427221953868866, 0.957277774810791]]
+"Who hosted the travel programmes ""Around the World in 80 Days"" (1989), ""Pole to Pole"" (1992), ""Full Circle"" (1997), and ""Hemingway Adventure"" (1999)?"
+007
+[[0.07211221009492874, 0.9278878569602966]]
+"What best-selling book was orginally a work of ""Twilight"" fan fiction?"
+1980s
+[[0.015306354500353336, 0.9846936464309692]]
+What is the worlds most common blood type?
+0
+[[0.41869691014289856, 0.581303060054779]]
+Which constellation features on the flag of Papua New Guinea?
+Aquila
+[[0.6442250609397888, 0.3557748794555664]]
+Which Canadian/American novelist won the Nobel Prize for Literature in 1976?
+Octave Mirbeau
+[[0.0378924235701561, 0.9621075391769409]]
+‘Duck and dive’ represents which number in the game of Bingo?
+2
+[[0.7476159334182739, 0.2523840367794037]]
+In which Asian country is the resort of Pattaya?
+thailand
+[[0.8386797308921814, 0.16132023930549622]]
+How many players are on the court in a korfball team?
+6
+[[0.6619228720664978, 0.3380770981311798]]
+Who succeeded Trajan as Roman Emperor in 117 AD
+117
+[[0.16885696351528168, 0.8311430811882019]]
+Which former ‘TOWIE’ star thought that Ebola virus was the name of a pop group?
+5ive
+[[0.4167966842651367, 0.5832033753395081]]
+Which country ended its combat role in Iraq on 1 June 2008 with the withdrawal of its 500 troops from Nasiriyah?
+1st
+[[0.3073580265045166, 0.6926419734954834]]
+Which country is bordered by Georgia to the north, Turkey to the west and Azerbaijan to the east?
+CIS
+[[0.07107366621494293, 0.9289263486862183]]
+The Jigsaw Serial Killer is a fictional character in which series of horror films?
+1988
+[[0.09009299427270889, 0.9099069833755493]]
+Who was captain of the England men's cricket team during the 2015 One Day International World Cup?
+ODI
+[[0.740174412727356, 0.2598256766796112]]
+What number Star Trek movie was called The Wrath of Khan?
+22
+[[0.2751297354698181, 0.7248703241348267]]
+Where is the volcano Olympus Mons?
+Elysium
+[[0.4054487347602844, 0.5945512652397156]]
+What is the name of the Government laboratory at the centre of the outbreak of foot and mouth disease in 2007?
+FSA
+[[0.030444348230957985, 0.9695556163787842]]
+Medicine: What is a patient suffering from, based on the following description - Partial or complete blockage of a blood vessel by a blood clot?
+TIA
+[[0.18242551386356354, 0.8175744414329529]]
+Which European country is often referred to as ‘The Hexagon’,  because of its geometric shape?
+Saxony
+[[0.008445627987384796, 0.9915544390678406]]
+Which is the only letter of the alphabet that does not appear in the name of any of the states of America?
+0
+[[0.14033624529838562, 0.859663724899292]]
+What is the symbol for a fifth wedding anniversary?
+50th
+[[0.039048291742801666, 0.9609517455101013]]
+In which US state did Bill Gates found Microsoft in April 1975?
+Washington
+[[0.8386797308921814, 0.16132023930549622]]
+Who became Vice-President of the USA in December 1973?
+1973
+[[0.2598256766796112, 0.740174412727356]]
+Which 80s sitcom starred Penelope Wilton as Ann Bryce and Peter Egan as Paul Ryman?
+Heartbeat
+[[0.596433162689209, 0.4035668671131134]]
+July 2, 1961 saw Nobel Prize winner Ernest Hemingway commit suicide at his farm in Ketchum in what state?
+Id
+[[0.6370307803153992, 0.36296921968460083]]
+'II Dolce' refers to what in an Italian restaurant?
+Baked Alaska
+[[0.46101677417755127, 0.5389832258224487]]
+Who was the 'father of medicine' to whom a code of medical ethics is attributed and which bears his name?
+12th century Persian physician Ibn Sina
+[[0.2240554541349411, 0.7759445905685425]]
+Which planet when discovered was originally called the Georgian planet?
+1930
+[[0.06052938848733902, 0.9394705891609192]]
+Which North Sea port lies at the mouth of the Riyer Esk?
+Lowestoft
+[[0.5506073832511902, 0.4493926465511322]]
+The American Football Super Bowl final in 2012 is branded by what Roman numerals?
+50
+[[0.5350984334945679, 0.46490156650543213]]
+Goat Fell is the name of hole number 8 on the Ailsa Course at which Open Championship Golf venue?
+2006
+[[0.29746994376182556, 0.7025300860404968]]
+Sabena Airlines was the national airline of which European country 1923 – 2001?
+Belgium
+[[0.9324532747268677, 0.06754668802022934]]
+Cardinal Richelieu served as chief minister to which French king?
+16th
+[[0.2254166156053543, 0.7745833992958069]]
+The National Motor Museum is in which English county?
+Lowestoft
+[[0.08882028609514236, 0.9111796617507935]]
+Which aircraft company manufactured the Spitfire?
+Packard
+[[0.035678550601005554, 0.9643214344978333]]
+Yellowstone National Park is located in which US state?
+Id
+[[0.3557748794555664, 0.6442250609397888]]
+In November, which film (full title) broke UK box office records; Biggest 3-day opening, biggest single day in ticket sales and biggest Friday, Saturday & Sunday openings?
+12 Years A Slave
+[[0.7839884757995605, 0.21601153910160065]]
+Tavel and Hermitage wines are produced in which French wine growing area?
+Alsace
+[[0.06187598779797554, 0.9381240010261536]]
+What famous building did John Nash rebuild in 1825?
+Shard of Glass
+[[0.07263670861721039, 0.9273632764816284]]
+Sastrugi are parallel wave-like ridges caused by winds on the surface of what?
+Avalanche
+[[0.14033624529838562, 0.859663724899292]]
+"What Arabic word means ""struggle"" but is often interpreted as ""Holy War""?"
+9/11
+[[0.02262919954955578, 0.9773707389831543]]
+In the human body, a set of well-developed abdominal muscles is known as a ‘What’…pack’?
+’Belly’
+[[0.8267117738723755, 0.17328819632530212]]
+Which city hosted the 2010 Paralympic Games?
+2010
+[[0.26133090257644653, 0.7386690378189087]]
+Which river rises in the Massif Centrale, flows north and east to enter the Bay of Biscay at St. Nazaire?
+Charente
+[[0.20817893743515015, 0.7918210625648499]]
+Which clothing fabric is named after a town in southern France?
+Modal
+[[0.49609383940696716, 0.5039061903953552]]
+Thermodynamics is the study of what?
+Entropy
+[[0.6442250609397888, 0.3557748794555664]]
+What is the scientific name for the tube connecting the mouth with the stomach?
+esophageal
+[[0.581303060054779, 0.41869691014289856]]
+What name is given to the external set of floral leaves or sepals in a flower?
+petal
+[[0.1037486270070076, 0.896251380443573]]
+Which Irish author was Sir Henry Irving's business manager?
+Conn O'Neill
+[[0.30404168367385864, 0.6959583163261414]]
+At a French McDonald's, what would they call a quarter pounder with cheese?
+Quart de frites
+[[0.5506073832511902, 0.4493926465511322]]
+The metric prefix femto is shown as ten to the power of minus what?
+10-15
+[[0.8104788661003113, 0.18952107429504395]]
+Petrography is the study of what?
+Layers of rock
+[[0.8289388418197632, 0.1710612028837204]]
+Roger Moore first played James Bond in which film?
+007
+[[0.22815649211406708, 0.7718434929847717]]
+A two-wheeled self-powered and self-balancing vehilce unveiled in 2001 is called what?
+Glide
+[[0.10230471193790436, 0.8976953029632568]]
+"""Hale knew before he had been in Brighton three hours that they meant to murder him..."" are the opening words to which Graham Greene novel?"
+Tinker Tailor Soldier Spy
+[[0.7074047327041626, 0.2925952970981598]]
+Petite Borgeoisie is an Anglicized French term referring to what traditional notion of social demographics class?
+1st
+[[0.22135069966316223, 0.7786493301391602]]
+The city of London in Ontario, Canada stands on which river?
+Cree
+[[0.07107366621494293, 0.9289263486862183]]
+Munich is on which river?
+2nd
+[[0.3363310396671295, 0.6636689305305481]]
+According to the Gospels of Matthew, Mark and Luke, who was compelled by the Romans to carry the cross of Jesus as he was taken to his crucifixion?
+12 disciples
+[[0.0384661890566349, 0.961533784866333]]
+Which (liquid) foodstuff has the chemical formula CH3COOH?
+Citrus juice
+[[0.02280263602733612, 0.9771973490715027]]
+Who wrote the novel Evening Class?
+Maeve Binchy
+[[0.6531268954277039, 0.34687307476997375]]
+"What is the first line of the speech by the 3 witches in Shakespeare's Macbeth that ends ""toil and trouble, fire burn and cauldron bubble""?"
+3 witches
+[[0.18126322329044342, 0.8187368512153625]]
+Who was voted Time Magazine person of the century in 1999?
+19th
+[[0.1490352898836136, 0.8509647250175476]]
+Which US President is depicted on a $50 banknote?
+19th
+[[0.28616926074028015, 0.7138307690620422]]
+What is Decompression Sickness commonly called?
+Delayed decompression sickness
+[[0.18476751446723938, 0.815232515335083]]
+What sort of creature is a Malamute?
+arctic
+[[0.5926666259765625, 0.4073334336280823]]
+Which city links Haydn's symphony number 104 and Vaughan Williams' symphony number 2?
+104
+[[0.16026602685451508, 0.8397339582443237]]
+What is the name of the 'theme park' near Ripon in Yorkshire?
+Idlewild
+[[0.7634837031364441, 0.23651622235774994]]
+"Who directed the 2005 film ""Munich""?"
+Len Wiseman
+[[0.05541279539465904, 0.944587230682373]]
+In alphabetical order, what is the first US state?
+ALASKA
+[[0.7892336845397949, 0.21076631546020508]]
+In which year did the world’s first ‘expo’ the Great Exhibition in London take place?
+1851
+[[0.8469578623771667, 0.15304215252399445]]
+Morbilli is the technical term for which childhood illness?
+scarlet fever
+[[0.022116590291261673, 0.9778834581375122]]
+What endangered bird is the largest bird in North America?
+Aquila
+[[0.07004895806312561, 0.929951012134552]]
+According to Edward Lear, who went to sea in a sieve?
+Tinkerbell
+[[0.024423088878393173, 0.9755768775939941]]
+"Which composer, born in Pesaro in Italy in 1792, based his opera, ""The Barber of Seville"" on the trilogy by French playwright, Pierre de Beaumarchais?"
+19th
+[[0.3123700022697449, 0.6876299977302551]]
+What is the correct representation of the burger chain brand?
+100% beef
+[[0.4882833957672119, 0.5117166042327881]]
+The United Society of Believers in Christ's Second Appearing is also known as what?
+LDS
+[[0.16132023930549622, 0.8386797308921814]]
+In the Bible who put Daniel in the lions den?
+3000 BC
+[[0.10818894952535629, 0.8918110132217407]]
+Which daughter of Agamemnon was sacrificed for a fair wind?
+Achilleus
+[[0.07640768587589264, 0.9235922694206238]]
+Who founded the Amazon website?
+Len Blavatnik
+[[0.04569203406572342, 0.954308032989502]]
+What is the trademarked name for the distinctive logo used Nike?
+swoosh
+[[0.8940516710281372, 0.10594828426837921]]
+Which British singer released a 2003 album entitled ‘Life For Rent’?
+Blur
+[[0.017176708206534386, 0.9828232526779175]]
+How many masts does the vessel known as a Ketch have ?
+2
+[[0.8344069123268127, 0.16559311747550964]]
+In the year 1636 during the Dutch Golden Age, what unlikely item became the fourth leading export after gin, herring and cheese causing a journalist to write a book Extraordinary Popular Delusions and the Madness of Crowds?
+1636
+[[0.10970577597618103, 0.8902942538261414]]
+Who suggested that Gordon Brown had transformed from Stalin to Mr Bean?
+Len McCluskey
+[[0.4205995798110962, 0.5794004201889038]]
+Robert Louis Stevenson's 1886 classic horror novel about split personality is called what?
+1886
+[[0.09138211607933044, 0.9086179733276367]]
+On this date in 1927, Charles Lindbergh became the first pilot to fly solo across the Atlantic Ocean. Where did he land?
+Idlewild Airport
+[[0.3775406777858734, 0.622459352016449]]
+Which bean is the main flavour of the liqueur Tia Maria?
+pinto
+[[0.38676345348358154, 0.6132365465164185]]
+"Who was the other half of the Bouquet household, played by actor Clive Swift, in the UK TV comedy series ""Keeping Up Appearances""?"
+Buster
+[[0.7446563243865967, 0.25534364581108093]]
+Which US boxer, born February 1977, has the nickname ‘Pretty Boy’?
+Buster Douglas
+[[0.029760094359517097, 0.9702399373054504]]
+How many counters does each player have in a game of backgammon?
+15
+[[0.562176525592804, 0.4378235340118408]]
+Maureen Cox was the first wife of which famous musical personality?
+Len
+[[0.15921740233898163, 0.8407825827598572]]
+How many houses are there in a game of Monopoly?
+12
+[[0.6001883149147034, 0.39981159567832947]]
+"Who appeared in her first film for 15 years, ""Monster In Law"", in 2005?"
+1990s
+[[0.22000709176063538, 0.7799928784370422]]
+Whose portrait was painted by the fictional artist Basil Hallward?
+JK Rowling
+[[0.017045317217707634, 0.9829546809196472]]
+The volcano Hekla is on which island?
+Åland
+[[0.06052938848733902, 0.9394705891609192]]
+Stink 182 is a tribute band to which band?
+Blur
+[[0.2018132209777832, 0.7981867790222168]]
+"Who made the musical sculptures called ""Pythagoras"", ""Kepler"" & ""Galileo"" that were installed between the tracks of Kendall Station in Cambridge, Massachusetts from 1987 to 2007?"
+1990s
+[[0.07751765847206116, 0.9224823713302612]]
+Which American swing and jazz guitarist's single string technique combined with amplification, while with Benny Goodman's bands between 1939 and 1941, helped bring the guitar out of the rhythm section and into the forefront as a solo instrument?
+Slash
+[[0.04501553252339363, 0.9549844264984131]]
+What name is given to the stellar explosion caused when nuclear fusion within a massive star ceases and it suffers gravitational collapse?
+Collapse supernova
+[[0.22270014882087708, 0.7772998809814453]]
+What was the capital of the Inca Empire from 1438 to 1532 which, at its peak, dominated a territory that included (from north to south) Ecuador, part of Colombia, the northern half of Chile, and the north-west part of Argentina, and (from west to east) from Bolivia to the Amazonian forests and Peru?
+1532
+[[0.04778006300330162, 0.9522199034690857]]
+Phil Collins played drums with which band?
+10cc
+[[0.08151975274085999, 0.9184802770614624]]
+The 'Battle of Trafalgar' took place in which year?
+1805
+[[0.8940516710281372, 0.10594828426837921]]
+What is the text of an opera called?
+1984
+[[0.04742587357759476, 0.9525741338729858]]
+What is the name of the target in a game of curling?
+10
+[[0.09138211607933044, 0.9086179733276367]]
+Broccoli and Cauliflower are members of which vegetable family?
+Phytic
+[[0.12678517401218414, 0.873214840888977]]
+"What does ""domo arigato"" mean?"
+1000 thank yous
+[[0.7386690378189087, 0.26133090257644653]]
+In relation to spiritual diety Pachamama, in 2011 Bolivia announced an new unusual Law of what?
+100%
+[[0.5039061903953552, 0.49609383940696716]]
+How many humps would you find on a dromedary camel?
+2
+[[0.7431679368019104, 0.25683197379112244]]
+Which concert pianist became the first President of the Polish Republic in 1919?
+1st
+[[0.13753248751163483, 0.8624675869941711]]
+"In which specific TV series is there an Episode entitled ""A Fistful of Data's""?"
+24
+[[0.6187804341316223, 0.3812195658683777]]
+What is the largest continent on Earth
+28,000,000 square miles
+[[0.42250463366508484, 0.5774953365325928]]
+Actor and comedian, and half of a famous double-act, Arthur Stanley Jefferson was better known by which name?
+Buster
+[[0.8652240633964539, 0.13477592170238495]]
+Which great battle between the Greeks and Persians took place in 490BC?
+338BC
+[[0.012527932412922382, 0.9874721169471741]]
+In 1965, who became the first British driver to win the Indianapolis 500?
+Len Sutton
+[[0.12168575078248978, 0.8783142566680908]]
+What is the Paris Stock Exchange called?
+NYSE
+[[0.007460643537342548, 0.9925393462181091]]
+Children's author Mrs Darrell Waters was better known under which name?
+JK Rowling
+[[0.33111974596977234, 0.66888028383255]]
+'.uk' is the network identifier for the United Kingdom. Which country uses the identifier '.jp'?
+.Japan
+[[0.842863142490387, 0.15713685750961304]]
+What salty lake is located at 1,388 ft below sea level?
+Sinkhole Lake
+[[0.05033063143491745, 0.949669361114502]]
+Which Motown star had a new millennium hit with Not Over Yet
+1999
+[[0.20434188842773438, 0.7956580519676208]]
+Who is the mother of Aphrodite in Greek mythology?
+Amphitrite
+[[0.28140559792518616, 0.7185943722724915]]
+Which revolutionary leader was born Vladimir Ilyich Ulyanov?
+Len
+[[0.16238003969192505, 0.837619960308075]]
+In medicine, which suffix denotes the surgical removal of something, usually from inside the body?
+ectomy
+[[0.8519527316093445, 0.14804719388484955]]
+The UEFA cup is a soccer tournament for teams from which continent?
+2
+[[0.4493926465511322, 0.5506073832511902]]
+In which year did George Bush succeed Ronald Reagan as US President, the US ratified the Berne convention on copyright, Time Inc and Warner Communications merged to form Time-Warner, and the Exxon Valdez spilled oil in Alaska?
+1989
+[[0.9005298018455505, 0.09947021305561066]]
+"What famous book begins: ""Chug, chug, chug. Puff, puff, puff""?"
+1950s
+[[0.05964694544672966, 0.9403530955314636]]
+Who was Minister of Education when the 1944 Education Act was passed?
+Macmillan
+[[0.20561504364013672, 0.7943849563598633]]
+Which pop star played Beth in Neighbours between 1991 and 1993?
+5ive
+[[0.053601138293743134, 0.9463988542556763]]
+In 1984 which Bruce Springsteen song was the first to win a Grammy for him? (He has won 20 in all)
+99 Revolutions
+[[0.031143832951784134, 0.9688562154769897]]
+Painter and engraver Sir Edwin Henry Landseer was a favourite artist of which British monarch?
+19th
+[[0.3702253997325897, 0.6297746300697327]]
+The Ballad of Bonnie and Clyde was a no.1 hit in 1967 for which singer?
+10cc
+[[0.06008664891123772, 0.9399133324623108]]
+Which cheese is known as ‘The King of English Cheeses’?
+Clothbound Cheddar
+[[0.7106282711029053, 0.28937169909477234]]
+The Hindu deity Ganesha has the head of which animal?
+Laughing Buddha
+[[0.01141961570829153, 0.9885804057121277]]
+Alexandra of Denmark was married to which English king?
+18th
+[[0.270480215549469, 0.729519784450531]]
+All happy families resemble one another, but each unhappy family is unhappy in its own way. The opening lines of which great novel?
+1984
+[[0.037326883524656296, 0.9626730680465698]]
+Which prototype drink recipe was formulated at Pemberton's Eagle Drug and Chemical House?
+7 Up
+[[0.46101677417755127, 0.5389832258224487]]
+For what medical condition would a doctor administer an antitussive?
+Blocked nose
+[[0.03514484688639641, 0.9648551344871521]]
+Which 15th-century navigator discovered the sea route from Europe to India by the Cape of Good Hope?
+Vasco da Gama
+[[0.8714748620986938, 0.12852513790130615]]
+Normally called a wolverine in North America, what is the largest carniverous mammal in the weasel family, which, it is said, has a habit of hiding articles which are no use to it?
+lynx
+[[0.05623634159564972, 0.9437636137008667]]
+In the Robin Hood T.V. series starring Richard Green what was the name of the inn that was used
+Tinker's
+[[0.5273165106773376, 0.47268345952033997]]
+The Pyg and the Miners' tracks and the Watkin Path are routes up which mountain?
+Needle
+[[0.2598256766796112, 0.740174412727356]]
+Who created the characters of Willy Loman, Joe Keller and Eddie Carbone?
+1940s
+[[0.09534946084022522, 0.9046505093574524]]
+Also the name of a popular TV character, who was the father of the apostles John the Evangelist and James the Greater?
+1st
+[[0.29746994376182556, 0.7025300860404968]]
+Which holiday, which had its first official recognition in 1868, was originally called Decoration Day?
+4th of July
+[[0.09739039838314056, 0.9026095867156982]]
+Who is the only British Prime Minister to serve under 3 monarchs?
+10 Downing Street
+[[0.11757213622331619, 0.8824278712272644]]
+From 2008 Ferrari provided cars (a modification of the F1 Ferrari F2004 chassis) with a V8 engine for which 'single make' motor racing series?
+24 Hours of Le Mans
+[[0.2845759987831116, 0.7154240012168884]]
+Bammy (Jamaica), Bannock (Scotland), Blaa (Ireland), Bublik (Poland), and Boule (France) are types of?
+Baked beans
+[[0.1294027417898178, 0.8705973029136658]]
+What colour does the planet Neptune appear to be from space?
+Translucent
+[[0.07751765847206116, 0.9224823713302612]]
+Stirling Moss also won the next British Grand prix held at Aintree, in 1957, to give which British team its first Grand Prix victory?
+Connaught
+[[0.44167301058769226, 0.5583270192146301]]
+What is the peptide hormone produced in all vertebrates and some others to promote the absorption of glucose from the blood to muscles and fat tissue?
+Peptide
+[[0.0627892017364502, 0.937210738658905]]
+On the banks of which river does the city of Quebec stand?
+Charente
+[[0.048136770725250244, 0.9518632292747498]]
+Near which northern town, now a city, did the last battle of the English Civil War take place, in 1648?
+Lowestoft
+[[0.15921740233898163, 0.8407825827598572]]
+Which famous British graffiti artist describes himself as a ‘Quality Vandal’?
+2000AD
+[[0.2465333491563797, 0.7534666657447815]]
+What was silent film actor 'Fatty' Arbuckle's christian name?
+Buster
+[[0.47268345952033997, 0.5273165106773376]]
+Who invented the saxophone in 1840?
+Etienne
+[[0.2146914005279541, 0.7853085398674011]]
+Which British political figure became Baroness Kesteven?
+1990
+[[0.15203224122524261, 0.847967803478241]]
+The period between 1450 and 1600 in European development is known by what term, initially used by Italian scholars to express the rediscovery of ancient Roman and Greek culture?
+renaissance
+[[0.9429286122322083, 0.05707139894366264]]
+The price of which metal commodity is traditionally considered an indicator of global economic buoyancy?
+Commodity
+[[0.20946967601776123, 0.7905303239822388]]
+Which South Pacific island nation became the first in the 21st century to change its driving on the road from right to left?
+1998
+[[0.1276526302099228, 0.872347354888916]]
+Sarawak is a state in which country?
+Malaysia
+[[0.9130582809448242, 0.08694165199995041]]
+The Wright Brothers' first powered flight, in 1903, took place where?
+1200 feet
+[[0.3702253997325897, 0.6297746300697327]]
+"What Christmas character said ""God bless us, every one!"""
+1940s
+[[0.21076631546020508, 0.7892336845397949]]
+In October 2005, a week before her 16th birthday, Michelle Wie announced that she was turning professional at what sport?
+1996
+[[0.13117322325706482, 0.8688268065452576]]
+The Russo Japanese War of 1904-1905 ended when the Russian Fleet under Rozhdestvensky was defeated at the Battle of Tsushima by a fleet led by whom?
+Yuan Shikai
+[[0.11279541254043579, 0.8872045874595642]]
+Niagara Falls is between the state of New York, USA, and which province of Canada?
+ONTARIO
+[[0.8766343593597412, 0.1233656257390976]]
+Taking office on May 27th 1993, who was margaret Thatcher's last Chancellor of the Exchequer?
+1990s
+[[0.3073580265045166, 0.6926419734954834]]
+Bujumbura international airport is in which country?
+Burundi
+[[0.8895288109779358, 0.11047115176916122]]
+Quakers are also known by what name?
+Pax
+[[0.2643583416938782, 0.735641598701477]]
+In Othello what did the bard mean by ‘the beast with two backs’?
+2 faces
+[[0.2351083904504776, 0.7648916244506836]]
+Killing 57 people and causing over $3 billion in property damage, the eruption o f Mount St. Helens occurred on May 18 of what year?
+1980
+[[0.8344069123268127, 0.16559311747550964]]
+In which city can you see the original statue of Michelangelo’s David?
+Floreana
+[[0.531209409236908, 0.4687906503677368]]
+Which-singer's voice was of the leading actress in the films 'Gentlemen Prefer Blondes', 'The King and I', 'West Side Story' and 'My Fair Lady'?
+1930s
+[[0.11596071720123291, 0.8840392827987671]]
+Based on a mythological tale, which 1689 opera by Henry Purcell is considered by many to be the first English-language operatic masterpiece?
+Alceste
+[[0.5273165106773376, 0.47268345952033997]]
+The surname of which Wimbledon Champion can be formed using the chemical symbols for beryllium, carbon, potassium and erbium?
+1970s
+[[0.06142403930425644, 0.9385759830474854]]
+Who was president of the USA during World War I?
+1913-1921
+[[0.5640984773635864, 0.4359015226364136]]
+"Who had hit records with ""Tragedy"" and ""You Win Again""?"
+1950s
+[[0.15102779865264893, 0.8489722013473511]]
+Of which African country is Dodoma the official capital city?
+TZ
+[[0.36658975481987, 0.6334102749824524]]
+Which mountain range stretches from the Black Sea to the Caspian Sea?
+3000
+[[0.1250653862953186, 0.8749346137046814]]
+The flag of Hungary is divided into three bands. Two of the colours are red and white. What is the third?
+1920s
+[[0.07585818320512772, 0.9241418242454529]]
+Where is the Great Karoo found?
+Skeleton Coast
+[[0.03185885772109032, 0.9681411385536194]]
+Which award winning building was built directly underneath Waterloo Bridge, London, in the 1980s and has stalagtites (from water leaking through the Bridge) growing in it?
+Shard
+[[0.49609383940696716, 0.5039061903953552]]
+What is the desert that occupies the southern part of Israel?
+Negev
+[[0.7264255881309509, 0.2735743820667267]]
+What popular rosy-cheeked animal character, launched on UK TV in 2004, was licensed to US Fisher Price Toys in 2011?
+Buster the Boxer
+[[0.44167301058769226, 0.5583270192146301]]
+Which chemical element is represented by Zr on the Periodic Table?
+14th
+[[0.31742626428604126, 0.6825737357139587]]
+Who was the mother of Marie Antoinette, wife of Louis XIV of France?
+Clothilde de Polignac
+[[0.11838509142398834, 0.8816148638725281]]
+Which lady, who has never won a Wimbledon singles title, was the US Open Champion in 1991 and 1992?
+1991: Steffi Graf
+[[0.43014734983444214, 0.5698526501655579]]
+In Russian cuisine what kind of food are blini?
+Baked pancakes
+[[0.937210738658905, 0.0627892017364502]]
+Which horse won the Epsom Derby in 1989?
+Authorized
+[[0.7233095169067383, 0.2766905426979065]]
+What happened at Scapa Flow on 21st June 1919?
+RMS Titanic sank
+[[0.05877655744552612, 0.9412234425544739]]
+Who were Aramis, Porthos and Athos?
+3 Musketeers
+[[0.9130582809448242, 0.08694165199995041]]
+What colour is Santa Claus' belt?
+24
+[[0.13296423852443695, 0.8670357465744019]]
+Which famous military leader was Deputy Commander of NATO forces from 1951 to 1958?
+Macmillan
+[[0.048136770725250244, 0.9518632292747498]]
+In 1968, which was the first manned lunar orbiting mission?
+11
+[[0.16667540371418, 0.8333246111869812]]
+Larry Mullins and Adam Clayton are the rhythm section for which band?
+Blur
+[[0.021287353709340096, 0.9787126779556274]]
+Which racecourse hosts The Lincoln Handicap?
+Curragh
+[[0.5117166042327881, 0.4882833957672119]]
+Pont Neuf is the oldest bridge in Paris. What does its name mean?
+1st bridge
+[[0.7563575506210327, 0.2436424344778061]]
+From 1978 to 1984, who were coached by a lady called Betty Callaway?
+1978-1984
+[[0.4590761363506317, 0.5409238934516907]]
+The Bee Gees are popularly credited as being from Australia, but on which island were they actually born?
+1958
+[[0.1294027417898178, 0.8705973029136658]]
+Richmond in Yorkshire, lies on which river?
+Idle
+[[0.6113819479942322, 0.38861799240112305]]
+Which French playwright's real name was Jean Baptiste Poquelin?
+19th
+[[0.1755380630493164, 0.8244618773460388]]
+What was the name of the British nurse who was shot by a German firing squad during World War I after being court-martialled for helping Allied troops escape from a military hospital in Belgium?
+1915
+[[0.1540575623512268, 0.8459424376487732]]
+According to 2014 Twitter statistics, how many million tweets are sent every day?
+300 million
+[[0.7620701193809509, 0.23792991042137146]]
+Traditionally, the concertmaster of a symphonic orchestra plays what instrument?
+1st violin
+[[0.8714748620986938, 0.12852513790130615]]
+A Russian rouble is divided into 100 …..what?
+100 kopeks
+[[0.8365545868873596, 0.16344545781612396]]
+Who became the last state President of apartheid South Africa in August 1989?
+Etienne van der Merwe
+[[0.13660839200019836, 0.863391637802124]]
+"Who created the character of Doctor Finlay in the British TV series (1962-1971) ""Dr Finlay's Casebook""?"
+Len Deighton
+[[0.04146227240562439, 0.9585376977920532]]
+Which British Overseas Territory is located on the southern end of the Iberian Peninsula at the entrance of the Mediterranean, and has an area of approximately 2.6 square miles?
+Ascension Island
+[[0.08945459872484207, 0.9105454087257385]]
+Which British explorer travelled disguised as a Muslim to Mecca and Medina in 1853?
+1st Earl of Derby
+[[0.15203224122524261, 0.847967803478241]]
+Voiced by Phil Hartman, before his untimely death, Lionel Hutz is the hapless lawyer on what TV series?
+30 Rock
+[[0.026355354115366936, 0.9736446738243103]]
+What famous suncream is named after a mountain in Switzerland?
+3000
+[[0.2030746340751648, 0.7969253659248352]]
+In an Indian restaurant, what is 'kulfi'?
+falooda
+[[0.09877260029315948, 0.9012274742126465]]
+What was the name of the Roman festivities in mid to late December, elements of which were incorporated into Christmas?
+Octave
+[[0.05749328434467316, 0.9425067901611328]]
+Which 1929 film directed by Alfred Hitchcock is considered to be the first all-talkie feature British film?
+49th
+[[0.23651622235774994, 0.7634837031364441]]
+"Which school is the setting for the 1939 film ""Goodbye, Mr. Chips""?"
+RADA
+[[0.1550784707069397, 0.8449215292930603]]
+In August 1960 Chad, in Central Africa, became independent from which country?
+1960
+[[0.42250463366508484, 0.5774953365325928]]
+As of 1st. June 2011, who is the only Swiss Tennis player, other than Roger Federer, to be ranked in the Men's top twenty?
+19th
+[[0.325949490070343, 0.6740504503250122]]
+In which newspaper does the cartoon dog Fred Basset appear
+_
+[[0.3557748794555664, 0.6442250609397888]]
+Who had the noels Spy Hook and Spy Line published in the 80s?
+80s
+[[0.3208213150501251, 0.6791787147521973]]
+Which of the United States is known as the Wolverine State'?
+1988
+[[0.0844927504658699, 0.9155072569847107]]
+What is the name of the densely forested moon inhabited by the Na’vi in the 2009 film ‘Avatar’?
+Shangri-La
+[[0.038178276270627975, 0.9618217349052429]]
+The uniform of which NFL team is green because their once owner was born on St Patrick's day?
+49ers
+[[0.5467381477355957, 0.4532618224620819]]
+From which city did Radio Piccadilly broadcast
+1920s
+[[0.18242551386356354, 0.8175744414329529]]
+Who is missing from this list of Artistic Directors of the National Theatre – Laurence Olivier, Peter Hall, Richard Eyre and Nicholas Hytner?
+1996
+[[0.270480215549469, 0.729519784450531]]
+Which Stephen King novel is said to have been rejected by 30 different publishers?
+11/22/63
+[[0.0960254892706871, 0.9039745330810547]]
+The Buddy Holly song That'll Be the Day is said to have been inspired by what John Wayne film?
+3 Godfathers
+[[0.46490156650543213, 0.5350984334945679]]
+Name the dragonthat guarded the treasure in 'The Hobbit'?
+13th
+[[0.09009299427270889, 0.9099069833755493]]
+Which composer was born on this day in Prague in 1841 – his Symphony number 9 in E minor From the New World is one of his most famous works?
+1841
+[[0.28140559792518616, 0.7185943722724915]]
+The three largest cruise ships in the world are own by which cruise line?
+MSC
+[[0.6370307803153992, 0.36296921968460083]]
+Released in 2009, 'Dawn Of The Dinosaurs' was the title of the third instalment of which film series?
+1993
+[[0.03649376332759857, 0.9635062217712402]]
+Which play includes the characters Lady Sneerwell, Sir Harry Bumper and Sir Peter Teazle?
+10 Things I Hate About You
+[[0.026556571945548058, 0.9734434485435486]]
+Which is the only place in the UK to have a post code beginning with the letter 'Z'?
+Lowestoft
+[[0.7943849563598633, 0.20561504364013672]]
+Who composed The Trout Quintet?
+19th century
+[[0.6076632142066956, 0.3923368752002716]]
+In which country would you find the region of Assam?
+1990s
+[[0.24798743426799774, 0.7520126104354858]]
+Which group sang about 'Mrs. Brown's lovely daughter' in 1965?
+10cc
+[[0.44167301058769226, 0.5583270192146301]]
+‘Albrecht Discount’ supermarket is better known by what name?
+20%
+[[0.47268345952033997, 0.5273165106773376]]
+What is the English name for the Rossini opera 'La Gazza Ladra'?
+Laughing Girl
+[[0.7185943722724915, 0.28140559792518616]]
+"Who narrated ""March of the Penguins"" and ""The Shawshank Redemption""?"
+Buster Keaton
+[[0.033589500933885574, 0.9664104580879211]]
+What is the Caribbean island of St Christopher commonly known as?
+Ascension
+[[0.012722708284854889, 0.9872773289680481]]
+Bumble is the nickname of which sports commentator?
+Len Goodman
+[[0.16132023930549622, 0.8386797308921814]]
+A pentadecagon has how many sides?
+50
+[[0.23651622235774994, 0.7634837031364441]]
+In which decade was the Suez Canal opened; Abrahan Lincioln elected American President; Prince Albert died of typhoid?
+1950s
+[[0.3345894515514374, 0.665410578250885]]
+Kikuyu and Tutsi are two types of what?
+Ancestors
+[[0.20689405500888824, 0.793105959892273]]
+What was the name of the bar in which the TV show Cheers was set?
+21
+[[0.07640768587589264, 0.9235922694206238]]
+Which wading bird is encouraged to nest on rooftops as a symbol of fertility
+Laughing gull
+[[0.04146227240562439, 0.9585376977920532]]
+French woman Isabelle Dinoire was the first person to receive a transplant of which body part in 2005?
+10 fingers
+[[0.10669060051441193, 0.8933094143867493]]
+"Which poet wrote the line, ""If winter comes, can spring be far behind""?"
+19th century
+[[0.4493926465511322, 0.5506073832511902]]
+For the 1st time ever, a person has won both a best actor/actress Oscar and a Razzie for the worst actor/actress in the same year. Who did it this year?
+1997
+[[0.34334173798561096, 0.6566582322120667]]
+Unveiled on May 11th 2007, a bronze statue of which famous figure now stands outside Wembley Stadium? It features the character with arms folded and one foot resting on a ball.
+Buster
+[[0.33111974596977234, 0.66888028383255]]
+From which ballet company did Rudolph Nuryev defect to the west?
+1930s
+[[0.09877260029315948, 0.9012274742126465]]
+Which Mediterranean island is associated with the Greek goddess of love, Aphrodite?
+Cupid
+[[0.018689308315515518, 0.9813107252120972]]
+Which pop group comprised John Gorman, Roger McGough and Mike McGear?
+10cc
+[[0.1561049073934555, 0.8438951373100281]]
+Which brewery produces the beer 'Spitfire'?
+20th
+[[0.41869691014289856, 0.581303060054779]]
+Where, in literature can you find Willy Nilly, Organ Morgan and Bessie Bighead?
+1001 Arabian Nights
+[[0.4804787039756775, 0.5195213556289673]]
+The significant ancient Egyptian diety Horus (a man with a falcon's head) features the related '(What?) of Horus' symbol of protection/good health?
+EYE OF HORUS
+[[0.8856314420700073, 0.11436852067708969]]
+Who wrote The Origin of Species in 1859?
+darwin
+[[0.7122321724891663, 0.28776779770851135]]
+Steve Davis reached every final of the Snooker World Championship between 1983 and 1989, but who were the two players who beat him?
+1983: Steve Davis
+[[0.2254166156053543, 0.7745833992958069]]
+Who played Heinrich Himmler in the 1976 film ‘The Eagle Has Landed’?
+1976
+[[0.3557748794555664, 0.6442250609397888]]
+Which four letter word beginning with A is the name of a  god depicted as a bull, symbolising fertility and strength in war?
+Achilleus
+[[0.019568677991628647, 0.9804313778877258]]
+The dominant 14-18th century Oyo Empire of Nigeria was noted for the organizational abilities of the Yoruba people and what feature of its powerful army?
+Concentration
+[[0.3757064640522003, 0.6242935657501221]]
+In Roman Britain where was Vectis?
+100 miles north of London
+[[0.33982759714126587, 0.6601723432540894]]
+On which river does Balmoral Castle stand?
+Cree
+[[0.14706452190876007, 0.8529354929924011]]
+What medical term is used for an extreme life-threatening allergic reaction?
+Reaction
+[[0.03283695504069328, 0.9671630263328552]]
+‘Life Thru a Lens’ was the first No. 1 album by which singer in 1997?
+Blur
+[[0.7981867790222168, 0.2018132209777832]]
+What was Coco Chanel's real first name?
+Baptiste
+[[0.21866938471794128, 0.7813306450843811]]
+Who directed The Big Sleep and Gentlemen Prefer Blondes?
+Buster Keaton
+[[0.004718369338661432, 0.9952816367149353]]
+Where is the Castillo de los Tres Reyes Magos del Morro designed by Italian engineer Juan Bautista Antonelli, and built in 1589?
+1500s
+[[0.16451646387577057, 0.8354835510253906]]
+Which South Korean car company was bought by General Motors in 2001, its cars then being produced under the Chevrolet badge?
+Proton
+[[0.014392334967851639, 0.9856076240539551]]
+"Whom did 'Sherlock Holmes' describe as ""The Napoleon of crime""?"
+007
+[[0.015663649886846542, 0.9843363761901855]]
+What ocean borders the US state of Georgia?
+gulf
+[[0.1037486270070076, 0.896251380443573]]
+Which Elgar piece is dedicated ‘ to my friends pictured within’?
+Variations on an Original Theme
+[[0.7217432260513306, 0.2782568037509918]]
+Which Roman Emperor who ruled from 300-377 AD was the first to be converted to Christianity?
+300-311
+[[0.5755879878997803, 0.42441198229789734]]
+Anthony van Dyke was court painter of which English monarch?
+16th
+[[0.16344545781612396, 0.8365545868873596]]
+As leader of the Teen Titans, ‘Robin’ aka Dick Grayson took on which other identity?
+Cupid
+[[0.10087861865758896, 0.8991213440895081]]
+Charlotte is the largest city in the 'Tar Heel State'. Which state?
+NORTH CAROLINA
+[[0.9465966820716858, 0.053403329104185104]]
+What was the name of Scrooge's long suffering clerk in a Christmas Carol?
+1st
+[[0.31573596596717834, 0.6842640042304993]]
+What branch of the US Armed Forces, founded in 1790, trains its officers at its academy in New London, Ct?
+1st
+[[0.20946967601776123, 0.7905303239822388]]
+What is the state capital of North Dakota?
+1000
+[[0.11676400899887085, 0.8832359910011292]]
+"What 1978 film featured the songs ""You're the One That I Want"" and ""Born to Hand Jive""?"
+10
+[[0.39793840050697327, 0.6020615696907043]]
+What is the title of late actor Charlie Chaplin’s last completed film, launched in the UK in 1967?
+4000 Years
+[[0.06142403930425644, 0.9385759830474854]]
+Which author created the detective Harry Bosch?
+Michael Connelly
+[[0.8244618773460388, 0.1755380630493164]]
+Globo Esporte, which carried the headline 'HAHAHAHAHAHAHA' following Argentina's 4-0 defeat by Germany in the 2010 FIFA World Cup, is a newspaper in which country?
+Brazil
+[[0.9252300262451172, 0.07477004826068878]]
+"Who wrote the book ""The Ragged Trousered Philanthropists?"
+19th century English writer Charles Dickens
+[[0.04778006300330162, 0.9522199034690857]]
+The producer of what 1970s film wanted to call it The Sidewalk Vigilante as he felt the title (which stayed) was too morbid?
+1970s
+[[0.07423136383295059, 0.9257686138153076]]
+In Germany a gessellschaft is a?
+19th century
+[[0.07978201657533646, 0.9202179908752441]]
+Ramon Mercader assassinated which C20th leader?
+1930s
+[[0.23231014609336853, 0.7676898241043091]]
+Who wrote 'An Enemy of the People'?
+19th century Norwegian playwright Henrik Ibsen
+[[0.8068526387214661, 0.19314737617969513]]
+The period between 1450 and 1600 in European development is known by what term, initially used by Italian scholars to express the rediscovery of ancient Roman and Greek culture?
+renaissance
+[[0.9429286122322083, 0.05707139894366264]]
+Italian companies Ferretti and Azimut manufacture which luxury items?
+Airplanes
+[[0.1980641782283783, 0.8019358515739441]]
+Patrick Duffy played which character in 'Dallas'?
+1980s
+[[0.5234203934669495, 0.4765796959400177]]
+In June 1988, which British jockey was stripped of his OBE after he was jailed for tax evasion?
+Buster
+[[0.2658804655075073, 0.7341195344924927]]
+What product is advertised with the slogan "Life, liberty, and the Pursuit"?
+300
+[[0.16132023930549622, 0.8386797308921814]]
+Banff National Park and Jasper National Park, which are connected by the Icefields Parkway, are in which Canadian province?
+alberta
+[[0.8895288109779358, 0.11047115176916122]]
+Which port lies at the mouth of the Great Ouse?
+Lowestoft
+[[0.17895589768886566, 0.8210441470146179]]
+In the US children's TV show, 1968-1970, as what were Fleegle, Bingo, Drooper and Snorky known?
+1960s
+[[0.13477592170238495, 0.8652240633964539]]
+What nationality was the pirate William 'Captain' Kidd who was hanged in 1701?
+16th
+[[0.16026602685451508, 0.8397339582443237]]
+In the Bible, Apollyon is the angel of the ‘what’?
+Destructive
+[[0.5214711427688599, 0.47852882742881775]]
+Who has played more matches than any other player in the Premier League?
+100
+[[0.3849121630191803, 0.6150878667831421]]
+Who hosted the Channel 4 quiz show Codex
+Len Goodman
+[[0.5350984334945679, 0.46490156650543213]]
+In 2009, who became only the second woman to train a Grand National winning horse?
+Tiff Needell
+[[0.09807932376861572, 0.9019206762313843]]
+Which TV sitcom featured Ben and Susan Harper and their three children?
+3rd Rock From The Sun
+[[0.42250463366508484, 0.5774953365325928]]
+The counterpart to Aphrodite, the Roman goddess Venus was the god of what?
+Cupid
+[[0.33111974596977234, 0.66888028383255]]
+Held during the Boer War, what nickname was given to the UK General Election of 1900?
+1900 Election
+[[0.25091278553009033, 0.7490872144699097]]
+Which stretch of water joins the Aegean Sea to the Sea of Marmera?
+strait of Dardanelles
+[[0.7461389899253845, 0.2538609802722931]]
+Late actor John Elton Halliley was better known by what name?
+Buster
+[[0.8092759251594543, 0.19072401523590088]]
+Which cricket ground was the home ground of the Manchester Cricket Club from 1856 until it became the home of the Lancashire County Cricket Club when that was founded in 1864?
+Boundary Park
+[[0.6442250609397888, 0.3557748794555664]]
+Who was the mother of Achilles in Greek mythology?
+Atalanta
+[[0.011244561523199081, 0.9887554049491882]]
+In which part of the body would you find the zygomatic bone?
+Occipital bone
+[[0.012920472770929337, 0.9870794415473938]]
+Painter Joshua Reynolds was knighted by which British monarch?
+1st
+[[0.4263215959072113, 0.5736784338951111]]
+"What was the family name of the Mafia mob depicted in the ""Godfather"" movies?"
+("Cosa Nostra")
+[[0.740174412727356, 0.2598256766796112]]
+In 1893, which was the first country to impose driving tests and issue driving licences?
+1893
+[[0.2030746340751648, 0.7969253659248352]]
+"If someone stands with their hands resting on their hips, they are said to be ""arms "" what?"
+1960s
+[[0.16026602685451508, 0.8397339582443237]]
+Which step in photosynthesis is responsible for splitting water molecules?
+Proton transfer
+[[0.06804042309522629, 0.9319595694541931]]
+According to 'Acts', what peak was the location of the 'Ascension of Jesus'?
+3300 feet
+[[0.19682618975639343, 0.8031737804412842]]
+By what name is the Collegiate Church of St Peter at Westminster better known?
+Crypt
+[[0.30404168367385864, 0.6959583163261414]]
+July 4, 1919 saw Congress pass the 19th amendment (although it wasn't officially ratified until Aug 20, 1920), which gave the vote to which previously disenfranchised group?
+18-20 year olds
+[[0.03258974477648735, 0.9674102663993835]]
+In the Dickens novel 'Dombey and Son' what is the name of the son?
+Bouncer
+[[0.08151975274085999, 0.9184802770614624]]
+Who wrote a series of novels which all had 'Rabbit' in the title?
+JK Rowling
+[[0.005911069456487894, 0.9940890073776245]]
+What trophy is at stake when Australia play the West Indies at test cricket
+2007 World Cup
+[[0.08035746961832047, 0.9196425676345825]]
+Which 1930’s US gangster, upon being admitted to Indiana State Prison, is quoted as saying ‘I will be the meanest bastard you ever saw when I get out of here’?
+Buster Keaton
+[[0.01374232117086649, 0.9862577319145203]]
+Which horse won the 2013 Aintree Grand National ?
+100/1 shot
+[[0.08756384253501892, 0.9124361872673035]]
+What is the traditional colour of Willow Pattern china
+claret
+[[0.531209409236908, 0.4687906503677368]]
+Who plays Debbie Aldridge in the BBC 4 radio series ‘The Archers’?
+Idwal Jones
+[[0.2751297354698181, 0.7248703241348267]]
+What university was Mark Zuckerberg attending when he co-founded Facebook with three fellow classmates?
+2004
+[[0.2782568037509918, 0.7217432260513306]]
+Who is the MP for South Cambridgeshire and current Secretary of State for Health?
+Len Brown
+[[0.005260851699858904, 0.9947391152381897]]
+Which Nobel Prize did Mairead Corrigan and Betty Williams win in 1976?
+1976 Peace Prize
+[[0.8104788661003113, 0.18952107429504395]]
+Which socialist society was founded in London in January 1884?
+1884
+[[0.3090237081050873, 0.6909762620925903]]
+The human heart has four chambers - two auricles (or atria) and two ............ what?
+2 ventricles
+[[0.8577680587768555, 0.14223188161849976]]
+In addition to sine and cosine, what is the third main function of trigonometry?
+Inverse trigonometry
+[[0.14318770170211792, 0.8568122982978821]]
+Arboreal describes a creature which commonly lives in what?
+Branches
+[[0.8519527316093445, 0.14804719388484955]]
+Which 1952 musical about the introduction of talkies, has a title song which was once parodied by Morecambe and Wise?
+1001 Arabian Nights
+[[0.13846179842948914, 0.8615382313728333]]
+In which US State is Mount McKinley?
+ALASKA
+[[0.9224823713302612, 0.07751765847206116]]
+A sophomore is a student in which year of university?
+2nd
+[[0.8175744414329529, 0.18242551386356354]]
+Havarti cheese is made in which north European country?
+Slovene
+[[0.10017222166061401, 0.8998278379440308]]
+"Complete this Groucho Marx quote: ""Go, and never darken..."""
+1930s
+[[0.09203287214040756, 0.907967209815979]]
+Which 1978 film featured gangs called the T Birds and the Pink Ladies?
+1978
+[[0.3557748794555664, 0.6442250609397888]]
+Michel de Montaigne of France is best known for popularizing what kind of writing as a literary genre?
+autobiographical
+[[0.7866228222846985, 0.21337716281414032]]
+From which of Shakespeare's plays does this quotation come :- The course of true love never did run smooth ?
+3rd
+[[0.6150878667831421, 0.3849121630191803]]
+In which year did Rudolf Nureyev defect to the West?
+1961
+[[0.8164063692092896, 0.18359361588954926]]
+Who was the first woman to ride in the Epsom Derby in 1996?
+100/1 outsider
+[[0.0753123089671135, 0.9246877431869507]]
+Released in 2012, which is the fourth in the ‘Bourne’ series of films?
+4
+[[0.20946967601776123, 0.7905303239822388]]
+Helleborus niger is the scientific name for what evergreen flowering plant?
+Len
+[[0.14033624529838562, 0.859663724899292]]
+Which two singers had their microphones switched off after running over the time limit during a concert in London’s Hyde Park in July 2012?
+Blur and Muse
+[[0.7170118689537048, 0.28298813104629517]]
+In China, in a restaurant, what are you ordering if you ask for 'fragrant meat'?
+Qingtuan
+[[0.2523840367794037, 0.7476159334182739]]
+Where did Motown relocate to in 1971
+1971
+[[0.18476751446723938, 0.815232515335083]]
+Who plays the title role in the US television series ‘Buffy the Vampire Slayer’?
+1992
+[[0.3702253997325897, 0.6297746300697327]]
+What actor has portrayed Sherlock Holmes, Alan Turing, and Khan?
+007
+[[0.019271135330200195, 0.980728805065155]]
+In which Polish city was the Solidarity union formed in 1989?
+Ljubljana
+[[0.026556571945548058, 0.9734434485435486]]
+Benjamin Briggs was captain of which famous ship?
+RMS Titanic
+[[0.6076632142066956, 0.3923368752002716]]
+The 'Road to the Isles' runs from Fort William to which port?
+Lowestoft
+[[0.012527932412922382, 0.9874721169471741]]
+Which essential part of ballet training, still in use, was devised by Pierre Beauchamp in the late 17th century?
+Variations
+[[0.11920291185379028, 0.8807970285415649]]
+Which Welsh singer was invited to sing at the White House on Millennium Eve?
+1999
+[[0.24798743426799774, 0.7520126104354858]]
+"Who plays Arizona Robbins in the US TV series ""Grey's Anatomy""?"
+Tiffani Thiessen
+[[0.4765796959400177, 0.5234203934669495]]
+What is the first real name of singer Leo Sayer?
+Len
+[[0.7461389899253845, 0.2538609802722931]]
+Which villainous soap character is played by John Altman?
+Desperate Housewives
+[[0.0427221953868866, 0.957277774810791]]
+How was Marie Antoinette killed?
+Turned to stone
+[[0.05749328434467316, 0.9425067901611328]]
+Which city hosts the headquarters of the International Red Cross and Red Crescent Movement?
+Ljubljana
+[[0.1225232183933258, 0.8774768114089966]]
+The Scottish-American industrialist and philanthropist Andrew Carnegie (1835-1919) pioneered and made his vast fortune in which industry in late 1800s USA?
+19th century steel industry
+[[0.9376689791679382, 0.06233103945851326]]
+Leon Frank Czolgosz assassinated which US president in 1901?
+16th
+[[0.272024542093277, 0.7279754281044006]]
+The Recreation Cricket Ground in St John's, on the island of Antigua, is also known by the name of which famous West Indian cricketer?
+Len Hutton
+[[0.2658804655075073, 0.7341195344924927]]
+Who topped the charts with ‘He’s Not Heavy, He’s My Brother’ in 1969?
+10cc
+[[0.17328819632530212, 0.8267117738723755]]
+Located in the Orkney Islands, which sea stack is the third tallest in Britain?
+Stacks of Hoy
+[[0.43014734983444214, 0.5698526501655579]]
+Chuck Wepner, an obscure boxer from New Jersey who once went 15 rounds with Muhammad Ali in a fight served as the inspiration for the creation of what on-screen personality?
+1980s TV character The Rock
+[[0.32766830921173096, 0.672331690788269]]
+What is the largest Caribbean Island?
+Ascension
+[[0.01353214867413044, 0.9864678382873535]]
+In 1976, which song was knocked off the number one spot by another song, the title of which is mentioned in its own lyrics?
+1976: The Long and Winding Road
+[[0.31742626428604126, 0.6825737357139587]]
+"Which TV series began with the words, ""There is nothing wrong with your television set"""
+1960s
+[[0.13568954169750214, 0.8643104434013367]]
+Religous reformers - which 14th century Oxford scholar, initially famous for translating the Bible from Latin into English, later criticised the wealth and power of the church, questioning the scriptural basis of the papacy? His followers were known as Lollards.
+14th century
+[[0.36840569972991943, 0.6315943002700806]]
+Frank Beard is the only clean shaven member of which group?
+1960s
+[[0.07423136383295059, 0.9257686138153076]]
+Abyssinia was the former name of which country?
+ETHIOPIA
+[[0.914290726184845, 0.08570928126573563]]
+Who released an album in 2013 called simply 'New'?
+Blur
+[[0.8766343593597412, 0.1233656257390976]]
+Who published a report after a Public Enquiry into racial disturbances in South East London in April 1981?
+Len Murray
+[[0.12852513790130615, 0.8714748620986938]]
+What invasive species has been blamed for reducing mammal populations in the Everglades?
+1990s
+[[0.05834583938121796, 0.9416541457176208]]
+In the 19th century, Edward Gibbon Wakefield set up which organisation to colonise New Zealand?
+1840s
+[[0.09807932376861572, 0.9019206762313843]]
+In which constellation is the star Rigel?
+Aquila
+[[0.3775406777858734, 0.622459352016449]]
+Which everyday objects are featured in the painting 'The Persistence Of Memory'?
+Molecules
+[[0.07004895806312561, 0.929951012134552]]
+Which country assumed the Presidency of the European Union on 1st. July 2009?
+Slovene
+[[0.3208213150501251, 0.6791787147521973]]
+In which country is the city of Armagh?
+IRL
+[[0.7520126104354858, 0.24798743426799774]]
+Which traditional Scottish soup is made with the principal ingredients of leek, onions and chicken stew, and sometimes also with prunes?
+Baked
+[[0.03185885772109032, 0.9681411385536194]]
+In botany, what is the word for the scar left on a tree or plant after a leaf falls?
+Parenthesis
+[[0.1208532303571701, 0.8791467547416687]]
+What was the profession of Burt Reynolds' father?
+Elevator operator
+[[0.4263215959072113, 0.5736784338951111]]
+What was the name of Ann Boleyn's older sister?
+1st
+[[0.34775856137275696, 0.6522414088249207]]
+Shagreen is leather made from the skin of which creatures?
+Tuna
+[[0.7866228222846985, 0.21337716281414032]]
+Tapas were originally an accompaniment to which drink?
+19th century
+[[0.6001883149147034, 0.39981159567832947]]
+What wood is traditionally used to make Rolls Royce dashboards?
+Quartsawn
+[[0.30404168367385864, 0.6959583163261414]]
+Trappist monks are a stricter version of which religious order?
+mendicant
+[[0.09467770159244537, 0.9053223133087158]]
+How many senators are there in the US Senate?
+100
+[[0.7534666657447815, 0.2465333491563797]]
+What is the name of the dog in the Secret Seven series of books?
+Tinker
+[[0.8080672025680542, 0.1919327825307846]]
+Who is the Roman equivalent to the Greek god Hypnos
+Cupid
+[[0.011597362346947193, 0.9884026646614075]]
+Nitroglycerin is made by treating glycerin with nitric acid and what?
+sulphuric acid
+[[0.7577943801879883, 0.2422056347131729]]
+Film director Lindsay Anderson was born in which country?
+1932
+[[0.1755380630493164, 0.8244618773460388]]
+Classical Greek theatre, and several current theatre spaces, such as La Boite in Australia, The Globe in Canada, Blue Orange Theatre in the UK, L'Europen in France and Theatre '47 in the USA, specialise in what style of performance?
+Dialect
+[[0.20817893743515015, 0.7918210625648499]]
+What was the small British militant group responsible for a series of letter bomb attacks between 1970 and 1972, whose targets included banks, embassies and the homes of Conservative MPs?
+42 Group
+[[0.14318770170211792, 0.8568122982978821]]
+In which film did Noel Coward play Captain E V Kinross and Celia Johnson his wife Alix?
+49th Parallel
+[[0.5078118443489075, 0.49218809604644775]]
+In the Famous Five stories by Enid Blyton which of the children owns Timmy the dog?
+4
+[[0.26133090257644653, 0.7386690378189087]]
+What is the name for a method of enamel decoration where the design is outlined with soldered metal fillets which are filled with enamel paste or powder, which is vitrified and ground smooth?
+Encrusted enamel
+[[0.41111084818840027, 0.5888891220092773]]
+Who is the Greek Goddess of the Rainbow?
+Amphitrite
+[[0.10158944875001907, 0.8984106183052063]]
+In English the word describes a complete failure. In Italian it describes a straw covered bottle. What is the word?
+sambuca
+[[0.7732163667678833, 0.2267836481332779]]
+Who plays alcoholic John Hancock in the 2008 film ‘Hancock’?
+JK Simmons
+[[0.0446808747947216, 0.9553191661834717]]
+Which novelist wrote 'Jude the Obscure'?
+thomas Hardy
+[[0.9005298018455505, 0.09947021305561066]]
+Which colour of jersey is worn by the leader in the points classification in the Tour de France?
+100% white
+[[0.4843800961971283, 0.5156199336051941]]
+Hyacinthoides is the scientific name for what protected (in the UK) spring flowering plant?
+jonquil
+[[0.22815649211406708, 0.7718434929847717]]
+Niagara Falls, one of the more popular tourist destinations in North America, consists of Horseshoe Falls and what?
+1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+[[0.15431226789951324, 0.8456876873970032]]
+Which other US President died on July 4th 1826, the same day as John Adams?
+2nd
+[[0.2393493503332138, 0.7606506943702698]]
+"What Soviet ""man of steel"" was educated for the priesthood but was expelled from the seminary?"
+1930s
+[[0.19314737617969513, 0.8068526387214661]]
+Which three word named plant is believed to be useful in treating depression, nervous disorders and bedwetting ?
+SAD
+[[0.039048291742801666, 0.9609517455101013]]
+In which city are the headquarters of Greenpeace International?
+Ålesund
+[[0.18126322329044342, 0.8187368512153625]]
+Picasso's 'Still Life With Chair Caning' in which strips of oilcloth in imitation of chair caning are stuck onto the surface of the work, is an example of which artistic technique?
+Synthetic Cubism
+[[0.5467381477355957, 0.4532618224620819]]
+"What sculpture appeared at the end of the movie ""Planet of the Apes""?"
+Needle
+[[0.2643583416938782, 0.735641598701477]]
+What type of creature is a Fritillary?
+Painted lady
+[[0.6206216216087341, 0.37937837839126587]]
+Which religion believes in the Four Noble Truths?
+Daoism
+[[0.0120537793263793, 0.9879462122917175]]
+`Guernica' by Pablo Picasso is on show at the Museo Reina Sofia in which city?
+1937
+[[0.15203224122524261, 0.847967803478241]]
+In which island group is Scapa Flow to be found?
+Ascension
+[[0.07751765847206116, 0.9224823713302612]]
+Which actress co-starred with Mel Gibson in the 1997 film Conspiracy Theory
+Katrin Cartlidge
+[[0.4167966842651367, 0.5832033753395081]]
+Which actor provides the voice for Rocky in the film Chicken Run?
+Buster Keaton
+[[0.5214711427688599, 0.47852882742881775]]
+Ombrophobia is an irrational fear of which weather condition?
+smog
+[[0.014281935058534145, 0.9857181310653687]]
+The TV programme 'Downton Abbey' is filmed at which stately home?
+10 Downing Street
+[[0.01784873940050602, 0.9821512699127197]]
+What did the Romans call Ireland?
+Pax
+[[0.06325052678585052, 0.9367494583129883]]
+The highest partnership for England in a test match for any wicket is 411 at Edgbaston against the West Indies in 1957. Name either of the batsmen involved.
+Len Hutton and Denis Compton
+[[0.6671476364135742, 0.332852303981781]]
+"What is meant by ""persona non grata""?"
+1930s
+[[0.10087861865758896, 0.8991213440895081]]
+What was the original profession of the novelist Joseph Conrad?
+Interpreter
+[[0.7476159334182739, 0.2523840367794037]]
+Opened in 1921, In which US city is the Wrigley Building?
+Chicago
+[[0.8539127111434937, 0.14608724415302277]]
+What is Dionne Warwick's real first name?
+Idella
+[[0.5544704794883728, 0.4455295503139496]]
+Who is the Roman equivalent to the Greek god Hypnos
+Cupid
+[[0.011597362346947193, 0.9884026646614075]]
+Which state of the USA has a coastline on the Gulf of Mexico between Florida and Mississippi?
+TEXAS
+[[0.7918210625648499, 0.20817893743515015]]
+Who succeeded Herman Van Rompuy as President of the European Council in 2014?
+Etienne Davignon
+[[0.03308597952127457, 0.9669140577316284]]
+Carl Fredricksen, Russell and Dug are all characters in which 2009 Disney film?
+101 Dalmatians
+[[0.008779109455645084, 0.9912208914756775]]
+The Crimean Peninsula is part of which European country?
+Ukraine
+[[0.9111796617507935, 0.08882028609514236]]
+Who did Tiger Woods beat in a play-off for the 2008 US Open Championship?
+1997 champion Retief Goosen
+[[0.8661325573921204, 0.13386750221252441]]
+In Shakespeare's Macbeth which character speaks the last words of the play?
+3rd Witch
+[[0.39606812596321106, 0.6039317846298218]]
+The Tom Jones hit 'Delilah' has, in recent years, been taken up as a team song by supporters of which Premier League football club?
+19th
+[[0.24077460169792175, 0.7592254281044006]]
+In which musical does thesong 'Don't Rain On My Parade' appear?
+1969's Funny Girl
+[[0.9559813141822815, 0.04401864856481552]]
+The trademark of which famous Austrian chocolate cake was registered by a Viennese hotel in the 1870's?
+1872
+[[0.43014734983444214, 0.5698526501655579]]
+"What was the setting for the BBC TV comedy ""Early Doors""?"
+1960s
+[[0.28616926074028015, 0.7138307690620422]]
+What is the main ingredient in marinara sauce?
+Tomatoes
+[[0.9086179733276367, 0.09138211607933044]]
+What type of weapon was the German nebelwerfer
+150mm
+[[0.20946967601776123, 0.7905303239822388]]
+In which U.S. State is Disney World located?
+Citrus
+[[0.039048291742801666, 0.9609517455101013]]
+By what name was the Democratic Republic of the Congo known between 1971 and 1997?
+RCA
+[[0.08694165199995041, 0.9130582809448242]]
+Which vitamin is also known as Calciferol?
+1,25-dihydroxycholecalciferol
+[[0.11676400899887085, 0.8832359910011292]]
+What alloy is made of 12% tin and 88% copper?
+12-8
+[[0.4263215959072113, 0.5736784338951111]]
+Which country has borders with Iran, Pakistan, Turkmenistan, Uzbekistan, Tajikistan and the People's Republic of China?
+CIS
+[[0.028870906680822372, 0.9711290597915649]]
+Tiger, Turks Cap and Stargazer are all types of which plant?
+orchid
+[[0.9522199034690857, 0.04778006300330162]]
+"What is the first sentence of the book ""Nineteen Eighty Four"" by George Orwell?"
+1984
+[[0.7074047327041626, 0.2925952970981598]]
+Raila Odinga, aged 68, is the current Prime Minister of which country ?
+Kenya
+[[0.914290726184845, 0.08570928126573563]]
+In the stupid celebrity kids name category, what superhero inspired name did Nicholas Cage bestow upon his son?
+Spawn
+[[0.7563575506210327, 0.2436424344778061]]
+Which musical was Victor Fleming making the same time as he was making Gone With the Wind?
+42nd Street
+[[0.6406359076499939, 0.3593641519546509]]
+The Danube flows into which Sea?
+1st
+[[0.5822535157203674, 0.41774648427963257]]
+Which opera singer did conductor Richard Bonynge marry in 1954?
+1950s
+[[0.17441026866436005, 0.8255897164344788]]
+What global brand withdrew ('rested') its old red-jacketed striding man 104 years after its first appearance in 1908?
+Burberry
+[[0.8624675869941711, 0.13753248751163483]]
+Englishman Bob Nudd has been world champion four times in which sport?
+100m
+[[0.06008664891123772, 0.9399133324623108]]
+What was the real name of the romantic hero ‘The Scarlet Pimpernel’?
+Etienne
+[[0.07751765847206116, 0.9224823713302612]]
+Who voiced the character 'Buzz Lightyear' in 'Toy Story'?
+1995
+[[0.5, 0.5]]
+'Sunny Side Up' was a 2010 UK number one album for which singer?
+KT Tunstall
+[[0.8615382313728333, 0.13846179842948914]]
+Which legendary Greek hero killed the Minotaur with the help of Ariadne?
+Achilleus
+[[0.01484241709113121, 0.9851576089859009]]
+Tamed by Bellerophon, what was the name of the winged horse of Greek mythology?
+Atalanta
+[[0.003794834017753601, 0.9962051510810852]]
+Which country, with a East Mediterranean coastline produces the red wine 'Chateau Musar1?
+1997
+[[0.18952107429504395, 0.8104788661003113]]
+Whose estranged wife Ingrid was granted a 'quickie divorce' at London's High Court?
+OJ Simpson
+[[0.22815649211406708, 0.7718434929847717]]
+What is the title of Private Eye's regular page of political news?
+100%
+[[0.4882833957672119, 0.5117166042327881]]
+Podgorica is the capital of which country?
+Montenegro
+[[0.9284088015556335, 0.07159119844436646]]
+What is 0 degrees Celsius on the Fahrenheit scale?
+32
+[[0.7853085398674011, 0.2146914005279541]]
+Who was the last Empress of All the Russias?
+1917
+[[0.18713268637657166, 0.8128673434257507]]
+Which film director is the uncle of actor Jason Schwartzman?
+Buster Keaton
+[[0.4035668671131134, 0.596433162689209]]
+What was E.T.'s favorite candy?
+licorice
+[[0.6825737357139587, 0.31742626428604126]]
+What was the motto of the arms of England during the reigns of Elizabeth I and Anne?
+Fidelity
+[[0.3486451804637909, 0.6513549089431763]]
+Who drew the cartoon strip The Fosdyke Saga?
+Len Brown
+[[0.5467381477355957, 0.4532618224620819]]
+Which Welsh town was granted city status as part of the Golden Jubilee celebrations of 2002?
+1902
+[[0.01353214867413044, 0.9864678382873535]]
+Which word can be a musical instrument or a quarter bottle of Champagne?
+Octave
+[[0.7201715111732483, 0.2798284888267517]]
+The husband of Mumtaz designed and built what magnificent monument in India to her when she died in 1631?
+Moonlight Mausoleum
+[[0.09334687888622284, 0.9066531658172607]]
+Which song sang by the Chiffons shares it’s name with an aria from Puccinis Madame Butterfly
+’S Wonderful
+[[0.13660839200019836, 0.863391637802124]]
+The character Duke Vincentio appears in which of Shakespeare’s plays?
+1 Henry IV
+[[0.42823341488838196, 0.5717666149139404]]
+Which US First Lady had an English Springer Spaniel called Millie?
+1960s
+[[0.11357958614826202, 0.8864204287528992]]
+In which country was the World War 11 quick firing anti aircraft gun the Oerlikon first manufactured
+1930
+[[0.20434188842773438, 0.7956580519676208]]
+Which port is at the mouth of the Seine?
+Calais
+[[0.03384403884410858, 0.966156005859375]]
+Which English County is known as 'Robin Hood's County'?
+shire
+[[0.2240554541349411, 0.7759445905685425]]
+Who was commanded by God through a donkey?
+Deuteronomy
+[[0.06560483574867249, 0.9343951344490051]]
+Who played Great Train Robber Buster Edwards in the 1988 film ‘Buster’?
+Buster Keaton
+[[0.26133090257644653, 0.7386690378189087]]
+Which country in Central America has the highest population?
+100 million
+[[0.29421496391296387, 0.7057850360870361]]
+Greg Heffley is which eponymous character in the Jeff Kinney novels for children?
+10-year-old Greg Heffley
+[[0.7170118689537048, 0.28298813104629517]]
+What is the former name of the element Potassium, from which it takes its chemical symbol?
+KT
+[[0.13028542697429657, 0.869714617729187]]
+Balice international airport is in which country?
+Slovenija
+[[0.21076631546020508, 0.7892336845397949]]
+The Northwest of which country is called Thrace ?
+1990s
+[[0.18010665476322174, 0.8198933005332947]]
+Which American state is known as the treasure state?
+KY
+[[0.0832919329404831, 0.9167081117630005]]
+What was first created in 1890 and then credited to Arthur Wynne in 1913 and is now seen everywhere?
+Elevator
+[[0.21733751893043518, 0.7826625108718872]]
+"Who wrote the violin concertos ""The Four Seasons""?"
+1914
+[[0.10669060051441193, 0.8933094143867493]]
+What hormone are Type I diabetics deficient in?
+ADH
+[[0.08882028609514236, 0.9111796617507935]]
+Louis IV and Louis V were Kings of France in which century?
+13th
+[[0.7446563243865967, 0.25534364581108093]]
+Which actor provides the voice of Po the Kung Fu Panda in the two films in the series?
+Yuan
+[[0.04742587357759476, 0.9525741338729858]]
+All Formula One cars use the same make of tyres. Who is the current manufacturer?
+PIRELLI
+[[0.9196425676345825, 0.08035746961832047]]
+Capuchin, Spider and Colobus are types of what?
+Carnivores
+[[0.07211221009492874, 0.9278878569602966]]
+What do we call the sweetmeat Rahat Lokum?
+Sticky rice
+[[0.11838509142398834, 0.8816148638725281]]
+Who - UK cabinet minister for culture - had his name unspeakably 'spoonerised' live on air by BBC Radio 4 journalist James Naughtie (pronounced 'Nockty') in December 2010?
+JK Rowling
+[[0.2465333491563797, 0.7534666657447815]]
+"Who played the first doctor in the UK TV series ""Dr Who""?"
+1st Doctor
+[[0.2845759987831116, 0.7154240012168884]]
+Which actor spoke the only word in Mel Brooks' 1976 comedy film 'Silent Movie'?
+Buster Keaton
+[[0.8670357465744019, 0.13296423852443695]]
+Alphabetically, which is the last book of the New Testament?
+20th
+[[0.14511536061763763, 0.854884684085846]]
+In which English county are the towns of Bridgewater and Glastonbury?
+Somerset
+[[0.9348725080490112, 0.06512755155563354]]
+A barnstormer performs stunts using what type of vehicle or craft?
+Airplane
+[[0.9481545686721802, 0.05184546858072281]]
+Which element is last alphabetically in the Periodic Table?
+118
+[[0.08945459872484207, 0.9105454087257385]]
+In which decade of the 20th century was the FBI set up?
+1930s
+[[0.8267117738723755, 0.17328819632530212]]
+What was Orson Welles’ first film?
+1915
+[[0.018546564504504204, 0.9814534187316895]]
+How many chains are in a furlong?
+160
+[[0.7170118689537048, 0.28298813104629517]]
+Which actor played the lead role in the 1986 remake of the horror film The Fly?
+Gerrit Graham
+[[0.02909075655043125, 0.9709092378616333]]
+Which was the first and last European colony in China?
+Qingdao
+[[0.3720487952232361, 0.6279512047767639]]
+Which character was played by James Beck in the TV sitcom Dad’s Army?
+ARP Warden
+[[0.3702253997325897, 0.6297746300697327]]
+In which town is the Officer Training School for the Royal Navy?
+Lowestoft
+[[0.5078118443489075, 0.49218809604644775]]
+In the Universal films what was the name of Frankenstein’s hunchback?
+Stubby
+[[0.18010665476322174, 0.8198933005332947]]
+The 2014 Commonwealth Games.will be held in which city?
+Glasgow
+[[0.937210738658905, 0.0627892017364502]]
+Who is the Greek equivalent of Aurora, the Roman Goddess of the Dawn?
+Atalanta
+[[0.021287353709340096, 0.9787126779556274]]
+In WWII, Germany's 6th army was destroyed in 'Operation Uranus' in 1943 after a bitter battle around which city?
+Ljubljana
+[[0.040237944573163986, 0.9597620368003845]]
+Which influential German philosopher wrote 'Being and Time'?
+Wittgenstein
+[[0.04054073989391327, 0.9594592452049255]]
+What Western Christian military order, which existed for approximately two centuries in the Middle Ages, was endorsed by the Roman Catholic Church around 1129?
+Ordre de Saint-Jean
+[[0.2030746340751648, 0.7969253659248352]]
+Which British boxer bought one of the original ‘Only Fools and Horses’ Reliant Robins in 2004?
+Buster Merryfield
+[[0.6113819479942322, 0.38861799240112305]]
+Which British television chef was reported as saying ‘For any chef, supermarkets are like a factory.  I buy from specialist growers, organic suppliers and farmers’?
+Len Goodman
+[[0.026556571945548058, 0.9734434485435486]]
+What is the legislative assembly of Spain called?
+Assemblée
+[[0.053403329104185104, 0.9465966820716858]]
+What spirit is the base of a Black Russian cocktail ?
+151
+[[0.08819004893302917, 0.9118099808692932]]
+The adjective hircine refers to which animal?
+stag
+[[0.0627892017364502, 0.937210738658905]]
+Where was co-founder of band which became Crowded House, Tim Finn, born and raised?
+1960s
+[[0.2018132209777832, 0.7981867790222168]]
+Central America's Panama seceded from which country in 1903?
+1903
+[[0.596433162689209, 0.4035668671131134]]
+What is the term for the fine pattern of cracks formed on old paintings, which is sometimes used to detect forged art as it is a hard-to-forge signature of authenticity?
+Fingerprint
+[[0.5774953365325928, 0.42250463366508484]]
+What nationality is Carlos Slim, the richest person in the world according to Forbes 2012?
+MEXICO
+[[0.8757869601249695, 0.12421300262212753]]
+A cachalot - an old French word for tooth - is better known as what creature, the largest living toothed animal?
+Tuna
+[[0.028870906680822372, 0.9711290597915649]]
+Who was the first person to be voted off this year’s ‘Strictly Come Dancing’?
+Len Goodman
+[[0.1766715943813324, 0.8233283758163452]]
+Ganesh, Murugan and their father Shiva feature in which religion?
+Animism
+[[0.026759283617138863, 0.9732407331466675]]
+(Before Jurassic Park) the word raptor technically refers to what sort of carnivorous creature?
+Carnivore
+[[0.21076631546020508, 0.7892336845397949]]
+If you were on holiday at the coastal resort of Bodrum, which country would you be in
+1990s
+[[0.15203224122524261, 0.847967803478241]]
+Which novel introduced the bully Harry Flashman
+1066 And All That
+[[0.06142403930425644, 0.9385759830474854]]
+“Make me” is the twentieth bestselling book in which series?
+JK Rowling
+[[0.3812195658683777, 0.6187804341316223]]
+Literally 'Practice of the Wheel of Law' in Chinese, what system of mind and body cultivation has been the focus of international attention since the Chinese government began a crackdown on it?
+Dao
+[[0.08756384253501892, 0.9124361872673035]]
+Which river enters the Irish Sea at Drogheda?
+Connaught
+[[0.057918086647987366, 0.942081868648529]]
+What type of acid is there in a bee sting
+sulphuric
+[[0.39981159567832947, 0.6001883149147034]]
+In June 1944, the names Juno, Omaha, Sword, Utah & Gold were given to what?
+5 US battleships
+[[0.08945459872484207, 0.9105454087257385]]
+The Teddy bear is named after whom?
+1902
+[[0.14511536061763763, 0.854884684085846]]
+Table Mountain in South Africa overlooks which city?
+Cape Town
+[[0.9329437017440796, 0.06705628335475922]]
+Which book by Mark Haddon was the Booker Prize winner in 2003?
+13 Reasons Why
+[[0.03308597952127457, 0.9669140577316284]]
+A home for music and intimate performance, well-established in Europe in the 19th century, flourishing in early 20th century, and attended by a wide cross-section of society, sparked a number of films. What was the name for the venue and style?
+1920s
+[[0.07055959850549698, 0.929440438747406]]
+In the TV series Frasier who played the part of Daphne Moon?
+1993
+[[0.14080816507339478, 0.8591918349266052]]
+Who immediately succeeded Abraham Lincoln as President?
+14th
+[[0.2309197634458542, 0.7690802216529846]]
+In which country is the Rugby Union World Cup due to be held in 2011?
+2011
+[[0.3242354094982147, 0.6757646203041077]]
+What was the former name of Jaguar motors
+Packard
+[[0.28776779770851135, 0.7122321724891663]]
+"Which former international footballer was known as ""the wizard of the dribble""?"
+Tinker Hatfield
+[[0.03090895712375641, 0.9690910577774048]]
+Who plays Cinna in the 2012 film ‘The Hunger Games’?
+Len Wiseman
+[[0.10894505679607391, 0.8910549879074097]]
+Which epic poem by John Milton tells the story of the Fall of Adam and Eve?
+1632
+[[0.13753248751163483, 0.8624675869941711]]
+Senna and Ammonia were minor characters in which BBC TV comedy series?
+1980s
+[[0.29098084568977356, 0.709019124507904]]
+Which computer-animated film series features the 'Kingdom of Far Far Away'?
+101 Dalmatians
+[[0.007937993854284286, 0.992061972618103]]
+Tzipi Livni led her Kadima party in what country's elections?
+2009
+[[0.4474602937698364, 0.5525397062301636]]
+In which UK city are the headquarters of Asda?
+Lowestoft
+[[0.11436852067708969, 0.8856314420700073]]
+The Frog Cake was created in 1922 by Balfours Bakery in which country?
+1922
+[[0.38861799240112305, 0.6113819479942322]]
+The Kalahari Desert lies mainly in which country?
+2nd
+[[0.4765796959400177, 0.5234203934669495]]
+What is a writ directed at an individual requiring him or her to attend and give evidence?
+Attachment
+[[0.024237636476755142, 0.9757624268531799]]
+What dog breed is commonly found at fire stations?
+Retriever
+[[0.596433162689209, 0.4035668671131134]]
+Which ballerina, born in Ireland, was the founder of the Sadler's Wells Ballet?
+1913
+[[0.28298813104629517, 0.7170118689537048]]
+Ophelia is a moon of which planet in the Solar System
+Cupid
+[[0.169956237077713, 0.8300437331199646]]
+What two word term is used to describe the music craze of the 1970s that contained many different acts that included amongst others T Rex, The Sweet, David Bowie abd Roxy Music ?
+1970s
+[[0.13206616044044495, 0.8679338097572327]]
+What is the two-handled curved blade used for mincing herbs and vegetables, which in Italian means 'half-moon'?
+Citrus peeler
+[[0.021287353709340096, 0.9787126779556274]]
+Which African country has the capital of Gaborone?
+2000
+[[0.11596071720123291, 0.8840392827987671]]
+In which year were East and West Germany unified?
+1990
+[[0.863391637802124, 0.13660839200019836]]
+What is Thailand's biggest island
+Hainan
+[[0.06418264657258987, 0.9358173608779907]]
+Which Scottish civil engineer was responsible for building the Caledonian Canal
+1822
+[[0.08240149915218353, 0.9175984263420105]]
+The Varicella Zoster Virus causes which disease in children?
+SHINGLES
+[[0.4455295503139496, 0.5544704794883728]]
+What is the name of the school in Croydon attended by Amy Winehouse, Leona Lewis, and Adele among many other performers?
+LAMDA
+[[0.729519784450531, 0.270480215549469]]
+When Sunderland won the 1973 FA Cup, under Bob Stokoe, who did they defeat in the final?
+10-man Arsenal
+[[0.8104788661003113, 0.18952107429504395]]
+Which 1962 musical film featured the song 'Coming Up Roses'?
+42nd Street
+[[0.7813306450843811, 0.21866938471794128]]
+What was traditionally made by a Chandler?
+Cloth
+[[0.6477982401847839, 0.35220178961753845]]
+What has been won by Australia II and America 3?
+2 America's Cup
+[[0.8766343593597412, 0.1233656257390976]]
+"The US state of Kentucky is known ""the (what) Grass State""?"
+KY
+[[0.32766830921173096, 0.672331690788269]]
+Which item of athletics equipment weighs 7.26 kilograms for men?
+100m hurdles
+[[0.11201596260070801, 0.8879840970039368]]
+Which US TV show, for which the cast list included Julia Louis-Dreyfus, Michael Richards and Jason Alexander, was set predominantly in an apartment block on New York City's Upper West Side (but shot mostly in Los Angeles, California)?
+30 Rock
+[[0.0627892017364502, 0.937210738658905]]
+Hoss, Little Joe and Ben are characters in which US tv series?
+1960s
+[[0.09268778562545776, 0.907312273979187]]
+In snooker, whose nickname is 'The Nugget'?
+Buster Mottram
+[[0.35220178961753845, 0.6477982401847839]]
+The Meteorological Office was founded in 1854, which Vice-Admiral was its first head?
+1st Viscount
+[[0.24508501589298248, 0.7549149990081787]]
+Which was the only 'Live 8' venue that was in the southern hemisphere?
+30,000-seat Sydney Cricket Ground
+[[0.8757869601249695, 0.12421300262212753]]
+Who wrote the 1939 novel ‘The Grapes of Wrath’?
+John Steinbeck
+[[0.954308032989502, 0.04569203406572342]]
+First published in 1929, for which character is Belgian George Remi best known?
+Tinkerbell
+[[0.043691061437129974, 0.956308901309967]]
+In the human body, what is the 'Trachea more commonly known as?
+Trunk
+[[0.26133090257644653, 0.7386690378189087]]
+Which vegetable is associated with a person who spends a lot of time sitting or lying down, usually watching television?
+Baked potato
+[[0.4804787039756775, 0.5195213556289673]]
+Pyongyang is the capital of which controversial nation?
+NORTH KOREA
+[[0.942081868648529, 0.057918086647987366]]
+Virunga National Park in the Democratic Republic of Congo that was established in 1925 as Africa's first national park was created mainly to protect what animal?
+chimpanzees
+[[0.10818894952535629, 0.8918110132217407]]
+In the Bible, which four word phrase comprise the first words spoken by God, as recorded in theBook of Genesis?
+1. "Let there be light"
+[[0.4263215959072113, 0.5736784338951111]]
+The Kroon is a monetary unit of which European country?
+1000
+[[0.37387582659721375, 0.6261242032051086]]
+Which actor appeared in the most ‘Carry On’ films?
+10
+[[0.22884513437747955, 0.7711548805236816]]
+Name the controversial leader of the Dutch right-wing Freedom Party which won 24 seats in the Dutch elections, who was refused entry into the UK for his 'racist views'?
+Gerrit Zalm
+[[0.10594828426837921, 0.8940516710281372]]
+Which American newsman broke the news of JFK's death to the nation?
+1963
+[[0.49218809604644775, 0.5078118443489075]]
+What score are the players in baccarat trying to get
+9
+[[0.5888891220092773, 0.41111084818840027]]
+Which Scottish island is separated from the mainland by the Firth of Lorn(e)?
+Ascension
+[[0.03875619173049927, 0.961243748664856]]
+In which year did Italy join the Six Nations (then Five Nations) Rugby Union Championship?
+1990
+[[0.7892336845397949, 0.21076631546020508]]
+Which golf course was the first Scottish venue to host the Ryder Cup in 1973?
+14th
+[[0.4668456017971039, 0.5331544280052185]]
+King George VI had two daughters: Elizabeth Alexandra Mary and which other?
+QE2
+[[0.270480215549469, 0.729519784450531]]
+How is novelist Patricia Plangman better known?
+Conn Iggulden
+[[0.09807932376861572, 0.9019206762313843]]
+‘Light a Penny Candle’ was the debut novel of which Irish author?
+DBC Pierre
+[[0.26133090257644653, 0.7386690378189087]]
+Invented by Alexander Parkes in about 1856 and originally called Parkesine, what was the first thermo-plastic?
+Plexiglas
+[[0.02178117074072361, 0.9782188534736633]]
+"From which opera does the aria ""O Caro Nome"" come?"
+1816
+[[0.270480215549469, 0.729519784450531]]
+Which Irish rally driver won the 1964 Monte Carlo Rally driving a Mini Cooper?
+Len Terry
+[[0.19682618975639343, 0.8031737804412842]]
+The 1984 Winter Olympics were the first conducted under the presidency of whom?
+Ronald Reagan
+[[0.4493926465511322, 0.5506073832511902]]
+Which fungal disease of trees was first described in the Netherlands?
+Citrus canker
+[[0.0204885546118021, 0.9795113801956177]]
+In the early 1900s a thriller was instead more commonly referred to as what sort of book?
+Locked Room Mystery
+[[0.6352224349975586, 0.3647775650024414]]
+What is the thick watery substance filling the space between the lens and the cornea of the eye?
+Len
+[[0.22270014882087708, 0.7772998809814453]]
+"According to Burt Bacharach's theme for ""Butch Cassidy and the Sundance Kid"", what ""keep fallin' on my head""?"
+Avalanche
+[[0.9053223133087158, 0.09467770159244537]]
+In World War I, the troops of New Zealand and what other country were formed into a single Army Corps called ANZACs?
+ANZAC
+[[0.4148988425731659, 0.5851011276245117]]
+What type of creature is a Kentish Glory?
+Amphibian
+[[0.2030746340751648, 0.7969253659248352]]
+Which US actor was born Joe Yule Jr?
+Buster Keaton
+[[0.24798743426799774, 0.7520126104354858]]
+In early 2014, Prof. Maryam Mirzakhani achieved a unique and highly meritorious distinction. What subject does she teach at Stanford University?
+Topology
+[[0.8164063692092896, 0.18359361588954926]]
+Who replaced Tommy Docherty as Manchester United's manager
+1986
+[[0.2598256766796112, 0.740174412727356]]
+Who was the legendary enemy of the Sheriff of Nottingham?
+Tinkerbell
+[[0.012920472770929337, 0.9870794415473938]]
+What name is given to a style of journalism that is written subjectively, often including the reporter as part of the story via a first-person narrative?
+1st person
+[[0.5506073832511902, 0.4493926465511322]]
+Who composed the music for the films 'Gandhi' and Satyajit Ray's revered 'Apu Trilogy'?
+Conniff
+[[0.016657041385769844, 0.9833430051803589]]
+In cookery, which vegetable is the basis for 'Soubise Sauce'?
+Baked beans
+[[0.10017222166061401, 0.8998278379440308]]
+Which character fell asleep in The Catskills for 20 years?
+Buster Keaton
+[[0.30404168367385864, 0.6959583163261414]]
+In which natural valley is San Jose?
+19th
+[[0.18476751446723938, 0.815232515335083]]
+From which opera does the Toreador Song come
+18th century Spain
+[[0.4687906503677368, 0.531209409236908]]
+Which 19th century gardener, architect and MP designed the Great Conservatory, a huge glasshouse, at Chatsworth House?
+Capability Brown
+[[0.13939638435840607, 0.8606036305427551]]
+Portuguese rule of which country ended in 1975, with the appointment of Samora Machel as its first president?
+1975
+[[0.25683197379112244, 0.7431679368019104]]
+What murderer lived at 10 Rillington Place, Notting Hill, London?
+10 Rillington Place
+[[0.26133090257644653, 0.7386690378189087]]
+Which British Prime Minister, who was born in Portsmouth in March 1912, died on March 26th 2005 aged 92 ?
+Macmillan
+[[0.46490156650543213, 0.5350984334945679]]
+Which year of the 20th century saw the British General Strike?
+1926
+[[0.914290726184845, 0.08570928126573563]]
+Who supposedly fiddled while Rome burned (but actually didn't)?
+1960s
+[[0.14128141105175018, 0.8587185740470886]]
+What was the middle name of the character 'Bob Collier' from the t.v. series 'The Likely Lads'?
+Len
+[[0.581303060054779, 0.41869691014289856]]
+The Disney Brothers Cartoon Studio was set up on October 16 1923 by Walt Disney and his brother, what was his brothers' first name?
+Animator
+[[0.01384861022233963, 0.986151397228241]]
+Sometimes called a ‘Mercyseat’, what is the name of the small wooden shelf on the underside of a folding seat in a church?
+Credence
+[[0.29098084568977356, 0.709019124507904]]
+"In ""Silence of the Lambs"", what was the nickname of the killer that Hannibal Lecter helped to catch?"
+1991
+[[0.055005285888910294, 0.9449946880340576]]
+What fruit is the main ingredient of Cumberland sauce?
+Citrus
+[[0.7634837031364441, 0.23651622235774994]]
+Which letter of the Greek alphabet is between Kappa and Mu?
+Ω
+[[0.28776779770851135, 0.7122321724891663]]
+When the Olympics was resurrected in modern times, with a Summer Olympics in 1896, where were the games held?
+1900
+[[0.05033063143491745, 0.949669361114502]]
+The olfactory organs are concerned with the sense of what?
+Fragrance
+[[0.6388352513313293, 0.36116471886634827]]
+Which pedestrian bridge in London connects the Tate Modern Art Gallery and St Paul's Cathedral?
+Shard
+[[0.0832919329404831, 0.9167081117630005]]
+In the 1984 adventure film Romancing the Stone set in Columbia, what type of precious mineral is the stone?
+sapphire
+[[0.7310585975646973, 0.2689414322376251]]
+By what one word name is Portuguese footballer Luis Carlos Almeida da Cunha known?
+7-11
+[[0.4455295503139496, 0.5544704794883728]]
+What is another name for the jawbone?
+zygomatic
+[[0.35756751894950867, 0.642432451248169]]
+"Who wrote, often with Howard Greenfield, the songs ""Oh! Carol"" (1959), ""Calendar Girl"" (1960), ""Little Devil"" (1961), ""Happy Birthday Sweet Sixteen"" (1961), ""Breaking Up Is Hard to Do"" (1962) and ""Next Door to an Angel"" (1962)?"
+Len Barry
+[[0.36658975481987, 0.6334102749824524]]
+Which mountain chain runs along the border between France and Spain?
+Pyrénées
+[[0.9099069833755493, 0.09009299427270889]]
+In which British city is Anderston Railway Station?
+Glasgow
+[[0.8661325573921204, 0.13386750221252441]]
+Sodium bicarbonate consists of sodium, carbon, oxygen and which other element?
+sulphur
+[[0.11596071720123291, 0.8840392827987671]]
+In which country did the 'Boxer Rebellion' occur?
+19th
+[[0.3380770981311798, 0.6619228720664978]]
+Felipe de Jesus Calderon Hinojosa became President of which country in December 2006?
+MEXICO
+[[0.9012274742126465, 0.09877260029315948]]
+Who created the newspaper strip cartoon The Gambols?
+Buster Brown
+[[0.41111084818840027, 0.5888891220092773]]
+Who composed ‘A Sea Symphony’ between 1903 and 1909?
+1903
+[[0.6791787147521973, 0.3208213150501251]]
+The last element to be discovered in nature, rather than synthesized, was discovered In 1939. What was it?
+118
+[[0.06608538329601288, 0.9339146018028259]]
+Which Yorkshire city has two city-centre railway stations, Kirkgate and Westgate?
+Idle
+[[0.034100428223609924, 0.9658995866775513]]
+"Which classical singer sang the theme song ""Where My Heart Will Take Me"", for the TV series, ""Enterprise""?"
+1960s
+[[0.11279541254043579, 0.8872045874595642]]
+What is the medical namefor hives, or nettle rash?
+urticaria
+[[0.8031737804412842, 0.19682618975639343]]
+The epitaph for which American singer who died in 1988 was 'The best is yet to come'?
+1988
+[[0.14804719388484955, 0.8519527316093445]]
+What was formerly the highest appointment in the British Army, being abolished in 1904?
+10th
+[[0.13296423852443695, 0.8670357465744019]]
+Which of the halogens has the lowest atomic number (9)?
+18th
+[[0.1766715943813324, 0.8233283758163452]]
+Which 10-part Channel 4 drama starring Julie Walters depicts the 1930’s British Raj?
+Servants
+[[0.23370636999607086, 0.7662936449050903]]
+Where in England would you find' Lime Street Station'?
+19th
+[[0.4804787039756775, 0.5195213556289673]]
+Which island group was once called the Somers Islands?
+Ascension
+[[0.14414885640144348, 0.8558511734008789]]
+What is the former name of Cape of Good Hope?
+Skeleton Coast
+[[0.028007522225379944, 0.9719924926757812]]
+Which mammal is the nearest relative of the giraffe, and is only found in the Democratic Republic of Congo?
+Painted dog
+[[0.04336579889059067, 0.9566342234611511]]
+Who, along with Leslie Bricusse, wrote the lyrics for the James Bond film song Goldfinger?
+Len Barry
+[[0.043691061437129974, 0.956308901309967]]
+In Norse mythology, what is the name of Odin's eight-legged horse?
+Thrud
+[[0.026155618950724602, 0.9738444089889526]]
+In the 1978 film 'International Velvet', who plays the character 'Velvet Brown'?
+1978
+[[0.17441026866436005, 0.8255897164344788]]
+Nutria is the name given to the fur of which semi aquatic rodent?
+otter
+[[0.6566582322120667, 0.34334173798561096]]
+The summit of which mountain in Ecuador is generally regarded as the spot that is farthest from the center of the Earth?
+20,000ft
+[[0.07921033352613449, 0.9207897186279297]]
+"In the story of ""Alice in Wonderland"", what kind of creature did Alice find on top of a toadstool, smoking a hookah?"
+Amphibian
+[[0.07477004826068878, 0.9252300262451172]]
+The Australian species of which bird has nature's largest bill, that can hold over 3 gallons?
+emu
+[[0.7431679368019104, 0.25683197379112244]]
+In April 1993, the World Health Organisation declared which disease ‘A global health emergency’?
+SARS
+[[0.11838509142398834, 0.8816148638725281]]
+What is the last book of the Old Testament?
+2nd
+[[0.1710612028837204, 0.8289388418197632]]
+Who had a number one hit in July 2009 with 'Evacuate The Dancefloor'?
+50 Cent
+[[0.5583270192146301, 0.44167301058769226]]
+What is the home ground of Sheffield United
+Boundary Park
+[[0.6442250609397888, 0.3557748794555664]]
+Khaki Campbell and Rouen are types of which farmyard creature?
+Retriever
+[[0.028007522225379944, 0.9719924926757812]]
+The luxury Maybach car models are to be discontinued in 2013, which car company produces them?
+AMG
+[[0.3208213150501251, 0.6791787147521973]]
+What was the first general-purpose electronic computer capable of being reprogrammed to solve a full range of computing problems which, though designed to calculate artillery firing tables for the US Army's Ballistic Research Laboratory, was first used in calculations for the hydrogen bomb?
+IAS-1
+[[0.3757064640522003, 0.6242935657501221]]
+The highest male voice type in conventional singing terminology is?
+3
+[[0.19436781108379364, 0.8056321740150452]]
+What is the name of the hotel in Heartburn Hotel
+1940s
+[[0.19436781108379364, 0.8056321740150452]]
+Which City was Glenn Miller travelling to when his plane went missing?
+Idlewild Airport
+[[0.267408162355423, 0.7325918078422546]]
+In trigonometry what is calculated by the adjacent over the hypotenuse?
+Opposite
+[[0.04054073989391327, 0.9594592452049255]]
+"""La Donna e Mobile"" is an aria from which opera?"
+19th century
+[[0.2018132209777832, 0.7981867790222168]]
+In the David Hockney painting ‘Mr and Mrs Clark and Percy’ what is Percy?
+1st husband
+[[0.29098084568977356, 0.709019124507904]]
+In 2010, Neil Robertson became the second Australian to win the World Snooker Championship title. Who was the first, who won the 1952 championship?
+Len Hutton
+[[0.10594828426837921, 0.8940516710281372]]
+Which religious order was founded by St. Robert, Abbot of Molesme, near Dijon in 1098?
+Ordre de Saint-Benoit
+[[0.2523840367794037, 0.7476159334182739]]
+Which lake, the largest by volume in the USA after the Great Lakes, lies on the border of California and Nevada?
+Boundary Lake
+[[0.04672496020793915, 0.9532750844955444]]
+Named after a bird which scenic railway line runs from Norwich to Cromer and then onto Sheringham?
+1066 Country
+[[0.2465333491563797, 0.7534666657447815]]
+Which team caused the first major upset in the Rugby World Cup when they beat Wales 16-13 in a pool match at Cardiff Arms Park in 1991?
+1991
+[[0.1980641782283783, 0.8019358515739441]]
+Generally acknowledged as the father of role-playing games, Gary Gygax, along with Dave Arneson, was the mastermind behind what major game?
+Descent
+[[0.052618954330682755, 0.9473810195922852]]
+In which European capital city are the headquarters of 'Greenpeace'?
+Ljubljana
+[[0.1037486270070076, 0.896251380443573]]
+Who was Master of the King's Music from 1924 until 1934?
+Len Deighton
+[[0.011961097829043865, 0.9880388379096985]]
+On which pop hit classic did Bob Holness famously not play the sax solo?
+21st
+[[0.5660185217857361, 0.4339814782142639]]
+Nucky Thompson was the central character in which US TV drama series?
+1960s
+[[0.06608538329601288, 0.9339146018028259]]
+An acute angle is one that is less than 90 degrees, while an obtuse angle is between 90 and 180 degrees. What is the name of an angle that is exactly 90 degrees?
+90 degree angle
+[[0.7648916244506836, 0.2351083904504776]]
+Where in the human body is the sacrum bone?
+12th
+[[0.2254166156053543, 0.7745833992958069]]
+In maritime law, what chaste term denotes the passage of a vessel through the territorial waters of another state subject to certain restrictions?
+Restricted waters
+[[0.3812195658683777, 0.6187804341316223]]
+What was the former name of Kiribati?
+1979
+[[0.12421300262212753, 0.8757869601249695]]
+"Name of the character, played by Clint Eastwood, in the 1960's TV series, ""Rawhide""?"
+187
+[[0.2351083904504776, 0.7648916244506836]]
+What tire company created a restaurant guide in an effort to promote driving?
+3M
+[[0.2146914005279541, 0.7853085398674011]]
+What country did the Taliban rule from 1996-2001?
+1996-2001
+[[0.5563995838165283, 0.4436004161834717]]
+How many points are scored when you kick a goal in Gaelic football?
+3
+[[0.6859495043754578, 0.314050555229187]]
+Which state of the USA has a coastline on the Gulf of Mexico between Florida and Mississippi?
+TEXAS
+[[0.7918210625648499, 0.20817893743515015]]
+What was the real name of author George Orwell?
+Len
+[[0.04401864856481552, 0.9559813141822815]]
+What official NFL injury report term means that a player has a 50% chance of playing?
+50/50
+[[0.7969253659248352, 0.2030746340751648]]
+How many ‘Books’ make up the Old Testament of the Bible?
+39
+[[0.6477982401847839, 0.35220178961753845]]
+Which word, common in the South of England, describes a steep-sided river valley where the water flows through coastal cliffs to the sea?
+combe
+[[0.5736784338951111, 0.4263215959072113]]
+Which is the only Anglican cathedral located in the present day county of Lancashire?
+108
+[[0.19559408724308014, 0.804405927658081]]
+Who is the regular appointed captain of the England Twenty20 cricket team as at September 2012?
+ODI
+[[0.2465333491563797, 0.7534666657447815]]
+Anne Frank wrote her diary in the loft of a house in which city?
+1934
+[[0.2267836481332779, 0.7732163667678833]]
+What was the occupation of The Admiral's Men?
+16th century pirates
+[[0.10521053522825241, 0.894789457321167]]
+What was the water that Jesus walked on
+1st
+[[0.2658804655075073, 0.7341195344924927]]
+Who wrote the plays The Rose Tattoo' and The Night of The Iguana'?
+Tennessee Williams
+[[0.9525741338729858, 0.04742587357759476]]
+Who was the first female D.J. on Radio 1?
+1970s
+[[0.17781086266040802, 0.8221890926361084]]
+Which US state produces the most maple syrup?
+1990s
+[[0.28298813104629517, 0.7170118689537048]]
+Hans Riegel of Bonn, Germany, formed which confectionary company in 1920?
+Peek Freans
+[[0.023153413087129593, 0.9768466353416443]]
+Which club won the UEFA Champions League Final the year before Liverpool's win in Istanbul in 2005?
+2004
+[[0.0960254892706871, 0.9039745330810547]]
+The gardens at Sissinghurst Castle, Kent were created in the 1930's by which poet and gardening writer on the fringes of the 'Bloomsbury Group'?
+GK Chesterton
+[[0.00457386439666152, 0.9954261183738708]]
+Which Roman Emperor was the son of Germanicus and Agrippina the Elder?
+Octavian
+[[0.010902373120188713, 0.9890975952148438]]
+The Kakapo, or Parrot Owl, is a near extinct bird living, in which country'?
+New Zealand
+[[0.9086179733276367, 0.09138211607933044]]
+August 9th marks the anniversary of the resignation of Richard M. Nixon as US President. In what year did it happen?
+1974
+[[0.9334307909011841, 0.06656918674707413]]
+Which came first? Dunkin' Donuts? Or Starbucks?
+1955
+[[0.7386690378189087, 0.26133090257644653]]
+Which Prime Minister twice succeeded J Ramsay Macdonald?
+Macmillan
+[[0.05707139894366264, 0.9429286122322083]]
+Who was the first national hunt jockey to ride 1000 winners?
+1960s
+[[0.16451646387577057, 0.8354835510253906]]
+If The Beatles were listed in a 1969 telephone book, who would be the last to be listed?
+15
+[[0.3486451804637909, 0.6513549089431763]]
+Murderer Donald Neilson was otherwise known by what name?
+Tinker
+[[0.7981867790222168, 0.2018132209777832]]
+What was the name of the tavern in London where the Masonic Grand Lodge of England was founded in the 18th Century?
+121
+[[0.15921740233898163, 0.8407825827598572]]
+The Annapurna range of peaks stand in which Asian country?
+1960s
+[[0.34510529041290283, 0.6548947095870972]]
+Hadrian's Wall was completed in which century ?
+2nd
+[[0.7718434929847717, 0.22815649211406708]]
+Who was the first Prime Minister of an independent India in 1947?
+10th
+[[0.2689414322376251, 0.7310585975646973]]
+As at 2011 what car corporation owns the Rolls Royce and Mini marques?
+Proton
+[[0.12678517401218414, 0.873214840888977]]
+What has been on the air longer? Jeopardy? Or Wheel of Fortune?
+24 years
+[[0.6522414088249207, 0.34775856137275696]]
+Mount Catherine is the highest mountain in which African country?
+Ascension
+[[0.05541279539465904, 0.944587230682373]]
+Which English novelist wrote 'The Rachel Papers' and 'Money'?
+JG Farrell
+[[0.07316471636295319, 0.9268352389335632]]
+In computing , for what does the acronym LAN stand ?
+1000BASE-T
+[[0.1550784707069397, 0.8449215292930603]]
+Which Australian town, now a city, was bombed by the Japanese in February 1942?
+Paramatta
+[[0.29421496391296387, 0.7057850360870361]]
+Which was the first planet in our solar system to be discovered by telescope?
+9th
+[[0.19930799305438995, 0.8006919622421265]]
+In Norse mythology, whose chariot was drawn across the sky by two goats called 'Toothgrinder' and 'Toothgnasher'?
+Thrud
+[[0.020023442804813385, 0.9799765348434448]]
+Which was the first Soviet Union republic to establish its independence when the Soviet Union was dissolving?
+1991
+[[0.11676400899887085, 0.8832359910011292]]
+Which Nick Hornby book concerned his being a fan of Arsenal?
+31 Songs
+[[0.030444348230957985, 0.9695556163787842]]
+"If a person is ""guapo"" in Spanish, what are they in English?"
+Stylish
+[[0.24798743426799774, 0.7520126104354858]]
+Which young singer/songwriter was born Jake Edwin Kennedy in Nottingham in 1994, he has released two albums, the first self titled and the second called `Shangri La?
+KT Tunstall
+[[0.9235922694206238, 0.07640768587589264]]
+Who resigned in July 2000 as leader of the Scottish National Party?
+2000
+[[0.25683197379112244, 0.7431679368019104]]
+Boris the ………….. (The Who)?
+…….
+[[0.4205995798110962, 0.5794004201889038]]
+Jarlsberg cheese comes from which country?
+Åland
+[[0.22815649211406708, 0.7718434929847717]]
+Which Scottish city is known as The Granite City
+Aberdeen
+[[0.9348725080490112, 0.06512755155563354]]
+What is the name of the engraved stone, discovered in 1799, that provided a key to deciphering the languages of ancient Egypt?
+Rosetta Stone
+[[0.9348725080490112, 0.06512755155563354]]
+Where was the first IOC-run Olympics held in the 21st century?
+2000
+[[0.562176525592804, 0.4378235340118408]]
+What price did an adult British passport rise to in 2009?
+1000
+[[0.5175709128379822, 0.4824291467666626]]
+In which televisionprogramme did the character 'Detective Mark Petrie' appear?
+Heartbeat
+[[0.5234203934669495, 0.4765796959400177]]
+Which group recorded the 2008 album 'Perfect Symmetry'?
+Blur
+[[0.17441026866436005, 0.8255897164344788]]
+Which sea area lies due east of Dogger and Humber?
+Øresund
+[[0.10087861865758896, 0.8991213440895081]]
+Film-maker and screenwriter Jill Craigie was the wife of which politician?
+Len Hutton
+[[0.04336579889059067, 0.9566342234611511]]
+In music, an axe is a slang term for which instrument?
+tuba
+[[0.10669060051441193, 0.8933094143867493]]
+Which actor provided the voice for Mr Magoo?
+Buster Keaton
+[[0.2351083904504776, 0.7648916244506836]]
+The green of London's Parliament Square was named what by activists during 2010, when sporadic protests developed into a large camp community?
+Occupied
+[[0.8187368512153625, 0.18126322329044342]]
+Members of the 1966 World Cup winning English football team, Bobby Moore, Martin Peters and Geoff Hurst played for which league team?
+1st Division
+[[0.3720487952232361, 0.6279512047767639]]
+George Tupou V was crowned monarch of which country in August 2008?
+2008
+[[0.3242354094982147, 0.6757646203041077]]
+Glenridding and Pooley Bridge stand at opposite ends of which lake in the Lake District
+beck
+[[0.325949490070343, 0.6740504503250122]]
+Where is Britain's National Space Centre?
+Alcester
+[[0.1540575623512268, 0.8459424376487732]]
+Which planet has a 'great red spot'?
+10th
+[[0.2658804655075073, 0.7341195344924927]]
+Several chemical elements are named after places, which one is named after Russia?
+115
+[[0.11596071720123291, 0.8840392827987671]]
+The JIM suit, which is designed to maintain a pressure of one atmosphere regardless of external conditions is used by members of which profession?
+medics
+[[0.22815649211406708, 0.7718434929847717]]
+The German 'dachshund' means '(What?) dog'?
+Stubborn
+[[0.11516223102807999, 0.8848377466201782]]
+Which Archbishop of Canterbury was captured by Viking raiders in 1011 and killed by them the following year after refusing to allow himself to be ransomed?
+Æthelwold
+[[0.29421496391296387, 0.7057850360870361]]
+Which boat, launched in I960, was the Royal Navy’s first nuclear submarine?
+SSN 711
+[[0.2735743820667267, 0.7264255881309509]]
+In Australia what is a garbo
+1930s
+[[0.08756384253501892, 0.9124361872673035]]
+Who wrote the classic novel Moby Dick
+Herman Melville
+[[0.9566342234611511, 0.04336579889059067]]
+Qualcomm stadium is the home to what NFL team?
+49ers
+[[0.6242935657501221, 0.3757064640522003]]
+What is the term for the geological feature that includes Philadelphia, Baltimore, Washington DC, Augusta and Columbus?
+rift valley
+[[0.4493926465511322, 0.5506073832511902]]
+Which cartoon character has a pet snail called Gary who meows?
+101 Dalmatians
+[[0.020964240655303, 0.9790357351303101]]
+Who played 'Two-Face' in the 1995 film 'Batman Forever'?
+1995
+[[0.19930799305438995, 0.8006919622421265]]
+The Tropic of Capricorn crosses the Atlantic coast of Africa in which country?
+Ascension Island
+[[0.18359361588954926, 0.8164063692092896]]
+Who became the first woman to win a gold medal in boxing for GB in the 2012 Olympics?
+2012
+[[0.2598256766796112, 0.740174412727356]]
+The US Statue of Liberty is the work of which French sculptor?
+Etienne Maurice Falconet
+[[0.5563995838165283, 0.4436004161834717]]
+What, in October 1871, was one of the biggest U.S. disasters of the 19th century, killing hundreds and destroying about four square miles of city buildings?
+1871 San Francisco Earthquake
+[[0.18242551386356354, 0.8175744414329529]]
+Stewart Island is the third largest island of which Commonwealth country?
+New Zealand
+[[0.9441768527030945, 0.05582313984632492]]
+Which cathedral overlooks Red Square in Moscow?
+Assumption
+[[0.5117166042327881, 0.4882833957672119]]
+Who played the part of Mildred Roper on television?
+1960s
+[[0.18010665476322174, 0.8198933005332947]]
+In 1854, John Snow proved that what was transmitted by infected water?
+bubonic plague
+[[0.46101677417755127, 0.5389832258224487]]
+"""Reader, I married him,"" appears in the conclusion of what novel?"
+1984
+[[0.043042849749326706, 0.9569571614265442]]
+What number Apollo Mission was first to land men on the moon?
+11
+[[0.6893056035041809, 0.3106943964958191]]
+When Leroy Rosenior was appointed as manager of Torquay for the second time for how many minutes did he last?
+10
+[[0.43014734983444214, 0.5698526501655579]]
+The American television series 'The Lone Gunmen', which centred on a group of investigators who ran a conspiracy theory magazine, was a spin-off of which other succesful series?
+24
+[[0.7279754281044006, 0.272024542093277]]
+Acorthosis is a medical condition where a person has too many what?
+Digits
+[[0.4804787039756775, 0.5195213556289673]]
+Which country became landlocked as a result of the War of the Pacific (1879 to 1883)?
+1883
+[[0.16344545781612396, 0.8365545868873596]]
+'Picaboo' was the 2011 launch name of what popular online application, whose logo is based on Ghostface Killah of the Wu-Tang Clan?
+500px
+[[0.3702253997325897, 0.6297746300697327]]
+Which Hollywood star starred in the 50s show My Three Sons?
+Buster Keaton
+[[0.09670578688383102, 0.9032942056655884]]
+In ancient Greece whose warriors were called The Myrmidons?
+300 Spartans
+[[0.07477004826068878, 0.9252300262451172]]
+What is the capital of El Salvador
+18
+[[0.09268778562545776, 0.907312273979187]]
+What ancient name applies to the 'days' of hot summer, derived from belief that the star Sirius caused them?
+Idalia
+[[0.22000709176063538, 0.7799928784370422]]
+Built by Rama 1st. Which capital city is home to the Temple of the Emerald Buddha?
+10th
+[[0.1883239597082138, 0.8116759657859802]]
+In the US television show ‘The Sopranos’, what is the name of the club in Long Beach, New Jersey, in which Christopher set Adriana up as manager?
+711
+[[0.37937837839126587, 0.6206216216087341]]
+"Where did the ""Mayflower"", carrying the Pilgrim Fathers, early settlers to Massachusetts, America, sail from in 1620?"
+Calais
+[[0.7201715111732483, 0.2798284888267517]]
+What is the colour of the rose that is the historic symbol of the House of York?
+scarlet
+[[0.7662936449050903, 0.23370636999607086]]
+The annual Latitude Music Festival takes place in which English county?
+Lowestoft
+[[0.4073334336280823, 0.5926666259765625]]
+"In the comic-strip ""Batman and Robin"" what is the Boy Wonder's real name?"
+Buster
+[[0.034618839621543884, 0.9653811454772949]]
+How many syllables does a haiku have?
+17
+[[0.6334102749824524, 0.36658975481987]]
+Which eagle is the largest bird of prey native to England?
+Aquila
+[[0.1550784707069397, 0.8449215292930603]]

@@ -1,0 +1,3000 @@
+Who wrote the poem 'Easter 1916'?
+1916
+[[0.5195213556289673, 0.4804787039756775]]
+Marron Glacé is what, preserved and coated in sugar?
+1. Cherries 2. Peaches 3. Apricots
+[[0.5117166042327881, 0.4882833957672119]]
+Which actor played Sergeant Francis Troy in the 1967 film ‘Far From the Madding Crowd’?
+1. Peter Finch
+[[0.18476751446723938, 0.815232515335083]]
+Which US magazine produces an annual '500' list of biggest US companies based on gross revenue?
+500
+[[0.25683197379112244, 0.7431679368019104]]
+Who first demonstrated TV in public?
+1925
+[[0.2598256766796112, 0.740174412727356]]
+In 1707 a fleet of Navy ships was wrecked off the Scilly Islands. Who was the commander who lost his life in the disaster?
+1st Earl of Torrington
+[[0.3830641806125641, 0.6169358491897583]]
+In what country would you find Mt. Pinatubo, whose 1991 eruption was the largest in the last hundred years?
+Philippines
+[[0.8864204287528992, 0.11357958614826202]]
+Obsidian, caused naturally when lava cools very quickly, is what type of substance?
+igneous rock
+[[0.9124361872673035, 0.08756384253501892]]
+Which British athlete won the 100 m. at the 1924 Olympics?
+100 m.
+[[0.2422056347131729, 0.7577943801879883]]
+How many legs has a flea?
+6
+[[0.7371581792831421, 0.2628418505191803]]
+Bruce Tuckman's theory about team development uses what four sequential rhyming words to describe the four stages of a group's progression?
+1. Forming, 2. Storming, 3. Norming, 4. Performing
+[[0.8856314420700073, 0.11436852067708969]]
+Named for a famous Chicago bartender, what is the common name for a drink that has been spiked with a drug, usually chloral hydrate, given to someone in order to incapacitate them?
+Mickey Finn
+[[0.8816148638725281, 0.11838509142398834]]
+Ganymede is the largest moon of which planet?
+Jupiter
+[[0.9588471055030823, 0.041152890771627426]]
+Which musical instrument is associated with jazz musician Kid Ory?
+Trombone
+[[0.942081868648529, 0.057918086647987366]]
+Mora-Siljan Airport is in which European country?
+Sweden
+[[0.9099069833755493, 0.09009299427270889]]
+Aside from being a 'nuisance' if one gets into your garden, what is an animal called that feeds only on plants?
+Herbivore
+[[0.8740772008895874, 0.1259227693080902]]
+Who's missing: Alice Walton, Jim Walton, Christy Walton, Larry Ellison, Warren Buffett
+1. Alice Walton 2. Jim Walton 3. Christy Walton 4. Larry Ellison 5. Warren Buffett
+[[0.7819972634315491, 0.21800270676612854]]
+One of the Seven Wonders of the Ancient World was the Colossus of Rhodes, a mammoth statue of what Greek god?
+1990s
+[[0.18952107429504395, 0.8104788661003113]]
+What was the name of the American space station?
+1970s Skylab
+[[0.74167400598526, 0.25832599401474]]
+What is the title of British singer Gary Barlow’s album, released in 2012 to celebrate the Diamond Jubilee of Queen Elizabeth II?
+22
+[[0.3345894515514374, 0.665410578250885]]
+"Give the two words that complete the line of the poem 'Night Mail' by W. H. Auden. ""This is the Night Mail crossing the border. Bringing the cheque and the ..... ..... "".?"
+1000 letters
+[[0.740174412727356, 0.2598256766796112]]
+The Colossus, one of the seven wonders of the world, was built where?
+1950s
+[[0.09268778562545776, 0.907312273979187]]
+Because foreigners were forbidden to serve in the French Army after the 1830 July Revolution, what was created by Louis Philippe, the King of France in 1831?
+1st Foreign Legion
+[[0.5736784338951111, 0.4263215959072113]]
+Who signs himself as Ebor?
+1990s
+[[0.272024542093277, 0.7279754281044006]]
+Which confection approximates to what in Scotland is called tablet?
+100 Grand
+[[0.053403329104185104, 0.9465966820716858]]
+Who was the last English monarch to die on the battlefield?
+1 Henry VI
+[[0.37937837839126587, 0.6206216216087341]]
+What is the English word for the Japanese word 'Otemoto'?
+2nd
+[[0.2751297354698181, 0.7248703241348267]]
+Which writer created the detective Paul Temple?
+1920s
+[[0.22815649211406708, 0.7718434929847717]]
+Delphinium is the botanical name for which common flower?
+19969 was the Chinese year of which creature?
+[[0.7185943722724915, 0.28140559792518616]]
+Bruxism is the medical term for the involuntary habitual grinding of what?
+Teeth
+[[0.9603611826896667, 0.03963883966207504]]
+Who directed the 2009 film ‘Avatar’?
+James Cameron
+[[0.9686195850372314, 0.03138042986392975]]
+Much seen after the 'Bali Bombing', what is the national flower of Australia?
+19969 was the Chinese year of which creature?
+[[0.7025300860404968, 0.29746994376182556]]
+What is the name of the prize awarded for the best film at the Venice Film Festival
+1000 Lire
+[[0.3225259780883789, 0.6774740219116211]]
+"Which composer's dying words were supposedly, ""I shall hear in heaven""?"
+1. Handel
+[[0.46295857429504395, 0.5370413661003113]]
+In a church a piscina is a?
+1. Font
+[[0.314050555229187, 0.6859495043754578]]
+The New Model Army and The Levellers were groups in which war?
+17th century English Civil War
+[[0.9219217896461487, 0.07807816565036774]]
+Which actress said: 'When I'm good I'm very good, but when I'm bad I'm better'?
+1990s
+[[0.1294027417898178, 0.8705973029136658]]
+What is the title of the comic opera by Edward German set in the court of Queen Elizabeth I?
+Merrie England
+[[0.6513549089431763, 0.3486451804637909]]
+What is either a large rock or a city in Colorado?
+1. Pueblo 2. Denver
+[[0.6020615696907043, 0.39793840050697327]]
+Who assassinated US Senator Robert F Kennedy in June 1968?
+17-year-old Palestinian Sirhan Sirhan
+[[0.8221890926361084, 0.17781086266040802]]
+Who was the last reigning British monarch to marry?
+1936
+[[0.25534364581108093, 0.7446563243865967]]
+Who was assassinated in Memphis?
+1968
+[[0.18952107429504395, 0.8104788661003113]]
+Which British cyclist crashed out of the 1998 Tour de France while wearing the Yellow Jersey?
+1998
+[[0.2146914005279541, 0.7853085398674011]]
+What genre of literature is generally believed to have been invented by the English author Horace Walpole with his 1764 novel The Castle of Otranto?
+1764
+[[0.3702253997325897, 0.6297746300697327]]
+In which year did Yuri Gagarin become the first man in space?
+1961
+[[0.8766343593597412, 0.1233656257390976]]
+Joan Collins married for the fifth time, who is her latest husband
+1992
+[[0.07640768587589264, 0.9235922694206238]]
+Boggis, Bunce and Bean are three wealthy fanners who are the targets of the title character in which Roald Dahl novel filmed in 2009?
+1999
+[[0.04336579889059067, 0.9566342234611511]]
+What are the first five digits of pi?
+3.1415
+[[0.8705973029136658, 0.1294027417898178]]
+In 1993, Barbara Harmer became the first woman to pilot what?
+747
+[[0.49609383940696716, 0.5039061903953552]]
+What was the first name of the song-writing brother of George Gershwin?
+1920s
+[[0.08210662752389908, 0.9178933501243591]]
+Which mobile phone company paid Catherine Zeta-Jones 11 million pounds to promote their products
+02
+[[0.8910549879074097, 0.10894505679607391]]
+A lachrymator is a substance that irritates which part of the body?
+1: Eyes
+[[0.8227594494819641, 0.1772405207157135]]
+What is the name of a brooch or ring with a portrait profile carved in relief?
+19th century
+[[0.17328819632530212, 0.8267117738723755]]
+A favourite in Asian cookery, what fragrant herb's Latin name is Cymbopogon citratus?
+19969 was the Chinese year of which creature?
+[[0.7057850360870361, 0.29421496391296387]]
+Which British politician was dubbed ‘Big Beast’ by the press, and was also known for his fondness for Hush Puppies’?
+1990s
+[[0.19436781108379364, 0.8056321740150452]]
+Which clouds only occur above 10,000 meters?
+10,000 meters
+[[0.22815649211406708, 0.7718434929847717]]
+What does a speliologist study?
+19th century literature
+[[0.16559311747550964, 0.8344069123268127]]
+"What celebrity is known as ""The Bieb""?"
+Justin Bieber
+[[0.9726234674453735, 0.027376487851142883]]
+18th Century artist Samuel Hieronymous Grimm was born in which European country?
+18th Century artist Samuel Hieronymous Grimm was born in which European country?
+[[0.531209409236908, 0.4687906503677368]]
+The port city of Latakia was besieged during 2011 by its own government forces, of what nation?
+Syria
+[[0.937210738658905, 0.0627892017364502]]
+Who succeeded Brendan Barber as the T.U.C's General Secretary on January 1st 2013?
+Frances O'Grady
+[[0.7341195344924927, 0.2658804655075073]]
+What nickname was given to the New York Yankees baseball team of the late 1920s, in particular to the first six hitters in the 1927 team lineup?
+Murderers' Row
+[[0.9381240010261536, 0.06187598779797554]]
+Who sings the signature tune to Dad's Army
+1940s
+[[0.14706452190876007, 0.8529354929924011]]
+In 1985, the remaining members of which pop band changed their name to Starship?
+1985, the remaining members of which pop band changed their name to Starship?
+[[0.815232515335083, 0.18476751446723938]]
+On which island is Brunei situated?
+Borneo
+[[0.9500414729118347, 0.049958523362874985]]
+In the play 'King Lear, what is the name of the youngest daughter of the king?
+Cordelia
+[[0.8469578623771667, 0.15304215252399445]]
+Who won the Princess Cup in 1997 with Monica Seles?
+1997
+[[0.25683197379112244, 0.7431679368019104]]
+In which Italian city was Christopher Columbus born?
+1451
+[[0.21337716281414032, 0.7866228222846985]]
+Prince Escalus, the Prince of Verona appears in which Shakespeare play?
+10th
+[[0.7025300860404968, 0.29746994376182556]]
+Who was the first presenter of the TV game show You Bet
+1950s
+[[0.13117322325706482, 0.8688268065452576]]
+What type of person is a southpaw?
+1. Left-handed
+[[0.6297746300697327, 0.3702253997325897]]
+In which city did Oscar Wilde die?
+1900
+[[0.11596071720123291, 0.8840392827987671]]
+The islands of La Gomera and Tabarca belong to which European country?
+Spain
+[[0.9319595694541931, 0.06804042309522629]]
+What name was given to a series of violent events on 21 May 1979 in San Francisco, USA, sparked by the lenient sentencing (for voluntary manslaughter, the lightest possible) of Dan White for the assassinations of Mayor George Moscone and City Supervisor Harvey Milk, which led to changes in the city's official attitude to gays?
+1979 White Night Riots
+[[0.8407825827598572, 0.15921740233898163]]
+"Who had a hit with the song ""The Rainbow Connection""?"
+Kermit the Frog
+[[0.8872045874595642, 0.11279541254043579]]
+"Who provided the voice of ""Charlie"" for Charlie's Angels in the original TV series and the films made in 2000 and 2003?"
+John Forsythe
+[[0.896975576877594, 0.1030244305729866]]
+Which English rugby union team play their home games at Vicarage Road?
+19969 was the Chinese year of which creature?
+[[0.7772998809814453, 0.22270014882087708]]
+In which 2002 film did Richard Gere play the part of Billy Flynn?
+Chicago
+[[0.9219217896461487, 0.07807816565036774]]
+Olav Bjortmont became 2015 world champion in?
+100m sprint
+[[0.2254166156053543, 0.7745833992958069]]
+Apart from York which is North Yorkshire's only other city?
+19969 was the Chinese year of which creature?
+[[0.6791787147521973, 0.3208213150501251]]
+Obelix and Dogmatix are companions of which eponymous Frenco-Belgian comic book character?
+1990s
+[[0.18476751446723938, 0.815232515335083]]
+Which British Royal Naval officer was known as the ‘Hero of the Nile’?
+1st Viscount Nelson
+[[0.3191213607788086, 0.6808785796165466]]
+"Which British poet who died in 1850 created works such as ""An Evening Walk"" in 1793, ""Upon Westminster Bridge"" in 1802 and ""The Waggoner"" in 1818 ?"
+1. William Wordsworth
+[[0.7606506943702698, 0.2393493503332138]]
+The Gulfs of Tonkin and Thailand both lead to which body of water?
+1964 Gulf of Tonkin Resolution
+[[0.45132654905319214, 0.5486735105514526]]
+What was singing legend Frank Sinatra's middle name?
+1920s
+[[0.08819004893302917, 0.9118099808692932]]
+From 1922-1933, with which School of Art was Wassily Kandinsky particularly associated?
+25
+[[0.17781086266040802, 0.8221890926361084]]
+"In the film ""Calamity Jane"" staffing Doris Day, who was the owner of the Golden Garter saloon, mentioned in the song, ""The Deadwood Stage""?"
+1953
+[[0.09401018172502518, 0.9059898257255554]]
+Zen is which country’s form of Buddhism?
+Japan
+[[0.929951012134552, 0.07004895806312561]]
+What is the name of Cristiano Ronaldo's designer label and boutique?
+4CR
+[[0.5292633771896362, 0.4707365930080414]]
+What colour triangle is on the logo of the Bass brewery?
+1990s
+[[0.18359361588954926, 0.8164063692092896]]
+Swiss physician and psychologist Carl Jung was initially a disciple of whom, until he disagreed with his theories regarding the Libido etc?
+1920s
+[[0.06097518280148506, 0.939024806022644]]
+Steven Isserlis and Julian Lloyd Webber are leading British classical musicians, which instrument do they both play?
+1: Cello 2: Cello
+[[0.9685006141662598, 0.031499382108449936]]
+Benjamin Disraeli became the first Earl of . . . where?
+1876
+[[0.20689405500888824, 0.793105959892273]]
+In the Hindu and Jain religions, what is a mandir?
+1. A temple
+[[0.596433162689209, 0.4035668671131134]]
+Originally titled Your Radio Playhouse, what long running PBS radio series is hosted by Ira Glass?
+360
+[[0.05834583938121796, 0.9416541457176208]]
+Who is the wife of cartoon character Hagar the Horrible?
+Helga
+[[0.8940516710281372, 0.10594828426837921]]
+"Which artist painted the picture, ""Bubbles"", which was used in an advertisement for Pears Soap?"
+1. John Singer Sargent
+[[0.33111974596977234, 0.66888028383255]]
+How is the Chief Gentleman Usher to the Sovereign and Usher to the Order of the Garter more commonly known?
+1st Earl of Granard
+[[0.18713268637657166, 0.8128673434257507]]
+Which Irish born British admiral and hydrographer created a standard scale in 1805 by which naval officers could report wind speed?
+12
+[[0.2146914005279541, 0.7853085398674011]]
+Which word completes the tile of a Kerry Greenwood novel about a visit to Sydney to watch cricket by her detective character Phryne Fisher – Death before ________?
+1920s
+[[0.2436424344778061, 0.7563575506210327]]
+What type of creature is a horned toad?
+iguana
+[[0.2798284888267517, 0.7201715111732483]]
+Which is the lightest element?
+1
+[[0.25683197379112244, 0.7431679368019104]]
+"Who are most likey to perform a ""pas de deux""?"
+1. Ballet dancers
+[[0.5774953365325928, 0.42250463366508484]]
+Professional sidekick Dick Grayson is better known as who?
+1990s
+[[0.2782568037509918, 0.7217432260513306]]
+What is the third word of the motto adopted by France in 1946?
+1946
+[[0.038178276270627975, 0.9618217349052429]]
+US President Bush sent 2,000 troops into which country to conduct regular military exercises and, after a US serviceman was shot by local forces in December 1989, ordered an additional 24,000 troops in to take control?
+1989
+[[0.22953520715236664, 0.7704647779464722]]
+Who won a record six motorcycle speedway World Championships in 1968, 1969, 1970, 1972, 1977 and 1979?
+0lle Nilsson
+[[0.6095241904258728, 0.3904758393764496]]
+Which German-born political scientist and winner of the Nobel Peace Prize served as National Security Advisor and later concurrently as Secretary of State in the Richard Nixon administration?
+Henry Kissinger
+[[0.9263036847114563, 0.07369626313447952]]
+What is Gaius Octavius better known as?
+1st Emperor of Rome
+[[0.5, 0.5]]
+What does MIX in Roman numerals mean?
+1000
+[[0.5428633093833923, 0.45713672041893005]]
+What primarily causes an ice-skate to melt ice, creating lubricated contact helpful for skating?
+1. Friction
+[[0.1540575623512268, 0.8459424376487732]]
+Which spaceman was the first to orbit the Earth?
+1961
+[[0.28140559792518616, 0.7185943722724915]]
+Which English racehorse and Irish Grand National Winner was known as ‘Dessie’?
+1981 Grand National winner Corbiere
+[[0.8198933005332947, 0.18010665476322174]]
+Y Gogarth (or Pen Y Gogarth) is the welsh name for which prominent geographic feature in North Wales ?
+1. Snowdon
+[[0.14223188161849976, 0.8577680587768555]]
+What was the name of the school in the TV sitcom 'Please Sir'?
+1960s
+[[0.08756384253501892, 0.9124361872673035]]
+Which late 17th and early 18th century British architect designed Brighton Pavilion, Marble Arch, and the plan for London's Regents Park?
+18th century British architect designed Brighton Pavilion, Marble Arch, and the plan for London's Regents Park?
+[[0.8080672025680542, 0.1919327825307846]]
+What is the all time bestselling car in the world?
+1970s Ford Escort
+[[0.1710612028837204, 0.8289388418197632]]
+'Metis', 'Callisto', and 'Sinope' are three of the satellites of which planet?
+Jupiter
+[[0.9399133324623108, 0.06008664891123772]]
+The 'Adi Granth Sahib' is a sacred text of which religion?
+5th Sikh
+[[0.6460136771202087, 0.35398629307746887]]
+In botany, the calyx form which part of a plant?
+1. Flower
+[[0.28776779770851135, 0.7122321724891663]]
+The ancient Aztecs called it the testicle tree. What do we know it as?
+100-year-old tree
+[[0.04742587357759476, 0.9525741338729858]]
+What is the capital city of the Norse Gods?
+Asgard
+[[0.8344069123268127, 0.16559311747550964]]
+A duathlon consists of two sports -name one.
+1. Running 2. Cycling
+[[0.6893056035041809, 0.3106943964958191]]
+Black Dog and Blind Pew are characters in which novel?
+20,000 Leagues Under The Sea
+[[0.011597362346947193, 0.9884026646614075]]
+Leighton Buzzard and Biggleswade are towns in which English county?
+Bedfordshire
+[[0.9304582476615906, 0.06954174488782883]]
+L. Ron Hubbard is known as the founder of what movement?
+Scientology
+[[0.9629528522491455, 0.03704717010259628]]
+"""Monticello"" was the mansion owned by which US president?"
+3rd
+[[0.3023911118507385, 0.6976089477539062]]
+In World War ll, what type of planes were used by the Dambusters?
+617 Squadron
+[[0.29746994376182556, 0.7025300860404968]]
+Which English composer wrote the music 'Crown Imperial' for the coronation of George VI?
+1937
+[[0.894789457321167, 0.10521053522825241]]
+March 31, 1909 saw construction begin on what "moderately famous" ship, completed exactly 3 years to the day later, which means she spent exactly 1091 more days being built than she did sailing?
+1909: The Titanic
+[[0.8267117738723755, 0.17328819632530212]]
+The 'Congo' river is now known as what?
+2nd Congo River
+[[0.26133090257644653, 0.7386690378189087]]
+Boston lies in which state of the USA?
+Massachusetts
+[[0.9252300262451172, 0.07477004826068878]]
+In the Bible who as the 11th son of Jacob?
+11th son of Jacob
+[[0.5058591365814209, 0.4941409230232239]]
+Who is the lead singer of the Rolling Stones?
+Mick Jagger
+[[0.9763104915618896, 0.023689471185207367]]
+With which English band did Graham Nash make his name, before going on to greater success with Crosby, Stills and Nash?
+1960s
+[[0.1561049073934555, 0.8438951373100281]]
+Who was president of Malawi from 1966 to 1994?
+1st President Hastings Kamuzu Banda
+[[0.7676898241043091, 0.23231014609336853]]
+What is the most malleable metal?
+1. Gold
+[[0.6706082820892334, 0.3293917179107666]]
+Anchor, Honeycomb, Satin and Faggot are all what?
+1970s Cadillac models
+[[0.6808785796165466, 0.3191213607788086]]
+What did the Beckhams call their second child
+2002
+[[0.033589500933885574, 0.9664104580879211]]
+Mescaline comes from what plant?
+1000-year-old cactus
+[[0.3415825068950653, 0.6584175229072571]]
+Carried out on May 2nd 2011, what was the objective of Operation Neptune Spear?
+1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+[[0.24725967645645142, 0.7527403235435486]]
+3rd
+
+[[0.562176525592804, 0.4378235340118408]]
+1922
+
+[[0.3438923954963684, 0.6561076641082764]]
+12 swine
+
+[[0.28736767172813416, 0.7126322984695435]]
+1
+
+[[0.38769033551216125, 0.6123096346855164]]
+1986's Top Gun
+
+[[0.3073580265045166, 0.6926419734954834]]
+3Com
+
+[[0.4863315522670746, 0.5136684775352478]]
+18 Again
+
+[[0.4330221712589264, 0.5669777989387512]]
+Rhode Island
+
+[[0.2285006046295166, 0.7714993357658386]]
+100% pure water
+
+[[0.5736784338951111, 0.4263215959072113]]
+4
+
+[[0.31257981061935425, 0.6874201893806458]]
+Caen
+
+[[0.38029852509498596, 0.6197014451026917]]
+1983-1993
+
+[[0.3993430435657501, 0.6006569266319275]]
+1st Roman soldier
+
+[[0.21535073220729828, 0.7846492528915405]]
+New Zealand
+
+[[0.41655927896499634, 0.5834407210350037]]
+30
+
+[[0.3388424217700958, 0.6611575484275818]]
+1950s
+
+[[0.43494126200675964, 0.5650587677955627]]
+Adonis
+
+[[0.39140594005584717, 0.6085940599441528]]
+0mdurman
+
+[[0.3357863128185272, 0.6642136573791504]]
+The Luvvers
+
+[[0.2267836481332779, 0.7732163667678833]]
+Caveat Emptor
+
+[[0.6370307803153992, 0.36296921968460083]]
+Beijing
+
+[[0.4339814782142639, 0.5660185217857361]]
+1862
+
+[[0.3661929965019226, 0.6338070034980774]]
+10-pin bowling
+
+[[0.5389832258224487, 0.46101677417755127]]
+19969 was the Chinese year of which creature?
+
+[[0.39606812596321106, 0.6039317846298218]]
+1990s
+
+[[0.45956116914749146, 0.5404388308525085]]
+Artemis
+
+[[0.36251771450042725, 0.6374822854995728]]
+19th century
+
+[[0.48535576462745667, 0.5146442651748657]]
+1. Casein
+
+[[0.3380770981311798, 0.6619228720664978]]
+McDonalds
+
+[[0.40922078490257263, 0.590779185295105]]
+1975
+
+[[0.4239349663257599, 0.5760650634765625]]
+Mexico
+
+[[0.3812195658683777, 0.6187804341316223]]
+Australia
+
+[[0.5146442651748657, 0.48535576462745667]]
+0asis
+
+[[0.5126925706863403, 0.4873073995113373]]
+1. Charon
+
+[[0.21601153910160065, 0.7839884757995605]]
+1. Marble
+
+[[0.28298813104629517, 0.7170118689537048]]
+Nosebleed
+
+[[0.5525397062301636, 0.4474602937698364]]
+Angelenos
+
+[[0.2812081575393677, 0.7187917828559875]]
+Purple
+
+[[0.41584742069244385, 0.5841525793075562]]
+10th century Viking Rollo
+
+[[0.3530935049057007, 0.6469064354896545]]
+50 Cent
+
+[[0.4344612956047058, 0.5655387043952942]]
+12 Downing Street
+
+[[0.41869691014289856, 0.581303060054779]]
+1990s
+
+[[0.45956116914749146, 0.5404388308525085]]
+Forint
+
+[[0.3090237081050873, 0.6909762620925903]]
+19th Dynasty Pharaohs
+
+[[0.3442229628562927, 0.6557770371437073]]
+Berkshire
+
+[[0.36840569972991943, 0.6315943002700806]]
+Schubert
+
+[[0.26473838090896606, 0.7352616190910339]]
+Pittsburgh Steelers
+
+[[0.19969789683818817, 0.8003020882606506]]
+16-year-old Queen Victoria
+
+[[0.3692724406719208, 0.6307275891304016]]
+1958
+
+[[0.40591961145401, 0.5940803289413452]]
+Tito Vilanova
+
+[[0.21830202639102936, 0.7816979885101318]]
+2nd Hammersmith Bridge
+
+[[0.25256839394569397, 0.7474316954612732]]
+1. Giraffe
+
+[[0.31742626428604126, 0.6825737357139587]]
+Nightingale
+
+[[0.4436004161834717, 0.5563995838165283]]
+49
+
+[[0.45834869146347046, 0.5416513085365295]]
+1996
+
+[[0.39981159567832947, 0.6001883149147034]]
+Israel
+
+[[0.3293917179107666, 0.6706082820892334]]
+50s country
+
+[[0.4576214551925659, 0.5423785448074341]]
+1982
+
+[[0.38722679018974304, 0.6127732396125793]]
+Pakistan
+
+[[0.3127896785736084, 0.6872103214263916]]
+1 vs 100
+
+[[0.35086607933044434, 0.6491339206695557]]
+Ang Lee
+
+[[0.2285006046295166, 0.7714993357658386]]
+3 stars
+
+[[0.40450742840766907, 0.5954925417900085]]
+1. Padma 2. Brahmaputra 3. Meghna
+
+[[0.3208213150501251, 0.6791787147521973]]
+1291-1294 by Edward I in memory of his wife Eleanor of Castille?
+
+[[0.2557152211666107, 0.7442848086357117]]
+19969
+
+[[0.5495197772979736, 0.45048028230667114]]
+20 Questions
+
+[[0.37410444021224976, 0.6258955597877502]]
+1st
+
+[[0.333720326423645, 0.666279673576355]]
+Clive Swift
+
+[[0.30985841155052185, 0.6901415586471558]]
+1809
+
+[[0.5030517578125, 0.49694833159446716]]
+18th
+
+[[0.511228621006012, 0.4887714385986328]]
+1947
+
+[[0.34308719635009766, 0.6569128036499023]]
+Carbon monoxide
+
+[[0.3849121630191803, 0.6150878667831421]]
+Donna Summer
+
+[[0.3027645945549011, 0.6972354054450989]]
+10
+
+[[0.37227699160575867, 0.6277230381965637]]
+Germany
+
+[[0.4130035936832428, 0.5869964361190796]]
+1980s
+
+[[0.4455295503139496, 0.5544704794883728]]
+1975's Jaws
+
+[[0.3849121630191803, 0.6150878667831421]]
+Tennessee Williams
+
+[[0.36931511759757996, 0.6306849718093872]]
+1. Delphi 2. Delos 3. Delmar
+
+[[0.4130035936832428, 0.5869964361190796]]
+Denmark
+
+[[0.37937837839126587, 0.6206216216087341]]
+3
+
+[[0.3974705636501312, 0.6025294065475464]]
+Massachusetts
+
+[[0.3638729155063629, 0.6361271142959595]]
+Lapis Lazuli
+
+[[0.3102762699127197, 0.689723789691925]]
+South Carolina
+
+[[0.36296921968460083, 0.6370307803153992]]
+24-hour curfew
+
+[[0.5851011276245117, 0.4148988425731659]]
+1890s
+
+[[0.3607141971588135, 0.6392857432365417]]
+Chicken
+
+[[0.41111084818840027, 0.5888891220092773]]
+1960s puppets
+
+[[0.38398775458335876, 0.6160122752189636]]
+1982: Prince Charles
+
+[[0.38029852509498596, 0.6197014451026917]]
+1. Alaska 2. Kazakhstan
+
+[[0.3199707269668579, 0.6800292134284973]]
+Haile Selassie
+
+[[0.38769033551216125, 0.6123096346855164]]
+109
+
+[[0.5642185211181641, 0.43578144907951355]]
+12th Night
+
+[[0.5350984334945679, 0.46490156650543213]]
+Matthias
+
+[[0.4016878008842468, 0.5983121991157532]]
+Bass Strait
+
+[[0.2557152211666107, 0.7442848086357117]]
+4
+
+[[0.31257981061935425, 0.6874201893806458]]
+Australia
+
+[[0.5146442651748657, 0.48535576462745667]]
+1975
+
+[[0.4239349663257599, 0.5760650634765625]]
+1980s
+
+[[0.4455295503139496, 0.5544704794883728]]
+Cuba
+
+[[0.4234580099582672, 0.5765419602394104]]
+Bangkok
+
+[[0.39466747641563416, 0.6053325533866882]]
+1950s
+
+[[0.43494126200675964, 0.5650587677955627]]
+30s
+
+[[0.3726193308830261, 0.6273806691169739]]
+18 Yellow Roses
+
+[[0.3199707269668579, 0.6800292134284973]]
+Jack the Ripper
+
+[[0.23917162418365479, 0.76082843542099]]
+1. Tamar 2. Taw 3. Tavy
+
+[[0.2120688110589981, 0.7879312038421631]]
+3
+
+[[0.3974705636501312, 0.6025294065475464]]
+Tunisia
+
+[[0.26626184582710266, 0.733738124370575]]
+1st
+
+[[0.333720326423645, 0.666279673576355]]
+1810
+
+[[0.42847251892089844, 0.5715274810791016]]
+1960
+
+[[0.45132654905319214, 0.5486735105514526]]
+2011
+
+[[0.3749050796031952, 0.6250948309898376]]
+14th-century churchman John Wycliffe
+
+[[0.35398629307746887, 0.6460136771202087]]
+1934
+
+[[0.40721553564071655, 0.5927844643592834]]
+Australia
+
+[[0.5146442651748657, 0.48535576462745667]]
+1847
+
+[[0.4196479320526123, 0.5803520083427429]]
+19969 was the Chinese year of which creature?
+
+[[0.39606812596321106, 0.6039317846298218]]
+50 Cent
+
+[[0.4344612956047058, 0.5655387043952942]]
+Apple
+
+[[0.38769033551216125, 0.6123096346855164]]
+1996 Kentucky Derby
+
+[[0.47268345952033997, 0.5273165106773376]]
+1996
+
+[[0.39981159567832947, 0.6001883149147034]]
+2nd World War
+
+[[0.4941409230232239, 0.5058591365814209]]
+1. Aluminium
+
+[[0.3647775650024414, 0.6352224349975586]]
+3-2-1
+
+[[0.34048521518707275, 0.659514844417572]]
+1980s
+
+[[0.4455295503139496, 0.5544704794883728]]
+Interest
+
+[[0.5253688097000122, 0.4746311902999878]]
+1990s
+
+[[0.45956116914749146, 0.5404388308525085]]
+19th century
+
+[[0.48535576462745667, 0.5146442651748657]]
+1997
+
+[[0.4489094018936157, 0.5510905981063843]]
+1955's To Catch A Thief
+
+[[0.5900707244873047, 0.4099292457103729]]
+1936 Tasmania
+
+[[0.2245333045721054, 0.7754666805267334]]
+Anita Roddick
+
+[[0.348201721906662, 0.6517983078956604]]
+Rod Steiger
+
+[[0.26664361357688904, 0.7333563566207886]]
+1000
+
+[[0.5939626097679138, 0.40603742003440857]]
+3
+
+[[0.3974705636501312, 0.6025294065475464]]
+1985
+
+[[0.5107405185699463, 0.48925942182540894]]
+19969 was the Chinese year of which creature?
+
+[[0.39606812596321106, 0.6039317846298218]]
+12-string violin
+
+[[0.28219619393348694, 0.7178038358688354]]
+1. Ray
+
+[[0.32766830921173096, 0.672331690788269]]
+100
+
+[[0.5550734996795654, 0.44492653012275696]]
+1001 Nights
+
+[[0.41324031352996826, 0.586759626865387]]
+1. Liffey
+
+[[0.3593641519546509, 0.6406359076499939]]
+621m
+
+[[0.5165954232215881, 0.4834045171737671]]
+1 Corinthian
+
+[[0.3242354094982147, 0.6757646203041077]]
+3
+
+[[0.3974705636501312, 0.6025294065475464]]
+Stevie Wonder
+
+[[0.31827324628829956, 0.6817268133163452]]
+Linda Blair
+
+[[0.3253061771392822, 0.6746938228607178]]
+1-2
+
+[[0.43614163994789124, 0.5638583302497864]]
+1957
+
+[[0.4407099485397339, 0.5592900514602661]]
+1820 Cato Street Conspiracy
+
+[[0.4455295503139496, 0.5544704794883728]]
+10
+
+[[0.37227699160575867, 0.6277230381965637]]
+1st Augustus
+
+[[0.3702253997325897, 0.6297746300697327]]
+1913-1921 Woodrow Wilson
+
+[[0.5457699298858643, 0.45423004031181335]]
+1970s
+
+[[0.40262696146965027, 0.5973730087280273]]
+Martin Luther King
+
+[[0.43494126200675964, 0.5650587677955627]]
+1. Blank slate
+
+[[0.36116471886634827, 0.6388352513313293]]
+1984
+
+[[0.5273165106773376, 0.47268345952033997]]
+19969 was the Chinese year of which creature?
+
+[[0.39606812596321106, 0.6039317846298218]]
+1931
+
+[[0.37159258127212524, 0.6284074187278748]]
+1970s
+
+[[0.40262696146965027, 0.5973730087280273]]
+Pangaea
+
+[[0.4368622899055481, 0.5631377696990967]]
+2
+
+[[0.38676345348358154, 0.6132365465164185]]
+1920s
+
+[[0.3470943570137024, 0.6529056429862976]]
+1st Franklin D Roosevelt
+
+[[0.23581157624721527, 0.7641884088516235]]
+9
+
+[[0.40591961145401, 0.5940803289413452]]
+1995
+
+[[0.45859116315841675, 0.5414088368415833]]
+101st Airborne Division
+
+[[0.24617072939872742, 0.753829300403595]]
+1996
+
+[[0.39981159567832947, 0.6001883149147034]]
+Pink Floyd
+
+[[0.5058591365814209, 0.4941409230232239]]
+10 shilling note
+
+[[0.3923368752002716, 0.6076632142066956]]
+2. Germany
+
+[[0.4902355968952179, 0.5097643733024597]]
+Atlantis
+
+[[0.2447238564491272, 0.7552762031555176]]
+Eye
+
+[[0.3904758393764496, 0.6095241904258728]]
+Turkey
+
+[[0.3073580265045166, 0.6926419734954834]]
+10
+
+[[0.37227699160575867, 0.6277230381965637]]
+19969 was the Chinese year of which creature?
+
+[[0.39606812596321106, 0.6039317846298218]]
+19969 was the Chinese year of which creature?
+
+[[0.39606812596321106, 0.6039317846298218]]
+1000 pounds of food
+
+[[0.5597714185714722, 0.4402286112308502]]
+1945
+
+[[0.42202815413475037, 0.5779718160629272]]
+6 Flags
+
+[[0.2512800693511963, 0.7487199306488037]]
+1970s
+
+[[0.40262696146965027, 0.5973730087280273]]
+11 Dover Street
+
+[[0.333720326423645, 0.666279673576355]]
+Salesman
+
+[[0.43206337094306946, 0.5679365992546082]]
+Queensland
+
+[[0.42838284373283386, 0.5716171264648438]]
+1920s
+
+[[0.3470943570137024, 0.6529056429862976]]
+1990s
+
+[[0.45956116914749146, 0.5404388308525085]]
+Dolly Parton
+
+[[0.24382245540618896, 0.756177544593811]]
+Dionysus
+
+[[0.4834045171737671, 0.5165954232215881]]
+1990s cars
+
+[[0.3720487952232361, 0.6279512047767639]]
+1. Bouquet
+
+[[0.325949490070343, 0.6740504503250122]]
+1990s
+
+[[0.45956116914749146, 0.5404388308525085]]
+1. Hebe
+
+[[0.2658804655075073, 0.7341195344924927]]
+1976
+
+[[0.3711366355419159, 0.6288633942604065]]
+1. Nicaragua
+
+[[0.26817408204078674, 0.7318258881568909]]
+3798m Grossglockner
+
+[[0.3015677034854889, 0.6984323263168335]]
+Mia Farrow
+
+[[0.3155250549316406, 0.6844750046730042]]
+1980 Winter Olympics
+
+[[0.1937568634748459, 0.8062431216239929]]
+10 Downing Street
+
+[[0.5019530653953552, 0.4980468451976776]]
+10: Wyoming
+
+[[0.2620856761932373, 0.7379143238067627]]
+4 Quartets
+
+[[0.2849738299846649, 0.7150261998176575]]
+16th century Spain
+
+[[0.3775406777858734, 0.622459352016449]]
+2014 Honda
+
+[[0.37845906615257263, 0.621540904045105]]
+Novak Djokovic
+
+[[0.25256839394569397, 0.7474316954612732]]
+Hawaii
+
+[[0.4330221712589264, 0.5669777989387512]]
+1990s
+
+[[0.45956116914749146, 0.5404388308525085]]
+1991
+
+[[0.4522939920425415, 0.5477060079574585]]
+Dubh Linn
+
+[[0.3638729155063629, 0.6361271142959595]]
+10
+
+[[0.37227699160575867, 0.6277230381965637]]
+60s
+
+[[0.4436004161834717, 0.5563995838165283]]
+The Smiths
+
+[[0.33690351247787476, 0.6630964875221252]]
+13-starred flag
+
+[[0.3136299252510071, 0.6863700151443481]]
+Psy
+
+[[0.4484262764453888, 0.5515737533569336]]
+1960s
+
+[[0.4464946985244751, 0.5535053014755249]]
+8th
+
+[[0.4941409230232239, 0.5058591365814209]]
+99 Red Balloons
+
+[[0.5380124449729919, 0.46198755502700806]]
+Patrick Duffy
+
+[[0.24409261345863342, 0.7559073567390442]]
+1000 Years of Christendom
+
+[[0.5039061903953552, 0.49609383940696716]]
+2000
+
+[[0.5727227926254272, 0.42727723717689514]]
+Hiroshima
+
+[[0.45810624957084656, 0.541893720626831]]
+Silvio Berlusconi
+
+[[0.29229220747947693, 0.7077078223228455]]
+20th Century Fox
+
+[[0.30280327796936035, 0.6971967816352844]]
+19th June
+
+[[0.4049779772758484, 0.5950219631195068]]
+1. Waterloo 2. Victoria 3. Paddington 4. St Pancras
+
+[[0.23713400959968567, 0.7628660202026367]]
+Australia
+
+[[0.5146442651748657, 0.48535576462745667]]
+1990s
+
+[[0.45956116914749146, 0.5404388308525085]]
+Sweden
+
+[[0.35488009452819824, 0.6451199054718018]]
+1990s
+
+[[0.45956116914749146, 0.5404388308525085]]
+Jupiter
+
+[[0.3988746702671051, 0.6011253595352173]]
+Stork
+
+[[0.4746311902999878, 0.5253688097000122]]
+1
+
+[[0.38769033551216125, 0.6123096346855164]]
+19969 was the Chinese year of which creature?
+
+[[0.39606812596321106, 0.6039317846298218]]
+30s
+
+[[0.3726193308830261, 0.6273806691169739]]
+1st Lord Callaghan
+
+[[0.1718936562538147, 0.8281063437461853]]
+1. Fabian 2. Gideon 3. Abraxas
+
+[[0.20497773587703705, 0.7950222492218018]]
+17th century King Charles II
+
+[[0.41205689311027527, 0.5879431366920471]]
+19969 was the Chinese year of which creature?
+
+[[0.39606812596321106, 0.6039317846298218]]
+1879
+
+[[0.34654128551483154, 0.6534587144851685]]
+7 of clubs
+
+[[0.4639299511909485, 0.5360700488090515]]
+1970s
+
+[[0.40262696146965027, 0.5973730087280273]]
+1st William
+
+[[0.2759094536304474, 0.724090576171875]]
+90th parallel
+
+[[0.44167301058769226, 0.5583270192146301]]
+Hobart
+
+[[0.2608599066734314, 0.7391400933265686]]
+1960s
+
+[[0.4464946985244751, 0.5535053014755249]]
+1960
+
+[[0.45132654905319214, 0.5486735105514526]]
+Flax
+
+[[0.46101677417755127, 0.5389832258224487]]
+2nd Lieutenant
+
+[[0.3904758393764496, 0.6095241904258728]]
+Cherries
+
+[[0.45035937428474426, 0.5496405959129333]]
+Baltic Sea
+
+[[0.4653874337673187, 0.5346124768257141]]
+1909 Louis Bleriot
+
+[[0.36931511759757996, 0.6306849718093872]]
+Bull
+
+[[0.3757064640522003, 0.6242935657501221]]
+1st
+
+[[0.333720326423645, 0.666279673576355]]
+17-beta-estradiol
+
+[[0.4436004161834717, 0.5563995838165283]]
+1st Trans-Siberian Railway
+
+[[0.25296029448509216, 0.7470396757125854]]
+Johann Strauss
+
+[[0.3354596793651581, 0.6645402908325195]]
+19969 was the Chinese year of which creature?
+
+[[0.39606812596321106, 0.6039317846298218]]
+1. Heart
+
+[[0.2628418505191803, 0.7371581792831421]]
+007 From Russia With Love
+
+[[0.3656831681728363, 0.6343168616294861]]
+2nd woman to head MI5 from 2002 until 2007
+
+[[0.08093671500682831, 0.9190633296966553]]
+1795
+
+[[0.46490156650543213, 0.5350984334945679]]
+18th
+
+[[0.511228621006012, 0.4887714385986328]]
+1st Lady
+
+[[0.16451646387577057, 0.8354835510253906]]
+Botany Bay
+
+[[0.2914848029613495, 0.7085151672363281]]
+1950s
+
+[[0.43494126200675964, 0.5650587677955627]]
+1990s
+
+[[0.45956116914749146, 0.5404388308525085]]
+13th century John
+
+[[0.3257350027561188, 0.6742650270462036]]
+1st Henry IV
+
+[[0.3720487952232361, 0.6279512047767639]]
+Miller
+
+[[0.36206647753715515, 0.6379335522651672]]
+1133
+
+[[0.4806615114212036, 0.5193384885787964]]
+0-2-11
+
+[[0.3340460956096649, 0.6659538745880127]]
+1990s
+
+[[0.45956116914749146, 0.5404388308525085]]
+3rd
+
+[[0.562176525592804, 0.4378235340118408]]
+Bread
+
+[[0.4474602937698364, 0.5525397062301636]]
+Andrew
+
+[[0.38398775458335876, 0.6160122752189636]]
+18th
+
+[[0.511228621006012, 0.4887714385986328]]
+1980s
+
+[[0.4455295503139496, 0.5544704794883728]]
+1910 Fruitgum Company
+
+[[0.3123700022697449, 0.6876299977302551]]
+1st
+
+[[0.333720326423645, 0.666279673576355]]
+101 Dalmatians
+
+[[0.3473156988620758, 0.6526842713356018]]
+Natural
+
+[[0.5409238934516907, 0.4590761363506317]]
+77 Sunset Strip
+
+[[0.2885690927505493, 0.7114308476448059]]
+9
+
+[[0.40591961145401, 0.5940803289413452]]
+1. Iran
+
+[[0.3123700022697449, 0.6876299977302551]]
+0lympus Mons
+
+[[0.46004626154899597, 0.5399536490440369]]
+19th century
+
+[[0.48535576462745667, 0.5146442651748657]]
+1997
+
+[[0.4489094018936157, 0.5510905981063843]]
+Nautilus
+
+[[0.32766830921173096, 0.672331690788269]]
+1 Polaris
+
+[[0.2958398759365082, 0.7041601538658142]]
+1970
+
+[[0.37983837723731995, 0.6201616525650024]]
+400 Blows
+
+[[0.21933750808238983, 0.780662477016449]]
+9GAG
+
+[[0.3091279864311218, 0.6908720135688782]]
+1950s
+
+[[0.43494126200675964, 0.5650587677955627]]
+Georgia
+
+[[0.2630784213542938, 0.7369215488433838]]
+1967
+
+[[0.34334173798561096, 0.6566582322120667]]
+7-Eleven
+
+[[0.34953275322914124, 0.6504672765731812]]
+1981 Gang of Four
+
+[[0.20979328453540802, 0.7902066707611084]]
+1st James
+
+[[0.2560870945453644, 0.7439128756523132]]
+11th
+
+[[0.5015869140625, 0.4984130859375]]
+R
+
+[[0.5263427495956421, 0.47365719079971313]]
+orthesis
+
+[[0.3319854736328125, 0.6680145263671875]]
+1. Scafell Pike 2. Scafell 3. Helvellyn
+
+[[0.2751297354698181, 0.7248703241348267]]
+13a Millionaires Row
+
+[[0.3106943964958191, 0.6893056035041809]]
+1982's Mirage
+
+[[0.20275871455669403, 0.7972412705421448]]
+1967
+
+[[0.34334173798561096, 0.6566582322120667]]
+1000
+
+[[0.5939626097679138, 0.40603742003440857]]
+1962's Dr No
+
+[[0.38029852509498596, 0.6197014451026917]]
+1920s
+
+[[0.3470943570137024, 0.6529056429862976]]
+Hugh Bonneville
+
+[[0.3048688769340515, 0.6951311230659485]]
+1996
+
+[[0.39981159567832947, 0.6001883149147034]]
+1 Samson
+
+[[0.22000709176063538, 0.7799928784370422]]
+19th
+
+[[0.5539879202842712, 0.44601204991340637]]
+0liver Twist
+
+[[0.29088014364242554, 0.7091198563575745]]
+1975 One Flew Over The Cuckoo's Nest
+
+[[0.4493926465511322, 0.5506073832511902]]
+1st teeth
+
+[[0.30033499002456665, 0.6996649503707886]]
+50 Cent
+
+[[0.4344612956047058, 0.5655387043952942]]
+19th century
+
+[[0.48535576462745667, 0.5146442651748657]]
+Ham
+
+[[0.3757064640522003, 0.6242935657501221]]
+1969 to 1974
+
+[[0.47365719079971313, 0.5263427495956421]]
+27
+
+[[0.3674972355365753, 0.6325027346611023]]
+19969 was the Chinese year of which creature?
+
+[[0.39606812596321106, 0.6039317846298218]]
+Bolivia
+
+[[0.4130035936832428, 0.5869964361190796]]
+1988 Winter Olympics
+
+[[0.26020145416259766, 0.7397986054420471]]
+10cc
+
+[[0.36615049839019775, 0.6338495016098022]]
+1981's Red Dragon
+
+[[0.1661335527896881, 0.8338664174079895]]
+1. Nose
+
+[[0.30404168367385864, 0.6959583163261414]]
+Gretna Green
+
+[[0.2018132209777832, 0.7981867790222168]]
+19969 was the Chinese year of which creature?
+
+[[0.39606812596321106, 0.6039317846298218]]
+2008 Olympics, Mark Hunter won a gold medal in which sport?
+
+[[0.32380762696266174, 0.6761924028396606]]
+Beetroot
+
+[[0.42823341488838196, 0.5717666149139404]]
+Local
+
+[[0.5224458575248718, 0.47755417227745056]]
+24-hour ECG monitoring
+
+[[0.4455295503139496, 0.5544704794883728]]
+3D computer graphics
+
+[[0.4335017502307892, 0.5664982199668884]]
+3M
+
+[[0.4668456017971039, 0.5331544280052185]]
+1964 Aston Martin DB5
+
+[[0.24006123840808868, 0.7599387168884277]]
+Simple Minds
+
+[[0.333720326423645, 0.666279673576355]]
+3rd
+
+[[0.562176525592804, 0.4378235340118408]]
+19969 was the Chinese year of which creature?
+
+[[0.39606812596321106, 0.6039317846298218]]
+Solent
+
+[[0.25217679142951965, 0.747823178768158]]
+10 Downing Street
+
+[[0.5019530653953552, 0.4980468451976776]]
+7-Up
+
+[[0.4397473633289337, 0.5602526664733887]]
+Argentina
+
+[[0.3350244164466858, 0.6649755239486694]]
+1960s
+
+[[0.4464946985244751, 0.5535053014755249]]
+Christchurch
+
+[[0.27943506836891174, 0.7205649614334106]]
+1950s
+
+[[0.43494126200675964, 0.5650587677955627]]
+0uzo
+
+[[0.3812195658683777, 0.6187804341316223]]
+Bristol
+
+[[0.3315524458885193, 0.6684474945068359]]
+100
+
+[[0.5550734996795654, 0.44492653012275696]]
+2010
+
+[[0.5048826336860657, 0.49511730670928955]]
+19969 was the Chinese year of which creature?
+
+[[0.39606812596321106, 0.6039317846298218]]
+100
+
+[[0.5550734996795654, 0.44492653012275696]]
+1924-38
+
+[[0.3647775650024414, 0.6352224349975586]]
+Kevin Rudd
+
+[[0.39094078540802, 0.60905921459198]]
+1990s
+
+[[0.45956116914749146, 0.5404388308525085]]
+1950s
+
+[[0.43494126200675964, 0.5650587677955627]]
+100% aluminium
+
+[[0.3589146137237549, 0.6410853862762451]]
+3
+
+[[0.3974705636501312, 0.6025294065475464]]
+19969
+
+[[0.5495197772979736, 0.45048028230667114]]
+4
+
+[[0.31257981061935425, 0.6874201893806458]]
+Burkina Faso
+
+[[0.3363310396671295, 0.6636689305305481]]
+Dutch
+
+[[0.48925942182540894, 0.5107405185699463]]
+17th century
+
+[[0.4407099485397339, 0.5592900514602661]]
+1924
+
+[[0.4196479320526123, 0.5803520083427429]]
+1934
+
+[[0.40721553564071655, 0.5927844643592834]]
+Thor
+
+[[0.30383509397506714, 0.6961649656295776]]
+1. Odalisque
+
+[[0.23231014609336853, 0.7676898241043091]]
+10cc
+
+[[0.36615049839019775, 0.6338495016098022]]
+Emma
+
+[[0.3282063901424408, 0.6717936396598816]]
+1. Inquest
+
+[[0.4073334336280823, 0.5926666259765625]]
+1. Chancel
+
+[[0.21337716281414032, 0.7866228222846985]]
+Boston
+
+[[0.34775856137275696, 0.6522414088249207]]
+1. Baader 2. Meinhof
+
+[[0.2667391002178192, 0.7332608699798584]]
+Amsterdam
+
+[[0.35398629307746887, 0.6460136771202087]]
+Walmington-on-Sea
+
+[[0.23739908635616302, 0.762600839138031]]
+1. Clownfish 2. Tuna 3. Goldfish
+
+[[0.2885690927505493, 0.7114308476448059]]
+1st Peter 2:12
+
+[[0.6001883149147034, 0.39981159567832947]]
+Feargal Sharkey
+
+[[0.1343778520822525, 0.8656222224235535]]
+Chevrolet
+
+[[0.3942009508609772, 0.6057990193367004]]
+Basketball
+
+[[0.4843800961971283, 0.5156199336051941]]
+Mallorca
+
+[[0.18126322329044342, 0.8187368512153625]]
+Mali
+
+[[0.31742626428604126, 0.6825737357139587]]
+19969 was the Chinese year of which creature?
+
+[[0.39606812596321106, 0.6039317846298218]]
+2
+
+[[0.38676345348358154, 0.6132365465164185]]
+New Zealand
+
+[[0.41655927896499634, 0.5834407210350037]]
+1950s
+
+[[0.43494126200675964, 0.5650587677955627]]
+1914 Star
+
+[[0.4263215959072113, 0.5736784338951111]]
+1993
+
+[[0.4522939920425415, 0.5477060079574585]]
+Arthur Miller
+
+[[0.2859697937965393, 0.7140302062034607]]
+Anne Robinson
+
+[[0.3077739477157593, 0.692225992679596]]
+2006
+
+[[0.47755417227745056, 0.5224458575248718]]
+Singapore
+
+[[0.3890821635723114, 0.6109178066253662]]
+12
+
+[[0.3557748794555664, 0.6442250609397888]]
+21
+
+[[0.3640989661216736, 0.6359010338783264]]
+1990s
+
+[[0.45956116914749146, 0.5404388308525085]]
+8th
+
+[[0.4941409230232239, 0.5058591365814209]]
+38 Special
+
+[[0.30569732189178467, 0.6943026781082153]]
+18th century
+
+[[0.48535576462745667, 0.5146442651748657]]
+1938 Nobel Prize in Physics
+
+[[0.4814538359642029, 0.5185461640357971]]
+New Zealand
+
+[[0.41655927896499634, 0.5834407210350037]]
+3Com
+
+[[0.4863315522670746, 0.5136684775352478]]
+1990s
+
+[[0.45956116914749146, 0.5404388308525085]]
+1865
+
+[[0.3582548201084137, 0.6417451500892639]]
+1999
+
+[[0.541893720626831, 0.45810624957084656]]
+Dorset
+
+[[0.32167303562164307, 0.6783269643783569]]
+That's All Right
+
+[[0.3711366355419159, 0.6288633942604065]]
+19969
+
+[[0.5495197772979736, 0.45048028230667114]]
+John Deacon
+
+[[0.18476751446723938, 0.815232515335083]]
+Atlantic
+
+[[0.5350984334945679, 0.46490156650543213]]
+Virginia Woolf
+
+[[0.38954654335975647, 0.6104534864425659]]
+1000 Umbrellas
+
+[[0.2925952970981598, 0.7074047327041626]]
+3-2-1
+
+[[0.34048521518707275, 0.659514844417572]]
+1000 Islands
+
+[[0.21950477361679077, 0.7804952263832092]]
+1969 - Moon, 1971 - Mars
+
+[[0.34246155619621277, 0.6575384140014648]]
+1996
+
+[[0.39981159567832947, 0.6001883149147034]]
+1990s
+
+[[0.45956116914749146, 0.5404388308525085]]
+19th century Russia
+
+[[0.42441198229789734, 0.5755879878997803]]
+1970s
+
+[[0.40262696146965027, 0.5973730087280273]]
+2nd World War
+
+[[0.4941409230232239, 0.5058591365814209]]
+1. Kordofan
+
+[[0.19559408724308014, 0.804405927658081]]
+1770 Venice
+
+[[0.37937837839126587, 0.6206216216087341]]
+12th Night
+
+[[0.5350984334945679, 0.46490156650543213]]
+1984
+
+[[0.5273165106773376, 0.47268345952033997]]
+....itis
+
+[[0.21337716281414032, 0.7866228222846985]]
+1957
+
+[[0.4407099485397339, 0.5592900514602661]]
+Fabio Cannavaro
+
+[[0.15228420495986938, 0.8477157950401306]]
+1000 Day Old Cheddar
+
+[[0.33895182609558105, 0.6610482335090637]]
+Matt Damon
+
+[[0.25522762537002563, 0.7447723746299744]]
+19969
+
+[[0.5495197772979736, 0.45048028230667114]]
+10 Downing Street
+
+[[0.5019530653953552, 0.4980468451976776]]
+25
+
+[[0.34997692704200745, 0.6500231027603149]]
+Howard Hughes
+
+[[0.30923226475715637, 0.6907677054405212]]
+Elizabeth Barrett Browning
+
+[[0.31869715452194214, 0.6813028454780579]]
+1920s
+
+[[0.3470943570137024, 0.6529056429862976]]
+1000
+
+[[0.5939626097679138, 0.40603742003440857]]
+1 weber = 1 volt-second
+
+[[0.5214711427688599, 0.47852882742881775]]
+0boe
+
+[[0.41276681423187256, 0.5872331261634827]]
+123
+
+[[0.5668579339981079, 0.4331420660018921]]
+19969 was the Chinese year of which creature?
+
+[[0.39606812596321106, 0.6039317846298218]]
+1861-65
+
+[[0.37250521779060364, 0.6274948120117188]]
+1981
+
+[[0.34579533338546753, 0.6542047262191772]]
+Silvio Berlusconi
+
+[[0.29229220747947693, 0.7077078223228455]]
+2nd February
+
+[[0.2849738299846649, 0.7150261998176575]]
+2016
+
+[[0.42751622200012207, 0.5724837779998779]]
+1460s
+
+[[0.3541538119316101, 0.6458461880683899]]
+1881
+
+[[0.2483518421649933, 0.7516481280326843]]
+Cyprus
+
+[[0.37479066848754883, 0.6252092719078064]]
+3rd Mayor
+
+[[0.41869691014289856, 0.581303060054779]]
+19th
+
+[[0.5539879202842712, 0.44601204991340637]]
+Basketball
+
+[[0.4843800961971283, 0.5156199336051941]]
+1. The Attorney General
+
+[[0.27904197573661804, 0.7209580540657043]]
+Seaweed
+
+[[0.3757064640522003, 0.6242935657501221]]
+19th
+
+[[0.5539879202842712, 0.44601204991340637]]
+0edipus
+
+[[0.3378586173057556, 0.6621413826942444]]
+15 To One
+
+[[0.2624635696411133, 0.7375364303588867]]
+10 Rillington Place
+
+[[0.35667070746421814, 0.6433292627334595]]
+1970s
+
+[[0.40262696146965027, 0.5973730087280273]]
+19969 was the Chinese year of which creature?
+
+[[0.39606812596321106, 0.6039317846298218]]
+19969 was the Chinese year of which creature?
+
+[[0.39606812596321106, 0.6039317846298218]]
+Graham Greene
+
+[[0.29746994376182556, 0.7025300860404968]]
+Khartoum
+
+[[0.22944886982440948, 0.7705511450767517]]
+.... Baby One More Time
+
+[[0.5467381477355957, 0.4532618224620819]]
+30
+
+[[0.3388424217700958, 0.6611575484275818]]
+Peter Wyngarde
+
+[[0.3757064640522003, 0.6242935657501221]]
+0llie Hardy
+
+[[0.3638729155063629, 0.6361271142959595]]
+Malta
+
+[[0.30551600456237793, 0.6944839954376221]]
+3 Women
+
+[[0.38861799240112305, 0.6113819479942322]]
+4
+
+[[0.31257981061935425, 0.6874201893806458]]
+Perth
+
+[[0.3402658998966217, 0.6597340106964111]]
+50 Cent
+
+[[0.4344612956047058, 0.5655387043952942]]
+1750s Toothbrush
+
+[[0.33895182609558105, 0.6610482335090637]]
+SpongeBob SquarePants
+
+[[0.3583530783653259, 0.6416469812393188]]
+Argentina
+
+[[0.3350244164466858, 0.6649755239486694]]
+Lucille
+
+[[0.4263215959072113, 0.5736784338951111]]
+3M
+
+[[0.4668456017971039, 0.5331544280052185]]
+49ers
+
+[[0.30611202120780945, 0.6938879489898682]]
+1st class cricket
+
+[[0.4167966842651367, 0.5832033753395081]]
+18th
+
+[[0.511228621006012, 0.4887714385986328]]
+Tokyo
+
+[[0.3923368752002716, 0.6076632142066956]]
+China
+
+[[0.5068355202674866, 0.4931644797325134]]
+19969 was the Chinese year of which creature?
+
+[[0.39606812596321106, 0.6039317846298218]]
+1932-33
+
+[[0.36251771450042725, 0.6374822854995728]]
+1. Walk on a tightrope
+
+[[0.30321574211120605, 0.696784257888794]]
+10cc
+
+[[0.36615049839019775, 0.6338495016098022]]
+1. Campanile
+
+[[0.3208213150501251, 0.6791787147521973]]
+1950s
+
+[[0.43494126200675964, 0.5650587677955627]]
+50s
+
+[[0.3869951069355011, 0.6130049228668213]]
+1. Greenland 2. Mongolia 3. Australia
+
+[[0.2707693576812744, 0.7292305827140808]]
+007
+
+[[0.3883860409259796, 0.6116139888763428]]
+1967: The Piper At The Gates Of Dawn
+
+[[0.596433162689209, 0.4035668671131134]]
+1. Ariel 2. Oberon 3. Umbriel 4. Miranda
+
+[[0.1589561253786087, 0.8410438895225525]]
+100
+
+[[0.5550734996795654, 0.44492653012275696]]
+2. Tucson
+
+[[0.3849121630191803, 0.6150878667831421]]
+20,000 Leagues Under The Sea
+
+[[0.26511871814727783, 0.7348812818527222]]
+Papua New Guinea
+
+[[0.40922078490257263, 0.590779185295105]]
+1000 Islands
+
+[[0.21950477361679077, 0.7804952263832092]]
+Thomas Paine
+
+[[0.40922078490257263, 0.590779185295105]]
+1996: Princess Diana
+
+[[0.4658734202384949, 0.5341265201568604]]
+Pirbright
+
+[[0.2114168107509613, 0.7885831594467163]]
+Bristol
+
+[[0.3315524458885193, 0.6684474945068359]]
+Canada
+
+[[0.42823341488838196, 0.5717666149139404]]
+1728
+
+[[0.5583270192146301, 0.44167301058769226]]
+1876
+
+[[0.36296921968460083, 0.6370307803153992]]
+Çatalhöyük
+
+[[0.22135069966316223, 0.7786493301391602]]
+2012
+
+[[0.5204963088035583, 0.47950369119644165]]
+1 Mercury
+
+[[0.2628418505191803, 0.7371581792831421]]
+1. Lungs
+
+[[0.3849121630191803, 0.6150878667831421]]
+The March family
+
+[[0.23616373538970947, 0.7638362646102905]]
+Vinegar
+
+[[0.5009765625, 0.4990234375]]
+1970s
+
+[[0.40262696146965027, 0.5973730087280273]]
+2012 London Olympics
+
+[[0.4119386374950409, 0.5880613923072815]]
+19969 was the Chinese year of which creature?
+
+[[0.39606812596321106, 0.6039317846298218]]
+1000 Brothers
+
+[[0.44167301058769226, 0.5583270192146301]]
+1. Compass
+
+[[0.36840569972991943, 0.6315943002700806]]
+1. Adze
+
+[[0.3023911118507385, 0.6976089477539062]]
+1957
+
+[[0.4407099485397339, 0.5592900514602661]]
+Twitter
+
+[[0.45786383748054504, 0.5421361327171326]]
+Edinburgh
+
+[[0.3319854736328125, 0.6680145263671875]]
+Basil
+
+[[0.4167966842651367, 0.5832033753395081]]
+1950s
+
+[[0.43494126200675964, 0.5650587677955627]]
+10cc
+
+[[0.36615049839019775, 0.6338495016098022]]
+1939
+
+[[0.45035937428474426, 0.5496405959129333]]
+Wolf Hall
+
+[[0.35376301407814026, 0.6462369561195374]]
+5ive
+
+[[0.361390084028244, 0.6386099457740784]]
+1944
+
+[[0.45713672041893005, 0.5428633093833923]]
+Baltic Sea
+
+[[0.4653874337673187, 0.5346124768257141]]
+1950s
+
+[[0.43494126200675964, 0.5650587677955627]]
+1
+
+[[0.38769033551216125, 0.6123096346855164]]
+1768, Joshua Reynolds became the first president of what British institution?
+
+[[0.5253688097000122, 0.4746311902999878]]
+Don Quixote
+
+[[0.297265887260437, 0.702734112739563]]
+19th century
+
+[[0.48535576462745667, 0.5146442651748657]]
+1960s
+
+[[0.4464946985244751, 0.5535053014755249]]
+Germany
+
+[[0.4130035936832428, 0.5869964361190796]]
+19th century
+
+[[0.48535576462745667, 0.5146442651748657]]
+18th century
+
+[[0.48535576462745667, 0.5146442651748657]]
+Hawthorn
+
+[[0.4532618224620819, 0.5467381477355957]]
+30th
+
+[[0.4658734202384949, 0.5341265201568604]]
+19969
+
+[[0.5495197772979736, 0.45048028230667114]]
+19969 was the Chinese year of which creature?
+
+[[0.39606812596321106, 0.6039317846298218]]
+4
+
+[[0.31257981061935425, 0.6874201893806458]]
+13
+
+[[0.39793840050697327, 0.6020615696907043]]
+1000 cows
+
+[[0.4172714352607727, 0.5827285051345825]]
+1990s
+
+[[0.45956116914749146, 0.5404388308525085]]
+19969 was the Chinese year of which creature?
+
+[[0.39606812596321106, 0.6039317846298218]]
+Argentina
+
+[[0.3350244164466858, 0.6649755239486694]]
+1940s
+
+[[0.43014734983444214, 0.5698526501655579]]
+1920s
+
+[[0.3470943570137024, 0.6529056429862976]]
+1. Krampus
+
+[[0.24077460169792175, 0.7592254281044006]]
+1997
+
+[[0.4489094018936157, 0.5510905981063843]]
+1. Siam 2. Siam 3. Siam 4. Siam
+
+[[0.3830641806125641, 0.6169358491897583]]
+Graf Spee
+
+[[0.3415825068950653, 0.6584175229072571]]
+Newfoundland
+
+[[0.36931511759757996, 0.6306849718093872]]
+1: Britney Spears
+
+[[0.3904758393764496, 0.6095241904258728]]
+1st Lady Hillary Clinton
+
+[[0.18594717979431152, 0.8140527606010437]]
+Lancelot
+
+[[0.4311051368713379, 0.5688949227333069]]
+Wet Wet Wet
+
+[[0.4493926465511322, 0.5506073832511902]]
+1990s
+
+[[0.45956116914749146, 0.5404388308525085]]
+1990s
+
+[[0.45956116914749146, 0.5404388308525085]]
+1st
+
+[[0.333720326423645, 0.666279673576355]]
+5-a-side football
+
+[[0.4253665506839752, 0.5746335387229919]]
+Jamaica
+
+[[0.3106943964958191, 0.6893056035041809]]
+1798-1863
+
+[[0.2943163812160492, 0.7056836485862732]]
+19th century Conservative
+
+[[0.3942009508609772, 0.6057990193367004]]
+Moses
+
+[[0.318909227848053, 0.681090772151947]]
+1. The planets move in elliptical orbits with the sun at one focus. 2. A line joining a planet and the sun sweeps out equal areas during equal intervals of time. 3. The square of the orbital period of a planet is directly proportional to the cube of its mean distance from the sun.
+
+[[0.19072401523590088, 0.8092759251594543]]
+Endorphins
+
+[[0.46004626154899597, 0.5399536490440369]]
+19969 was the Chinese year of which creature?
+
+[[0.39606812596321106, 0.6039317846298218]]
+Cardinal Wolsey
+
+[[0.3208213150501251, 0.6791787147521973]]
+1920s
+
+[[0.3470943570137024, 0.6529056429862976]]
+19th century
+
+[[0.48535576462745667, 0.5146442651748657]]
+49th parallel
+
+[[0.3557748794555664, 0.6442250609397888]]
+8-bit video game consoles
+
+[[0.3086068332195282, 0.6913931965827942]]
+1. Caspian 2. Edmund 3. Peter 4. Susan
+
+[[0.24508501589298248, 0.7549149990081787]]
+20th Century Fox
+
+[[0.30280327796936035, 0.6971967816352844]]
+Heart
+
+[[0.4054487347602844, 0.5945512652397156]]
+19969 was the Chinese year of which creature?
+
+[[0.39606812596321106, 0.6039317846298218]]
+1936
+
+[[0.33111974596977234, 0.66888028383255]]
+1. Rhode Island
+
+[[0.25832599401474, 0.74167400598526]]
+Willow
+
+[[0.38398775458335876, 0.6160122752189636]]
+1990s
+
+[[0.45956116914749146, 0.5404388308525085]]
+1998 winner Craig Phillips
+
+[[0.2501792907714844, 0.7498207092285156]]
+1981
+
+[[0.34579533338546753, 0.6542047262191772]]
+10cc
+
+[[0.36615049839019775, 0.6338495016098022]]
+10 miles from Washington DC
+
+[[0.4359015226364136, 0.5640984773635864]]
+1940s
+
+[[0.43014734983444214, 0.5698526501655579]]
+Repton
+
+[[0.24328270554542542, 0.756717324256897]]
+1969
+
+[[0.4078049957752228, 0.5921949744224548]]
+3-cushion billiards
+
+[[0.3345894515514374, 0.665410578250885]]
+Gloucestershire
+
+[[0.28397995233535767, 0.7160201072692871]]
+Dennis Hopper
+
+[[0.3354596793651581, 0.6645402908325195]]
+1970s
+
+[[0.40262696146965027, 0.5973730087280273]]
+1990s
+
+[[0.45956116914749146, 0.5404388308525085]]
+1979
+
+[[0.4222663640975952, 0.5777336359024048]]
+1. Moscow 2. New York
+
+[[0.38398775458335876, 0.6160122752189636]]
+25%
+
+[[0.4014531373977661, 0.5985468626022339]]
+1st Good Friday
+
+[[0.2991051971912384, 0.700894832611084]]
+5050
+
+[[0.5001220703125, 0.4998779296875]]
+Britt Ekland
+
+[[0.13822896778583527, 0.8617710471153259]]
+190 proof
+
+[[0.5755879878997803, 0.42441198229789734]]
+1. Pete Best
+
+[[0.2689414322376251, 0.7310585975646973]]
+1819
+
+[[0.4895034730434418, 0.5104964971542358]]
+1984
+
+[[0.5273165106773376, 0.47268345952033997]]
+Viminal
+
+[[0.2950267791748047, 0.7049732804298401]]
+1990s
+
+[[0.45956116914749146, 0.5404388308525085]]
+iguana
+
+[[0.43914595246315, 0.5608540773391724]]
+1. Maracaibo 2. Valencia 3. Caracas
+
+[[0.270480215549469, 0.729519784450531]]
+1967: Annie Nightingale
+
+[[0.6242935657501221, 0.3757064640522003]]
+Nuts
+
+[[0.4144247770309448, 0.5855752229690552]]
+3D
+
+[[0.43614163994789124, 0.5638583302497864]]
+59
+
+[[0.5165954232215881, 0.4834045171737671]]
+Mr. Boddy
+
+[[0.3553273677825928, 0.6446726322174072]]
+1 Samuel 25:29
+
+[[0.2422056347131729, 0.7577943801879883]]
+Bruce Springsteen
+
+[[0.41063806414604187, 0.589361846446991]]
+5
+
+[[0.31869715452194214, 0.6813028454780579]]
+4 × 100 metre medley relay
+
+[[0.24807852506637573, 0.751921534538269]]
+1934
+
+[[0.40721553564071655, 0.5927844643592834]]
+007
+
+[[0.3883860409259796, 0.6116139888763428]]
+10 Downing Street
+
+[[0.5019530653953552, 0.4980468451976776]]
+Hill Street Blues
+
+[[0.29746994376182556, 0.7025300860404968]]
+Cornelius Ryan
+
+[[0.2260993868112564, 0.77390056848526]]
+Lancashire
+
+[[0.28977346420288086, 0.7102264761924744]]
+1. Basil
+
+[[0.3106943964958191, 0.6893056035041809]]
+1st invasion of Sicily
+
+[[0.5019530653953552, 0.4980468451976776]]
+1. Whale shark
+
+[[0.2798284888267517, 0.7201715111732483]]
+10. Vaughan Williams
+
+[[0.2752270996570587, 0.7247728705406189]]
+100%
+
+[[0.5141563415527344, 0.48584359884262085]]
+Wiltshire
+
+[[0.2712516784667969, 0.7287483215332031]]
+Upper Volta
+
+[[0.3345894515514374, 0.665410578250885]]
+Mount Olivet
+
+[[0.21733751893043518, 0.7826625108718872]]
+Monaco
+
+[[0.2398608773946762, 0.7601391077041626]]
+Parthenogenesis
+
+[[0.2538609802722931, 0.7461389899253845]]
+0scar Wilde
+
+[[0.33753103017807007, 0.6624690294265747]]
+Gustav
+
+[[0.4339814782142639, 0.5660185217857361]]
+12th Night
+
+[[0.5350984334945679, 0.46490156650543213]]
+1
+
+[[0.38769033551216125, 0.6123096346855164]]
+Cynthia
+
+[[0.41869691014289856, 0.581303060054779]]
+1997
+
+[[0.4489094018936157, 0.5510905981063843]]
+20
+
+[[0.35287052392959595, 0.6471295356750488]]
+100
+
+[[0.5550734996795654, 0.44492653012275696]]
+1st stomach
+
+[[0.2798284888267517, 0.7201715111732483]]
+Messianic
+
+[[0.3063195049762726, 0.693680465221405]]
+Israel
+
+[[0.3293917179107666, 0.6706082820892334]]
+80s
+
+[[0.46490156650543213, 0.5350984334945679]]
+Geoffrey Rush
+
+[[0.2736714482307434, 0.7263285517692566]]
+19969 was the Chinese year of which creature?
+
+[[0.39606812596321106, 0.6039317846298218]]
+1. Wyoming
+
+[[0.2798284888267517, 0.7201715111732483]]
+Hagar the Horrible
+
+[[0.2735743820667267, 0.7264255881309509]]
+1604-1611
+
+[[0.4222663640975952, 0.5777336359024048]]
+Silver Machine
+
+[[0.4007493853569031, 0.5992506742477417]]
+Morning sickness
+
+[[0.45713672041893005, 0.5428633093833923]]
+1960s
+
+[[0.4464946985244751, 0.5535053014755249]]
+1941
+
+[[0.4658734202384949, 0.5341265201568604]]
+1980s
+
+[[0.4455295503139496, 0.5544704794883728]]
+039
+
+[[0.45344337821006775, 0.5465566515922546]]
+iguana
+
+[[0.43914595246315, 0.5608540773391724]]
+1950s
+
+[[0.43494126200675964, 0.5650587677955627]]
+1000
+
+[[0.5939626097679138, 0.40603742003440857]]
+Roy Thinnes
+
+[[0.3904758393764496, 0.6095241904258728]]
+1980 Ronald Reagan
+
+[[0.4016878008842468, 0.5983121991157532]]
+Athlete's foot
+
+[[0.3250918686389923, 0.6749081611633301]]
+Doppler
+
+[[0.42250463366508484, 0.5774953365325928]]
+1000
+
+[[0.5939626097679138, 0.40603742003440857]]
+1967 Sgt Pepper's Lonely Hearts Club Band
+
+[[0.6076632142066956, 0.3923368752002716]]
+1. Lagos 2. Accra 3. Nairobi
+
+[[0.42823341488838196, 0.5717666149139404]]
+Travel guides
+
+[[0.37937837839126587, 0.6206216216087341]]
+10-pin bowling
+
+[[0.5389832258224487, 0.46101677417755127]]
+19969 was the Chinese year of which creature?
+
+[[0.39606812596321106, 0.6039317846298218]]
+Posh Spice
+
+[[0.29219120740890503, 0.707808792591095]]
+1. Calgary 2. Edmonton 3. Vancouver
+
+[[0.334806889295578, 0.6651931405067444]]
+The Tigers
+
+[[0.28917092084884644, 0.7108290791511536]]
+Durham
+
+[[0.4167966842651367, 0.5832033753395081]]
+Quentin Tarantino
+
+[[0.3490888178348541, 0.6509112119674683]]
+Corfu
+
+[[0.3544330894947052, 0.6455669403076172]]
+Nose picking
+
+[[0.6132365465164185, 0.38676345348358154]]
+Rain
+
+[[0.581303060054779, 0.41869691014289856]]
+L’Oreal
+
+[[0.43014734983444214, 0.5698526501655579]]
+Mushroom
+
+[[0.4814538359642029, 0.5185461640357971]]
+40th Sunday after Pentecost
+
+[[0.4397473633289337, 0.5602526664733887]]
+19969 was the Chinese year of which creature?
+
+[[0.39606812596321106, 0.6039317846298218]]
+18th century poet Alexander Pope
+
+[[0.29746994376182556, 0.7025300860404968]]
+1873
+
+[[0.3285294473171234, 0.671470582485199]]
+Carole King
+
+[[0.3302551805973053, 0.6697448492050171]]
+2
+
+[[0.38676345348358154, 0.6132365465164185]]
+1964
+
+[[0.38676345348358154, 0.6132365465164185]]
+1960 US Presidential Election
+
+[[0.5263427495956421, 0.47365719079971313]]
+1908
+
+[[0.3136299252510071, 0.6863700151443481]]
+10cc
+
+[[0.36615049839019775, 0.6338495016098022]]
+1920s
+
+[[0.3470943570137024, 0.6529056429862976]]
+2007?
+
+[[0.4941409230232239, 0.5058591365814209]]
+1966
+
+[[0.35398629307746887, 0.6460136771202087]]
+1. Macavity
+
+[[0.22000709176063538, 0.7799928784370422]]
+101 Dalmatians
+
+[[0.3473156988620758, 0.6526842713356018]]
+1920s
+
+[[0.3470943570137024, 0.6529056429862976]]
+1964
+
+[[0.38676345348358154, 0.6132365465164185]]
+Canada
+
+[[0.42823341488838196, 0.5717666149139404]]
+1. Cheek
+
+[[0.3225259780883789, 0.6774740219116211]]
+6
+
+[[0.35053256154060364, 0.6494674682617188]]
+1st Henry
+
+[[0.2254166156053543, 0.7745833992958069]]
+1968
+
+[[0.32723817229270935, 0.6727617979049683]]
+Gravitational assist
+
+[[0.43014734983444214, 0.5698526501655579]]
+2-flag system
+
+[[0.37799975275993347, 0.6220002174377441]]
+18th
+
+[[0.511228621006012, 0.4887714385986328]]
+13
+
+[[0.39793840050697327, 0.6020615696907043]]
+1. Viagra
+
+[[0.35756751894950867, 0.642432451248169]]
+1
+
+[[0.38769033551216125, 0.6123096346855164]]
+1920s
+
+[[0.3470943570137024, 0.6529056429862976]]
+1986
+
+[[0.43014734983444214, 0.5698526501655579]]
+Ryde
+
+[[0.21288587152957916, 0.7871142029762268]]
+Ken Russell
+
+[[0.34953275322914124, 0.6504672765731812]]
+Hohenzollern
+
+[[0.2833845615386963, 0.7166153788566589]]
+10
+
+[[0.37227699160575867, 0.6277230381965637]]
+Fred Perry
+
+[[0.25275275111198425, 0.7472472190856934]]
+2001
+
+[[0.5717666149139404, 0.42823341488838196]]
+2003 SARS
+
+[[0.4668456017971039, 0.5331544280052185]]
+1st do no harm
+
+[[0.4843800961971283, 0.5156199336051941]]
+Abbott and Costello
+
+[[0.23440663516521454, 0.7655933499336243]]
+1854
+
+[[0.35331663489341736, 0.646683394908905]]
+10
+
+[[0.37227699160575867, 0.6277230381965637]]
+Aluminium
+
+[[0.40969306230545044, 0.5903069376945496]]
+Couscous
+
+[[0.3132096230983734, 0.6867902874946594]]
+969
+
+[[0.5018310546875, 0.4981689751148224]]
+Deciduous
+
+[[0.22815649211406708, 0.7718434929847717]]
+1956
+
+[[0.34775856137275696, 0.6522414088249207]]
+10cc
+
+[[0.36615049839019775, 0.6338495016098022]]
+Des O’Connor
+
+[[0.24148939549922943, 0.7585106492042542]]
+New Zealand
+
+[[0.41655927896499634, 0.5834407210350037]]
+13
+
+[[0.39793840050697327, 0.6020615696907043]]
+Phosphorus
+
+[[0.398406445980072, 0.601593554019928]]
+Pauly Walnuts
+
+[[0.17852582037448883, 0.8214741349220276]]
+Botswana
+
+[[0.3136299252510071, 0.6863700151443481]]
+1st Earl of Merioneth
+
+[[0.16079244017601013, 0.8392075896263123]]
+101 Dalmatians
+
+[[0.3473156988620758, 0.6526842713356018]]
+Yeti
+
+[[0.23057307302951813, 0.7694269418716431]]
+Helium
+
+[[0.5360700488090515, 0.4639299511909485]]
+Tom Clancy
+
+[[0.2881683111190796, 0.7118317484855652]]
+1971
+
+[[0.3752484619617462, 0.6247515082359314]]
+100
+
+[[0.5550734996795654, 0.44492653012275696]]
+1967 and 1971
+
+[[0.3517563045024872, 0.6482437252998352]]
+5 Power Rangers
+
+[[0.2260993868112564, 0.77390056848526]]
+12C
+
+[[0.4182216227054596, 0.5817784070968628]]
+1860s
+
+[[0.3158414661884308, 0.6841585040092468]]
+Trees
+
+[[0.3923368752002716, 0.6076632142066956]]
+Regulus
+
+[[0.2516476809978485, 0.7483522891998291]]
+2nd Zog
+
+[[0.26020145416259766, 0.7397986054420471]]
+11 August
+
+[[0.27396270632743835, 0.7260372638702393]]
+0livia Hussey
+
+[[0.25367608666419983, 0.7463239431381226]]
+12-string guitar
+
+[[0.3729618489742279, 0.6270381808280945]]
+Beatrix Potter
+
+[[0.2882934808731079, 0.7117064595222473]]
+A Streetcar Named Desire
+
+[[0.5273165106773376, 0.47268345952033997]]
+1998
+
+[[0.4863315522670746, 0.5136684775352478]]
+Miranda
+
+[[0.4561675190925598, 0.543832540512085]]
+1st Edward
+
+[[0.17726054787635803, 0.8227394819259644]]
+1951 Nat King Cole
+
+[[0.45810624957084656, 0.541893720626831]]
+1. His tools
+
+[[0.30569732189178467, 0.6943026781082153]]
+Belgium
+
+[[0.3923368752002716, 0.6076632142066956]]
+1
+
+[[0.38769033551216125, 0.6123096346855164]]
+1. Fascia
+
+[[0.4707365930080414, 0.5292633771896362]]
+147
+
+[[0.46101677417755127, 0.5389832258224487]]
+1st miracle at Cana
+
+[[0.3951341509819031, 0.6048657894134521]]
+The Simpsons
+
+[[0.3300391733646393, 0.6699607968330383]]
+Seals
+
+[[0.4804787039756775, 0.5195213556289673]]
+Saturn
+
+[[0.35220178961753845, 0.6477982401847839]]
+100th anniversary of the first radio broadcast
+
+[[0.5898345112800598, 0.4101655185222626]]
+10
+
+[[0.37227699160575867, 0.6277230381965637]]
+180
+
+[[0.5358271598815918, 0.4641728103160858]]
+3-inch umbrella
+
+[[0.3073580265045166, 0.6926419734954834]]
+Monaco
+
+[[0.2398608773946762, 0.7601391077041626]]
+Cabbage
+
+[[0.4311051368713379, 0.5688949227333069]]
+150
+
+[[0.500579833984375, 0.499420166015625]]
+1. Soup
+
+[[0.4532618224620819, 0.5467381477355957]]
+Michelle
+
+[[0.4464946985244751, 0.5535053014755249]]
+20th Century Fox
+
+[[0.30280327796936035, 0.6971967816352844]]
+400m hurdles
+
+[[0.3015677034854889, 0.6984323263168335]]
+2-Tone
+
+[[0.34687307476997375, 0.6531268954277039]]
+Gargamel
+
+[[0.3319854736328125, 0.6680145263671875]]
+1735
+
+[[0.5043944120407104, 0.49560558795928955]]
+Juniper
+
+[[0.48925942182540894, 0.5107405185699463]]
+1. Raven
+
+[[0.24077460169792175, 0.7592254281044006]]
+Elizabeth I
+
+[[0.3956010639667511, 0.6043989062309265]]
+1. Conductor 2. Composer
+
+[[0.36206647753715515, 0.6379335522651672]]
+19969 was the Chinese year of which creature?
+
+[[0.39606812596321106, 0.6039317846298218]]
+20/20
+
+[[0.36604073643684387, 0.6339592933654785]]
+1. Perseus
+
+[[0.24508501589298248, 0.7549149990081787]]
+17th century French philosopher, mathematician, scientist, and writer showed, by using geometric construction and the law of refraction, that the angular radius of a rainbow is 42 degrees?
+
+[[0.30523115396499634, 0.6947687864303589]]
+1990s
+
+[[0.45956116914749146, 0.5404388308525085]]
+1613-1917
+
+[[0.3881540596485138, 0.6118459105491638]]
+Bonnie Tyler
+
+[[0.34842339158058167, 0.651576578617096]]
+Estonia
+
+[[0.32960745692253113, 0.6703925132751465]]
+1 Mindanao
+
+[[0.21733751893043518, 0.7826625108718872]]
+1337
+
+[[0.5779718160629272, 0.42202815413475037]]
+England
+
+[[0.4970703423023224, 0.5029296278953552]]
+19969 was the Chinese year of which creature?
+
+[[0.39606812596321106, 0.6039317846298218]]
+14th Dalai Lama
+
+[[0.46368706226348877, 0.5363128781318665]]
+1902
+
+[[0.4170340299606323, 0.5829659700393677]]
+1990s
+
+[[0.45956116914749146, 0.5404388308525085]]
+1994
+
+[[0.43206337094306946, 0.5679365992546082]]
+Denier
+
+[[0.3132096230983734, 0.6867902874946594]]
+18th century composer Wolfgang Amadeus Mozart
+
+[[0.29219120740890503, 0.707808792591095]]
+Louise Fletcher
+
+[[0.4397473633289337, 0.5602526664733887]]
+Switzerland
+
+[[0.3486451804637909, 0.6513549089431763]]
+1. Cumbria
+
+[[0.2991051971912384, 0.700894832611084]]
+1840
+
+[[0.38641607761383057, 0.6135839223861694]]
+1 Mercury
+
+[[0.2628418505191803, 0.7371581792831421]]
+17-year-old Kevin Curren
+
+[[0.285770446062088, 0.7142295837402344]]
+1981
+
+[[0.34579533338546753, 0.6542047262191772]]
+Brazil
+
+[[0.4814538359642029, 0.5185461640357971]]
+1906
+
+[[0.42602306604385376, 0.5739769339561462]]
+Australia
+
+[[0.5146442651748657, 0.48535576462745667]]
+Staples
+
+[[0.4474602937698364, 0.5525397062301636]]
+1. Calf
+
+[[0.2351083904504776, 0.7648916244506836]]
+Colombia
+
+[[0.3890821635723114, 0.6109178066253662]]
+100 Things To Do Before You Die
+
+[[0.4397473633289337, 0.5602526664733887]]
+Blue
+
+[[0.4824291467666626, 0.5175709128379822]]
+10 days
+
+[[0.49218809604644775, 0.5078118443489075]]
+Mistral
+
+[[0.4148988425731659, 0.5851011276245117]]
+South Pacific
+
+[[0.3557748794555664, 0.6442250609397888]]
+1. Polonius
+
+[[0.4843800961971283, 0.5156199336051941]]
+1st
+
+[[0.333720326423645, 0.666279673576355]]
+1. Charles Darwin
+
+[[0.4378235340118408, 0.562176525592804]]
+Vulture fund
+
+[[0.3242354094982147, 0.6757646203041077]]
+Cook Strait
+
+[[0.2877177894115448, 0.7122822403907776]]
+1979
+
+[[0.4222663640975952, 0.5777336359024048]]
+12 Angry Men
+
+[[0.3415825068950653, 0.6584175229072571]]
+1830s
+
+[[0.4532618224620819, 0.5467381477355957]]
+19th century composer Anton Bruckner
+
+[[0.37937837839126587, 0.6206216216087341]]
+1. Finland
+
+[[0.3023911118507385, 0.6976089477539062]]
+20th century art
+
+[[0.41869691014289856, 0.581303060054779]]
+3
+
+[[0.3974705636501312, 0.6025294065475464]]
+David Copperfield
+
+[[0.2755194306373596, 0.7244806289672852]]
+Epsom
+
+[[0.34953275322914124, 0.6504672765731812]]
+1909
+
+[[0.4137435853481293, 0.5862563848495483]]
+19781982
+
+[[0.3393896222114563, 0.6606104373931885]]
+1990 Portsmouth
+
+[[0.3380770981311798, 0.6619228720664978]]
+South Africa
+
+[[0.4167966842651367, 0.5832033753395081]]
+2nd language
+
+[[0.5136684775352478, 0.4863315522670746]]
+Ceylon
+
+[[0.4078049957752228, 0.5921949744224548]]
+Enid Blyton
+
+[[0.2588876783847809, 0.7411122918128967]]
+Tramp
+
+[[0.30141347646713257, 0.6985865831375122]]
+Thailand
+
+[[0.3420218825340271, 0.6579781174659729]]
+24
+
+[[0.40922078490257263, 0.590779185295105]]
+1298
+
+[[0.4916999638080597, 0.5083000063896179]]
+14th
+
+[[0.4824291467666626, 0.5175709128379822]]
+45
+
+[[0.32680830359458923, 0.6731916666030884]]
+1000s of bees
+
+[[0.4678179621696472, 0.532181978225708]]
+3 Musketeers
+
+[[0.2845759987831116, 0.7154240012168884]]
+1950s
+
+[[0.43494126200675964, 0.5650587677955627]]
+20,000 Leagues Under The Sea
+
+[[0.26511871814727783, 0.7348812818527222]]
+1950s
+
+[[0.43494126200675964, 0.5650587677955627]]
+Port Louis
+
+[[0.2120688110589981, 0.7879312038421631]]
+Sir Les Patterson
+
+[[0.37250521779060364, 0.6274948120117188]]
+400th
+
+[[0.45132654905319214, 0.5486735105514526]]
+1. Dr. Norman Spencer
+
+[[0.37387582659721375, 0.6261242032051086]]
+1830
+
+[[0.45568302273750305, 0.5443170070648193]]
+Murphy bed
+
+[[0.5945512652397156, 0.4054487347602844]]
+Rex Harrison
+
+[[0.28077659010887146, 0.7192234396934509]]
+1999: Colin Firth
+
+[[0.48925942182540894, 0.5107405185699463]]
+Gauleiter
+
+[[0.4339814782142639, 0.5660185217857361]]
+1980s computer
+
+[[0.39094078540802, 0.60905921459198]]
+1st Battle of Alma
+
+[[0.34246155619621277, 0.6575384140014648]]
+1st George
+
+[[0.2689414322376251, 0.7310585975646973]]
+1999
+
+[[0.541893720626831, 0.45810624957084656]]
+111
+
+[[0.5298715829849243, 0.4701283872127533]]
