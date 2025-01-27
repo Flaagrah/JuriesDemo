@@ -16,7 +16,7 @@ def get_test_s_vals(test_file_name: str) -> DataFrame:
     return get_s_vals(file_name)
 
 
-def shuffle_jury_data(jury_model_name: str, jury_model_name_test: str):
+def shuffle_jury_data(jury_model_name: str, jury_model_name_test: str, seed: int = 10):
     name = base_model+"/jury_logits_"+jury_model_name+".csv"
     test_name = base_model+"/jury_logits_"+jury_model_name_test+".csv"
     
@@ -27,7 +27,7 @@ def shuffle_jury_data(jury_model_name: str, jury_model_name_test: str):
     combined_df = pd.concat([df, df_test], ignore_index=True)
     
     # Shuffle the combined dataframe
-    shuffled_df = combined_df.sample(frac=1, random_state=32).reset_index(drop=True)
+    shuffled_df = combined_df.sample(frac=1, random_state=seed).reset_index(drop=True)
     
     # Split back into original sizes
     df = shuffled_df.iloc[:len(df)]
@@ -39,26 +39,28 @@ def shuffle_jury_data(jury_model_name: str, jury_model_name_test: str):
     # Write the shuffled dataframes to new csv files
     df.to_csv(name_shuffled, index=False)
     df_test.to_csv(name_shuffled_test, index=False)
-    
-shuffle_jury_data("olmo13b", "olmo13b_test")
-shuffle_jury_data("llama13b", "llama13b_test")
-shuffle_jury_data("stable13b", "stable13b_test")
 
-# olmo13b_alphas = get_epsilon_dict("olmo13b")
-# llama13b_alphas = get_epsilon_dict("llama13b")
-# stable13b_alphas = get_epsilon_dict("stable13b")
+dist_list = []
+for i in range(9, 10):  
+    shuffle_jury_data("olmo13b", "olmo13b_test", seed = i)
+    shuffle_jury_data("llama13b", "llama13b_test", seed = i)
+    shuffle_jury_data("stable13b", "stable13b_test", seed = i)
 
-# olmo13b_test = get_test_s_vals("olmo13b_test")
-# llama13b_test = get_test_s_vals("llama13b_test")
-# stable13b_test = get_test_s_vals("stable13b_test")
+    olmo13b_alphas = get_epsilon_dict("olmo13b_shuffled")
+    llama13b_alphas = get_epsilon_dict("llama13b_shuffled")
+    stable13b_alphas = get_epsilon_dict("stable13b_shuffled")
 
-olmo13b_alphas = get_epsilon_dict("olmo13b_shuffled")
-llama13b_alphas = get_epsilon_dict("llama13b_shuffled")
-stable13b_alphas = get_epsilon_dict("stable13b_shuffled")
+    olmo13b_test = get_test_s_vals("olmo13b_test_shuffled")
+    llama13b_test = get_test_s_vals("llama13b_test_shuffled")
+    stable13b_test = get_test_s_vals("stable13b_test_shuffled")
 
-olmo13b_test = get_test_s_vals("olmo13b_test_shuffled")
-llama13b_test = get_test_s_vals("llama13b_test_shuffled")
-stable13b_test = get_test_s_vals("stable13b_test_shuffled")
+    results = print_stats(llama13b_test, olmo13b_test, stable13b_test, llama13b_alphas, olmo13b_alphas, stable13b_alphas)
+    dist_list.append(results)
+# print(dist_list)
+# columns = ["Majority Poll", "Calibrated Confidence Poll", "Calibrated Mul Confidence Poll", "Calibrated Max Poll", "Max Poll (Uncalibrated)"]
+# dist_df = pd.DataFrame(dist_list, columns=columns)
+# print(dist_df)
+# dist_df.to_csv('results.csv')
 '''
 Accurate vs Inaccurate judgements
 Majority Poll: 291 254
@@ -78,26 +80,3 @@ Stable correct: 799 201 1.4660550458715595
 Base Model Correct: 368 632
 '''
 
-print_stats(llama13b_test, olmo13b_test, stable13b_test, llama13b_alphas, olmo13b_alphas, stable13b_alphas)
-
-# df_calib = pd.read_csv('s_values_llama13b.csv')
-# df_test = pd.read_csv('s_values_llama13b_test.csv')
-# print(df_calib.head(10))
-# print(df_test.head(10))
-# df_calib = df_calib.loc[0:10, :]
-# df_test = df_test.loc[0:10, :]
-# calib_correct = 0
-# calib_incorrect = 0
-# test_correct = 0
-# test_incorrect = 0
-# for i in range(len(df_calib)):
-#     if df_calib.loc[i, 'is_base_model_correct']:
-#         calib_correct += 1
-#     else:
-#         calib_incorrect += 1
-#     if df_test.loc[i, 'is_base_model_correct']:
-#         test_correct += 1
-#     else:
-#         test_incorrect += 1
-# print(calib_correct, calib_incorrect)
-# print(test_correct, test_incorrect)

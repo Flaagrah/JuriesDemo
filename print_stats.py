@@ -1,6 +1,7 @@
 
 from find_epsilon_from_s import find_epsilon_from_s
 from pandas import DataFrame
+import pandas as pd
 
 def print_stats(llama_test_vals: DataFrame, olmo_test_vals: DataFrame, stable_test_vals: DataFrame, llama_dict: dict, olmo_dict: dict, stable_dict: dict):
     
@@ -21,7 +22,6 @@ def print_stats(llama_test_vals: DataFrame, olmo_test_vals: DataFrame, stable_te
     false_majority_true = 0
     false_majority_false = 0
 
-    all_vals = []
 
     llama_pd_data = []
     olmo_pd_data = []
@@ -31,10 +31,29 @@ def print_stats(llama_test_vals: DataFrame, olmo_test_vals: DataFrame, stable_te
     interval_end = 1
 
     jury_correct = [0, 0, 0]
+    jury_correct_disagreements = [0, 0, 0]
+    max_logits = [0, 0, 0]
+    max_confidence = [0, 0, 0]
 
     base_model_correct = 0
 
-    for i in range(len(llama_test_vals)):
+    # Initialize DataFrame with specified columns
+    # results_df = pd.DataFrame(columns=[
+    #     'llama_s_val', 
+    #     'olmo_s_val',
+    #     'stable_s_val',
+    #     'llama_conf', 
+    #     'olmo_conf',
+    #     'stable_conf',
+    #     'max_logits_judgement',
+    #     'max_conf_judgement',
+    #     'correct_judgement'
+    # ])
+    results_list = []
+    len_points = len(llama_test_vals)
+    #len_points = 50
+
+    for i in range(len_points):
         
         ll_info = llama_test_vals.loc[i]
         ol_info = olmo_test_vals.loc[i]
@@ -50,12 +69,6 @@ def print_stats(llama_test_vals: DataFrame, olmo_test_vals: DataFrame, stable_te
         info_list = [{'data': ll_info, 'confidence': llama_confidence}, 
                      {'data': ol_info, 'confidence': olmo_confidence}, 
                      {'data': st_info, 'confidence': stable_confidence}]
-
-        # Loop through info_list
-        for index, information in enumerate(info_list):
-            if information['confidence'] >= interval_start and information['confidence'] <= interval_end:
-                if information['data']['is_base_model_correct'] == information['data']['is_jury_approving']:
-                    jury_correct[index] += 1
 
         llama_pd_data.append([ll_info['s_val'], llama_confidence, ll_info['is_base_model_correct'] == ll_info['is_jury_approving'], ll_info['is_jury_approving']])
         olmo_pd_data.append([ol_info['s_val'], olmo_confidence, ol_info['is_base_model_correct'] == ol_info['is_jury_approving'], ol_info['is_jury_approving']])
@@ -78,8 +91,19 @@ def print_stats(llama_test_vals: DataFrame, olmo_test_vals: DataFrame, stable_te
                 incorrect_score += information['confidence'] - 0.5
                 incorrect_mul_score *= (1 - information['confidence'])
 
+        def has_consensus():
+            return true_counts == 0 or false_counts == 0
+
+        # Loop through info_list
+        for index, information in enumerate(info_list):
+            if information['confidence'] >= interval_start and information['confidence'] <= interval_end:
+                if information['data']['is_base_model_correct'] == information['data']['is_jury_approving']:
+                    jury_correct[index] += 1
+                    if not has_consensus():
+                        jury_correct_disagreements[index] += 1
+
         # Continue if they all agree
-        if true_counts == 0 or false_counts == 0:
+        if has_consensus():
             continue
 
         total_disagreements += 1
@@ -102,20 +126,21 @@ def print_stats(llama_test_vals: DataFrame, olmo_test_vals: DataFrame, stable_te
                 false_majority_true += 1
             else:
                 false_majority_false += 1
-        sorted = [round(llama_confidence - 0.5, 2), round(olmo_confidence - 0.5, 2), round(stable_confidence - 0.5, 2)]
-        all_vals.append(sorted)    
+        conf_sorted = [round(llama_confidence - 0.5, 2), round(olmo_confidence - 0.5, 2), round(stable_confidence - 0.5, 2)]
         #print(sorted)
         # For each entry in sorted, get the index of the max entry
-        max_index = sorted.index(max(sorted))
+        max_index_conf = conf_sorted.index(max(conf_sorted))
+        max_confidence[max_index_conf] += 1
         # Max Confidence
-        if info_list[max_index]['data']['is_base_model_correct'] == info_list[max_index]['data']['is_jury_approving']:
+        if info_list[max_index_conf]['data']['is_base_model_correct'] == info_list[max_index_conf]['data']['is_jury_approving']:
             max_cal_acc_judgements += 1
 
-        sorted = [round(ll_info['s_val'], 4), round(ol_info['s_val'], 4), round(st_info['s_val'], 4)]
+        max_sorted = [round(ll_info['s_val'], 4), round(ol_info['s_val'], 4), round(st_info['s_val'], 4)]
         #print(sorted)
         # For each entry in sorted, get the index of the max entry
-        max_index = sorted.index(max(sorted))
-        # Max Confidence
+        max_index = max_sorted.index(min(max_sorted))
+        max_logits[max_index] += 1
+        # Max Logits
         if info_list[max_index]['data']['is_base_model_correct'] == info_list[max_index]['data']['is_jury_approving']:
             max_acc_judgements += 1
 
@@ -131,30 +156,45 @@ def print_stats(llama_test_vals: DataFrame, olmo_test_vals: DataFrame, stable_te
         cal_acc_judgements += model_correct_poll(correct_score > incorrect_score)
         cal_mul_acc_judgements += model_correct_poll(correct_mul_score < incorrect_mul_score)
 
+        # Create a row for the results dataframe
+        row = {
+            'llama_s_val': ll_info['s_val'],
+            'olmo_s_val': ol_info['s_val'], 
+            'stable_s_val': st_info['s_val'],
+            'llama_confidence': llama_confidence,
+            'olmo_confidence': olmo_confidence,
+            'stable_confidence': stable_confidence,
+            'lowest_s_val_model': ['llama', 'olmo', 'stable'][max_index],
+            'lowest_s_val_model_answer': info_list[max_index]['data']['is_jury_approving'],
+            'highest_confidence_model': ['llama', 'olmo', 'stable'][max_index_conf],
+            'highest_confidence_model_answer': info_list[max_index_conf]['data']['is_jury_approving'],
+            'is_base_model_correct': ll_info['is_base_model_correct'],
+        }
+
+        # Add the row to the results dataframe
+        results_list.append(row)
+        #results_df = pd.concat([results_df, pd.DataFrame([row])], ignore_index=True)
+    results_df = pd.DataFrame(results_list)
+    results_df.to_csv("results.csv")
     print("Accurate vs Inaccurate judgements")
-    print("Majority Poll:", accurate_judgements, total_disagreements - accurate_judgements)
-    print("Calibrated Confidence Poll:", cal_acc_judgements, total_disagreements - cal_acc_judgements)
-    print("Calibrated Mul Confidence Poll:", cal_mul_acc_judgements, total_disagreements - cal_mul_acc_judgements)
-    print("Calibrated Max Poll:", max_cal_acc_judgements, total_disagreements - max_cal_acc_judgements)
-    print("Max Poll (Uncalibrated):", max_acc_judgements, total_disagreements - max_acc_judgements)
-    print("Veto Poll:", veto_acc_judgements, total_disagreements - veto_acc_judgements)
+    print("Majority Poll:", accurate_judgements, total_disagreements - accurate_judgements, accurate_judgements/(total_disagreements))
+    print("Calibrated Confidence Poll:", cal_acc_judgements, total_disagreements - cal_acc_judgements, cal_acc_judgements/(total_disagreements))
+    print("Calibrated Mul Confidence Poll:", cal_mul_acc_judgements, total_disagreements - cal_mul_acc_judgements, cal_mul_acc_judgements/(total_disagreements))
+    print("Calibrated Max Poll:", max_cal_acc_judgements, total_disagreements - max_cal_acc_judgements, max_cal_acc_judgements/(total_disagreements))
+    print("Max Poll (Uncalibrated):", max_acc_judgements, total_disagreements - max_acc_judgements, max_acc_judgements/(total_disagreements))
+    print("Veto Poll:", veto_acc_judgements, total_disagreements - veto_acc_judgements, veto_acc_judgements/(total_disagreements))
     print("Majorities:", true_majority, false_majority)
     print("True Majority:", true_majority_true, true_majority_false)
-    print("False Majority:", false_majority_true, false_majority_false)
+    print("False Majority:", false_majority_false, false_majority_true)
     print("Start Interval:", interval_start)
     print("End Interval:", interval_end)
-    print("Llama correct:", jury_correct[0], len(llama_test_vals) - jury_correct[0], jury_correct[0]/total_disagreements)
-    print("Olmo correct:", jury_correct[1], len(llama_test_vals) - jury_correct[1], jury_correct[1]/total_disagreements)
-    print("Stable correct:", jury_correct[2], len(llama_test_vals) - jury_correct[2], jury_correct[2]/total_disagreements)
-    print("Base Model Correct:", base_model_correct, len(llama_test_vals) - base_model_correct)
-    '''
-    on test data:
-    Majority Poll: 153 16
-    Calibrated Confidence Poll: 153 16
-    Calibrated Mul Confidence Poll: 156 13
-    Calibrated Max Poll: 158 11
-    Veto Poll: 161 8
-    Majorities: 18 151
-    True Majority: 5 13
-    False Majority: 3 148
-    '''
+    print("Llama correct:", jury_correct[0], len_points - jury_correct[0], jury_correct[0]/len_points)
+    print("Olmo correct:", jury_correct[1], len_points - jury_correct[1], jury_correct[1]/len_points)
+    print("Stable correct:", jury_correct[2], len_points - jury_correct[2], jury_correct[2]/len_points)
+    print("Base Model Correct:", base_model_correct, len_points - base_model_correct)
+    print("Max Logits:", max_logits)
+    print("Max Confidence:", max_confidence)
+    print("Jury Correct on disagreements:", jury_correct_disagreements)
+    print("Jury Correct on disagreements (normalized):", [x/total_disagreements for x in jury_correct_disagreements])
+
+    return [accurate_judgements/(total_disagreements), cal_acc_judgements/(total_disagreements), cal_mul_acc_judgements/(total_disagreements), max_cal_acc_judgements/(total_disagreements), max_acc_judgements/(total_disagreements)]
