@@ -1,7 +1,12 @@
 from transformers import AutoTokenizer, AutoModelForCausalLM
+import os
+import sys
 import pandas as pd
 import torch
 import transformers
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from utils import exact_match
+
 
 pre_prompt = "Please answer only the question below in one or two sentences. Do not generate any subsequent questions.\n\n"
 
@@ -211,6 +216,29 @@ def generate_model_answers(cand_model, tokenizer, data_set, file_name, device):
     #f.close()
     return results
 
+def create_correctness_column(filename):
+    # Read fine_tune_data.csv into a pandas dataframe
+    ft_df = pd.read_csv(filename, on_bad_lines='skip', engine='python')
+    # Get the normalized aliases and the answer of each question
+    normalized_aliases = ft_df['normalized_aliases']
+    generated_answers = ft_df['answer']
+
+    normalized_aliases_list = normalized_aliases.tolist()
+    generated_answers_list = generated_answers.tolist()
+
+    # Apply normalize_text to every answer in the generated_answers_list
+    # Create a list of strings where each string is "Correct" if the normalized_answer is in the normailzed_aliases and "Incorrect" otherwise
+    correctness_list = [exact_match(a, eval(normalized_aliases[i])) for i, a in enumerate(generated_answers_list)]
+    print(correctness_list)
+    correctness_df = pd.DataFrame({'accurate_judgement': ['Correct' if c == 1.0 else 'Incorrect' for c in correctness_list]})
+
+    ft_df['correctness'] = correctness_df
+    print(ft_df.head())
+    print(ft_df.tail(10))
+    # get index of '.' in filename
+    ft_df.to_csv(filename[:filename.index('.')]+'_correctness.csv', index=False)
+    return correctness_df
+
 def run_base_model(model_name: str, fine_tune_data, fine_tune_test_data, calibration_data, test_data):
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -222,4 +250,8 @@ def run_base_model(model_name: str, fine_tune_data, fine_tune_test_data, calibra
     generate_model_answers(model, tokenizer, calibration_data, "calibration_data.csv", device)
     generate_model_answers(model, tokenizer, test_data, "test_data.csv", device)
 
+    create_correctness_column("fine_tune_data.csv")
+    create_correctness_column("fine_tune_test_data.csv")
+    create_correctness_column("calibration_data.csv")
+    create_correctness_column("test_data.csv")
 
