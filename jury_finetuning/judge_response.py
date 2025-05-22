@@ -1,6 +1,6 @@
 import torch
 import pandas as pd
-from run_jury import format_prompt, JUDGEMENT_TRUE, JUDGEMENT_FALSE
+from jury_finetuning.run_jury import format_prompt, JUDGEMENT_TRUE, JUDGEMENT_FALSE
 
 def judge_response(jury_model, jury_tokenizer, question, answer, correct_token_id, incorrect_token_id):
     prompt = format_prompt(question, answer)
@@ -57,5 +57,5 @@ def call_jury(jury_model, jury_tokenizer, jury_model_name, file_name):
         results.append(logits.tolist())
         new_row = pd.DataFrame([{'question': question, 'answer': answer, 'normalized_aliases': normalized_aliases, 'accurate_judgement': accurate_judgement, 'logits': logits.tolist()}])
         df = pd.concat([df, new_row], ignore_index=False)
-    df.to_csv("jury_logits_"+jury_model_name+".csv", index=False)
+    df.to_csv("jury_judgements/jury_logits_"+jury_model_name+".csv", index=False)
 
