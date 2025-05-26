@@ -6,7 +6,7 @@ from print_stats import print_stats
 from pandas import DataFrame
 import pandas as pd
 
-base_model = "cohere7b"
+base_model = "jury_judgements"
 def get_epsilon_dict(calib_file_name: str) -> dict[float, float]:
     file_name = generate_s_values(base_model, calib_file_name, True)
     return create_q_alphas(file_name)
@@ -42,17 +42,17 @@ def shuffle_jury_data(jury_model_name: str, jury_model_name_test: str, seed: int
 
 dist_list = []
 for i in range(9, 10):  
-    shuffle_jury_data("olmo13b", "olmo13b_test", seed = i)
-    shuffle_jury_data("llama13b", "llama13b_test", seed = i)
-    shuffle_jury_data("stable13b", "stable13b_test", seed = i)
+    shuffle_jury_data("qlora_olmo13b_calib", "qlora_olmo13b_test", seed = i)
+    shuffle_jury_data("qlora_llama13b_calib", "qlora_llama13b_test", seed = i)
+    shuffle_jury_data("qlora_stable13b_calib", "qlora_stable13b_test", seed = i)
 
-    olmo13b_alphas = get_epsilon_dict("olmo13b_shuffled")
-    llama13b_alphas = get_epsilon_dict("llama13b_shuffled")
-    stable13b_alphas = get_epsilon_dict("stable13b_shuffled")
+    olmo13b_alphas = get_epsilon_dict("qlora_olmo13b_calib_shuffled")
+    llama13b_alphas = get_epsilon_dict("qlora_llama13b_calib_shuffled")
+    stable13b_alphas = get_epsilon_dict("qlora_stable13b_calib_shuffled")
 
-    olmo13b_test = get_test_s_vals("olmo13b_test_shuffled")
-    llama13b_test = get_test_s_vals("llama13b_test_shuffled")
-    stable13b_test = get_test_s_vals("stable13b_test_shuffled")
+    olmo13b_test = get_test_s_vals("qlora_olmo13b_test_shuffled")
+    llama13b_test = get_test_s_vals("qlora_llama13b_test_shuffled")
+    stable13b_test = get_test_s_vals("qlora_stable13b_test_shuffled")
 
     results = print_stats(llama13b_test, olmo13b_test, stable13b_test, llama13b_alphas, olmo13b_alphas, stable13b_alphas)
     dist_list.append(results)
