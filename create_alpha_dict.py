@@ -29,5 +29,3 @@ def create_q_alphas(file_name: str):
 def get_s_vals(file_name: str) -> DataFrame:
     df = pd.read_csv(file_name)
     return df[['s_val', 'is_base_model_correct', 'is_jury_approving']]
-
-get_s_vals("s_values_llama13b_test.csv")
