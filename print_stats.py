@@ -1,10 +1,10 @@
 
 from find_epsilon_from_s import find_epsilon_from_s
 from pandas import DataFrame
+from utils import calculate_metrics_for_response
 import pandas as pd
 
 def print_stats(llama_test_vals: DataFrame, olmo_test_vals: DataFrame, stable_test_vals: DataFrame, llama_dict: dict, olmo_dict: dict, stable_dict: dict):
-    
     total_disagreements = 0
     
     # majority poll vs calibrated poll
@@ -198,3 +198,60 @@ def print_stats(llama_test_vals: DataFrame, olmo_test_vals: DataFrame, stable_te
     print("Jury Correct on disagreements (normalized):", [x/total_disagreements for x in jury_correct_disagreements])
 
     return [accurate_judgements/(total_disagreements), cal_acc_judgements/(total_disagreements), cal_mul_acc_judgements/(total_disagreements), max_cal_acc_judgements/(total_disagreements), max_acc_judgements/(total_disagreements)]
+
+def print_stats2(llama_test_vals: DataFrame, olmo_test_vals: DataFrame, stable_test_vals: DataFrame, llama_dict: dict, olmo_dict: dict, stable_dict: dict):
+    def get_logits(row):
+        if not row['is_jury_approving']:
+            return [row['s_val'], 1 - row['s_val']]
+        else :
+            return [1 - row['s_val'], row['s_val']]
+
+    majority_vote = 0
+    cal_confidence_poll = 0
+    cal_mul_confidence_poll = 0
+    cal_max_poll = 0
+    max_poll_uncalibrated = 0
+    veto_poll = 0
+    total = 0
+    for i in range(len(llama_test_vals)):
+        # Get ith row of each DataFrame
+        ll_info = llama_test_vals.iloc[i]
+        ol_info = olmo_test_vals.iloc[i]
+        st_info = stable_test_vals.iloc[i]
+
+        if ll_info['is_jury_approving'] == ol_info['is_jury_approving'] == st_info['is_jury_approving']:
+            continue
+
+        total += 1
+        ll_logits = get_logits(ll_info)
+        ol_logits = get_logits(ol_info)
+        st_logits = get_logits(st_info)
+
+        result = calculate_metrics_for_response({
+            'llama': {'logits': ll_logits, 'epsilon_to_s': llama_dict},
+            'olmo': {'logits': ol_logits, 'epsilon_to_s': olmo_dict},
+            'stable': {'logits': st_logits, 'epsilon_to_s': stable_dict}
+        })
+
+        is_correct = ll_info['is_base_model_correct']
+        if result['Majority Vote'] == is_correct:
+            majority_vote += 1
+        if result['Calibrated Confidence Score'] == is_correct:
+            cal_confidence_poll += 1
+        if result['Calibrated Multiplicative Score'] == is_correct:
+            cal_mul_confidence_poll += 1
+        if result['Max Poll (Confidence)'] == is_correct:
+            cal_max_poll += 1
+        if result['Max Poll (Logits)'] == is_correct:
+            max_poll_uncalibrated += 1
+        if result['Veto Poll'] == is_correct:
+            veto_poll += 1
+
+    print("Majority Vote:", majority_vote, total - majority_vote, majority_vote / total)
+    print("Calibrated Confidence Poll:", cal_confidence_poll, total - cal_confidence_poll, cal_confidence_poll / total)
+    print("Calibrated Multiplicative Poll:", cal_mul_confidence_poll, total - cal_mul_confidence_poll, cal_mul_confidence_poll / total)
+    print("Calibrated Max Poll:", cal_max_poll, total - cal_max_poll, cal_max_poll / total)
+    print("Max Poll (Uncalibrated):", max_poll_uncalibrated, total - max_poll_uncalibrated, max_poll_uncalibrated / total)
+    print("Veto Poll:", veto_poll, total - veto_poll, veto_poll / total)
+
+

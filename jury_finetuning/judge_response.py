@@ -35,13 +35,30 @@ def judge_response(jury_model, jury_tokenizer, question, answer, correct_token_i
     # print("prediction", predicted_token_id)
     return logits
 
+def get_true_false_token_ids(jury_tokenizer):
+    """
+    Get the token IDs for the true and false judgement tokens.
+    """
+    correct_token_id = jury_tokenizer.encode(JUDGEMENT_TRUE)[-1]
+    incorrect_token_id = jury_tokenizer.encode(JUDGEMENT_FALSE)[-1]
+    return correct_token_id, incorrect_token_id
+
+def call_jury_on_single_prompt(jury_model, jury_tokenizer, question, answer):
+    correct_token_id, incorrect_token_id = get_true_false_token_ids(jury_tokenizer)
+    
+    logits = judge_response(jury_model, jury_tokenizer, question, answer, correct_token_id, incorrect_token_id)
+    logits = logits.tolist()[0]
+    return {
+        JUDGEMENT_TRUE: logits[0],
+        JUDGEMENT_FALSE: logits[1]
+    }
+
 def call_jury(jury_model, jury_tokenizer, jury_model_name, file_name):
 
     df_answers = pd.read_csv(file_name)
     results = []
 
-    correct_token_id = jury_tokenizer.encode(JUDGEMENT_TRUE)[-1]
-    incorrect_token_id = jury_tokenizer.encode(JUDGEMENT_FALSE)[-1]
+    correct_token_id, incorrect_token_id = get_true_false_token_ids(jury_tokenizer)
     
     print("Correct token id: ", correct_token_id)
     print("Incorrect token id: ", incorrect_token_id)

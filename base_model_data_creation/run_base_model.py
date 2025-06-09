@@ -161,10 +161,7 @@ class StoppingCriteriaSub(transformers.StoppingCriteria):
 
         return (has_stop_ids.any(dim=1).all())
 
-def generate_model_answers(cand_model, tokenizer, data_set, file_name, device):
-    inputs = tokenizer("input text", return_tensors="pt")
-    attention_mask = inputs["attention_mask"]
-
+def get_stop_word_ids(tokenizer):
     newline_token = tokenizer.encode("\n")[-1]
     # period_token = tokenizer.encode(".")[-1]
     # comma_token = tokenizer.encode(",")[-1]
@@ -172,8 +169,37 @@ def generate_model_answers(cand_model, tokenizer, data_set, file_name, device):
     stop_word_ids = [
         newline_token
     ]
+    return stop_word_ids
 
-    num_return_sequences = 1
+def get_formatted_prompt(question):
+    return pre_prompt + few_shot_qa.format(question)
+
+def get_model_output(cand_model, tokenizer, question, device):
+    prompt =  get_formatted_prompt(question)
+    stop_word_ids = get_stop_word_ids(tokenizer)
+    inputs_before = tokenizer(prompt, return_tensors="pt")
+    attention_mask = inputs_before["attention_mask"].to(device)
+    input_ids = inputs_before['input_ids'].to(device)
+    stopping_criteria = transformers.StoppingCriteriaList([StoppingCriteriaSub(stop_ids=stop_word_ids, input_length=input_ids.shape[1])])
+    kwargs = {
+        "max_new_tokens": 100,
+        "return_dict_in_generate": True,
+        "output_scores": True,
+        "stopping_criteria": stopping_criteria,
+        "num_return_sequences": 1,
+    }
+    # Call the model to generate the tokens of its answer
+    output_ids = cand_model.generate(
+        input_ids,
+        attention_mask=attention_mask,
+        **kwargs,
+    )
+    # Decode and print the generated text
+    only_output_ids = output_ids[0][0][len(input_ids[0]):]
+    output_text = tokenizer.decode(only_output_ids, skip_special_tokens=True)
+    return output_text
+
+def generate_model_answers(cand_model, tokenizer, data_set, file_name, device):
 
     # Create a pandas dataframe with the columns 'question' and 'answer'
     df = pd.DataFrame(columns=['question', 'answer'])
@@ -184,30 +210,7 @@ def generate_model_answers(cand_model, tokenizer, data_set, file_name, device):
     for data_point in data_set:
         print(i)
         i += 1
-        # prompt = data_point['question']
-        prompt =  pre_prompt + few_shot_qa.format(data_point['question'])
-        # print(prompt)
-        inputs_before = tokenizer(prompt, return_tensors="pt")
-        attention_mask = inputs_before["attention_mask"].to(device)
-        input_ids = inputs_before['input_ids'].to(device)
-        stopping_criteria = transformers.StoppingCriteriaList([StoppingCriteriaSub(stop_ids=stop_word_ids, input_length=input_ids.shape[1])])
-        kwargs = {
-            "max_new_tokens": 100,
-            "return_dict_in_generate": True,
-            "output_scores": True,
-            "stopping_criteria": stopping_criteria,
-            "num_return_sequences": num_return_sequences,
-        }
-        # Call the model to generate the tokens of its answer
-        output_ids = cand_model.generate(
-            input_ids,
-            attention_mask=attention_mask,
-            **kwargs,
-        )
-        # Decode and print the generated text
-        only_output_ids = output_ids[0][0][len(input_ids[0]):]
-        output_text = tokenizer.decode(only_output_ids, skip_special_tokens=True)
-
+        output_text = get_model_output(cand_model, tokenizer, data_point['question'], device)
         new_row = pd.DataFrame([{'question': data_point['question'], 'answer': output_text, 'normalized_aliases': data_point['answer']['normalized_aliases']}])
         df = pd.concat([df, new_row], ignore_index=False)
 
