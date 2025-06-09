@@ -79,7 +79,7 @@ def evaluate(input: Input):
     gen_tok, gen_mod = models["generator"]
     output_text = get_model_output(gen_mod, gen_tok, input.question, device)
 
-    jury_to_metrics = {"question": input.question}
+    jury_to_metrics = {}
     # Step 2: Evaluate with all 3 juries
     for jury_name, (jury_tok, jury_mod) in models.items():
         if jury_name == "generator":
@@ -90,11 +90,13 @@ def evaluate(input: Input):
         logits = call_jury_on_single_prompt(
             jury_mod, jury_tok, input.question, output_text
         )
-        metrics = calculate_metrics_for_response(logits, jury_epsilons)
         jury_to_metrics[jury_name] = {
             "logits": logits,
-            "metrics": metrics
+            "epsilon_to_s": JURY_EPSILONS[jury_name],
         }
 
+    jury_agg_judgements = calculate_metrics_for_response(jury_to_metrics)
+    jury_agg_judgements["generated_answer"] = output_text
+    jury_agg_judgements["question"] = input.question
     # Step 3: Return results
-    return jury_to_metrics
+    return jury_agg_judgements
