@@ -48,10 +48,7 @@ def call_jury_on_single_prompt(jury_model, jury_tokenizer, question, answer):
     
     logits = judge_response(jury_model, jury_tokenizer, question, answer, correct_token_id, incorrect_token_id)
     logits = logits.tolist()[0]
-    return {
-        JUDGEMENT_TRUE: logits[0],
-        JUDGEMENT_FALSE: logits[1]
-    }
+    return logits
 
 def call_jury(jury_model, jury_tokenizer, jury_model_name, file_name):
 
