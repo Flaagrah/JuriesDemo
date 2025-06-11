@@ -103,6 +103,7 @@ def calculate_metrics_for_response(juries_to_logits_epsilons):
     max_poll_confidence = 0
     max_poll_confidence_result = None
 
+    jury_info = {}
     for jury_name, logits_epsilons in juries_to_logits_epsilons.items():
         logits = logits_epsilons['logits']
         epsilon_to_s = logits_epsilons['epsilon_to_s']
@@ -126,6 +127,13 @@ def calculate_metrics_for_response(juries_to_logits_epsilons):
             max_poll_confidence = confidence
             max_poll_confidence_result = is_jury_approving
         
+        jury_info[jury_name] = {
+            "logits": logits,
+            "epsilon_to_s": epsilon_to_s,
+            "confidence": confidence,
+            "is_jury_approving": is_jury_approving
+        }
+        
 
     return {
         "Majority Vote": true_counts > false_counts,
@@ -133,5 +141,6 @@ def calculate_metrics_for_response(juries_to_logits_epsilons):
         "Calibrated Confidence Score": correct_score > incorrect_score,
         "Veto Poll": is_not_vetoed,
         "Max Poll (Logits)": max_poll_logits_result,
-        "Max Poll (Confidence)": max_poll_confidence_result
+        "Max Poll (Confidence)": max_poll_confidence_result,
+        "Jury Info": jury_info
     }
