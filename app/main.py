@@ -113,6 +113,3 @@ def evaluate(question: str):
     jury_agg_judgements["question"] = question
     # Step 3: Return results
     return jury_agg_judgements
-
-load_models()
-evaluate("What is the capital of France?")
