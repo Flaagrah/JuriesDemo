@@ -85,6 +85,8 @@ def load_models():
     JURY_EPSILONS[jury2] = get_epsilon_dict("qlora_"+jury2+"_calib_shuffled")
     JURY_EPSILONS[jury3] = get_epsilon_dict("qlora_"+jury3+"_calib_shuffled")
 
+    return JURY_EPSILONS
+
 #@app.post("/evaluate")
 def evaluate(question: str):
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -97,8 +99,6 @@ def evaluate(question: str):
     for jury_name, (jury_tok, jury_mod) in models.items():
         if jury_name == "generator":
             continue
-        # Get the epsilon values for the jury
-        jury_epsilons = JURY_EPSILONS[jury_name]
         # Call the jury model on the generated answer
         logits = call_jury_on_single_prompt(
             jury_mod, jury_tok, question, output_text

@@ -129,7 +129,6 @@ def calculate_metrics_for_response(juries_to_logits_epsilons):
         
         jury_info[jury_name] = {
             "logits": logits,
-            "epsilon_to_s": epsilon_to_s,
             "confidence": confidence,
             "is_jury_approving": is_jury_approving
         }
