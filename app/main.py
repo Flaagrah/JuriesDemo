@@ -85,8 +85,6 @@ def load_models():
     JURY_EPSILONS[jury2] = get_epsilon_dict("qlora_"+jury2+"_calib_shuffled")
     JURY_EPSILONS[jury3] = get_epsilon_dict("qlora_"+jury3+"_calib_shuffled")
 
-    return JURY_EPSILONS
-
 @app.post("/evaluate")
 def evaluate(question: str):
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
