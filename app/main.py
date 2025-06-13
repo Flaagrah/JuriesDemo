@@ -40,7 +40,7 @@ JURY_EPSILONS = {
 # Global model store
 models = {}
 
-#@app.on_event("startup")
+@app.on_event("startup")
 def load_models():
     print("🔧 Loading generator model...")
     gen_tok = AutoTokenizer.from_pretrained(GENERATOR_MODEL_ID)
@@ -87,7 +87,7 @@ def load_models():
 
     return JURY_EPSILONS
 
-#@app.post("/evaluate")
+@app.post("/evaluate")
 def evaluate(question: str):
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     # Step 1: Generate answer
