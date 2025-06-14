@@ -5,6 +5,7 @@ import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 from fastapi import FastAPI
+from pydantic import BaseModel
 from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
 from base_model_data_creation.run_base_model import get_model_output
 from utils import get_epsilon_dict, shuffle_jury_data, calculate_metrics_for_response
@@ -84,8 +85,12 @@ def load_models():
     JURY_EPSILONS[jury2] = get_epsilon_dict("qlora_"+jury2+"_calib_shuffled")
     JURY_EPSILONS[jury3] = get_epsilon_dict("qlora_"+jury3+"_calib_shuffled")
 
+class EvalRequest(BaseModel):
+    question: str
+
 @app.post("/evaluate")
-def evaluate(question: str):
+def evaluate(eval_req: EvalRequest):
+    question = eval_req.question.strip()
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     # Step 1: Generate answer
     gen_tok, gen_mod = models["generator"]
