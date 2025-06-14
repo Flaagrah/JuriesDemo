@@ -5,15 +5,27 @@ import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 from fastapi import FastAPI
-from pydantic import BaseModel
+from pyngrok import ngrok
 from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
 from base_model_data_creation.run_base_model import get_model_output
 from utils import get_epsilon_dict, shuffle_jury_data, calculate_metrics_for_response
 from jury_finetuning.judge_response import call_jury_on_single_prompt
 import torch
+import nest_asyncio
+import uvicorn
 
 app = FastAPI()
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
+# 4. Setup ngrok tunnel
+public_url = ngrok.connect(8000)
+print(f"Public URL: {public_url}")
+
+# 5. Allow nested event loops (Colab compatibility)
+nest_asyncio.apply()
+
+# 6. Launch FastAPI app
+uvicorn.run(app, port=8000)
 
 # One generator from Hugging Face
 GENERATOR_MODEL_ID = "CohereLabs/c4ai-command-r7b-12-2024"
