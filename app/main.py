@@ -5,12 +5,14 @@ import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 from fastapi import FastAPI
+from fastapi.responses import JSONResponse
 from pydantic import BaseModel
 from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
 from base_model_data_creation.run_base_model import get_model_output
 from utils import get_epsilon_dict, shuffle_jury_data, calculate_metrics_for_response
 from jury_finetuning.judge_response import call_jury_on_single_prompt
 import torch
+import traceback
 
 app = FastAPI()
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -42,76 +44,87 @@ models = {}
 
 @app.on_event("startup")
 def load_models():
-    print("🔧 Loading generator model...")
-    gen_tok = AutoTokenizer.from_pretrained(GENERATOR_MODEL_ID)
-    gen_mod = AutoModelForCausalLM.from_pretrained(
-        GENERATOR_MODEL_ID,
-        torch_dtype=torch.float16,
-        device_map="auto"
-    ).to(device)
-    gen_mod.eval()
-    models["generator"] = (gen_tok, gen_mod)
-
-    print("🔧 Loading local jury models...")
-    for name, path in JURY_MODEL_PATHS.items():
-        tok = AutoTokenizer.from_pretrained(path)
-        # Set up 4-bit quantization configuration via bitsandbytes.
-        quant_config = BitsAndBytesConfig(
-            load_in_4bit=True,
-            bnb_4bit_quant_type="nf4",          # NormalFloat 4 (NF4) quantization
-            bnb_4bit_use_double_quant=True,       # Use double quantization for improved accuracy
-            bnb_4bit_compute_dtype=torch.bfloat16 # Use BF16 for compute
-        )
-
-        # # Load the model with 4-bit quantization.
-        mod = AutoModelForCausalLM.from_pretrained(
-            path,
-            quantization_config=quant_config,
-            trust_remote_code=True,
+    try:
+        print("🔧 Loading generator model...")
+        gen_tok = AutoTokenizer.from_pretrained(GENERATOR_MODEL_ID)
+        gen_mod = AutoModelForCausalLM.from_pretrained(
+            GENERATOR_MODEL_ID,
+            torch_dtype=torch.float16,
             device_map="auto"
         ).to(device)
-        mod.eval()
-        models[name] = (tok, mod)
+        gen_mod.eval()
+        models["generator"] = (gen_tok, gen_mod)
 
-    print("✅ All models loaded.")
+        print("🔧 Loading local jury models...")
+        for name, path in JURY_MODEL_PATHS.items():
+            tok = AutoTokenizer.from_pretrained(path)
+            # Set up 4-bit quantization configuration via bitsandbytes.
+            quant_config = BitsAndBytesConfig(
+                load_in_4bit=True,
+                bnb_4bit_quant_type="nf4",          # NormalFloat 4 (NF4) quantization
+                bnb_4bit_use_double_quant=True,       # Use double quantization for improved accuracy
+                bnb_4bit_compute_dtype=torch.bfloat16 # Use BF16 for compute
+            )
 
-    print("Shuffling calibration data...")
-    seed = 9
-    shuffle_jury_data("qlora_olmo13b_calib", "qlora_olmo13b_test", seed)
-    shuffle_jury_data("qlora_llama13b_calib", "qlora_llama13b_test", seed)
-    shuffle_jury_data("qlora_stable13b_calib", "qlora_stable13b_test", seed)
+            # # Load the model with 4-bit quantization.
+            mod = AutoModelForCausalLM.from_pretrained(
+                path,
+                quantization_config=quant_config,
+                trust_remote_code=True,
+                device_map="auto"
+            ).to(device)
+            mod.eval()
+            models[name] = (tok, mod)
 
-    JURY_EPSILONS[jury1] = get_epsilon_dict("qlora_"+jury1+"_calib_shuffled")
-    JURY_EPSILONS[jury2] = get_epsilon_dict("qlora_"+jury2+"_calib_shuffled")
-    JURY_EPSILONS[jury3] = get_epsilon_dict("qlora_"+jury3+"_calib_shuffled")
+        print("✅ All models loaded.")
+
+        print("Shuffling calibration data...")
+        seed = 9
+        shuffle_jury_data("qlora_olmo13b_calib", "qlora_olmo13b_test", seed)
+        shuffle_jury_data("qlora_llama13b_calib", "qlora_llama13b_test", seed)
+        shuffle_jury_data("qlora_stable13b_calib", "qlora_stable13b_test", seed)
+
+        JURY_EPSILONS[jury1] = get_epsilon_dict("qlora_"+jury1+"_calib_shuffled")
+        JURY_EPSILONS[jury2] = get_epsilon_dict("qlora_"+jury2+"_calib_shuffled")
+        JURY_EPSILONS[jury3] = get_epsilon_dict("qlora_"+jury3+"_calib_shuffled")
+    except Exception as e:
+        return process_error(e)
 
 class EvalRequest(BaseModel):
     question: str
 
 @app.post("/evaluate")
 def evaluate(eval_req: EvalRequest):
-    question = eval_req.question.strip()
-    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    # Step 1: Generate answer
-    gen_tok, gen_mod = models["generator"]
-    output_text = get_model_output(gen_mod, gen_tok, question, device)
+    try:
+        question = eval_req.question.strip()
+        device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+        # Step 1: Generate answer
+        gen_tok, gen_mod = models["generator"]
+        output_text = get_model_output(gen_mod, gen_tok, question, device)
 
-    jury_to_metrics = {}
-    # Step 2: Evaluate with all 3 juries
-    for jury_name, (jury_tok, jury_mod) in models.items():
-        if jury_name == "generator":
-            continue
-        # Call the jury model on the generated answer
-        logits = call_jury_on_single_prompt(
-            jury_mod, jury_tok, question, output_text
-        )
-        jury_to_metrics[jury_name] = {
-            "logits": logits,
-            "epsilon_to_s": JURY_EPSILONS[jury_name],
-        }
+        jury_to_metrics = {}
+        # Step 2: Evaluate with all 3 juries
+        for jury_name, (jury_tok, jury_mod) in models.items():
+            if jury_name == "generator":
+                continue
+            # Call the jury model on the generated answer
+            logits = call_jury_on_single_prompt(
+                jury_mod, jury_tok, question, output_text
+            )
+            jury_to_metrics[jury_name] = {
+                "logits": logits,
+                "epsilon_to_s": JURY_EPSILONS[jury_name],
+            }
 
-    jury_agg_judgements = calculate_metrics_for_response(jury_to_metrics)
-    jury_agg_judgements["generated_answer"] = output_text
-    jury_agg_judgements["question"] = question
-    # Step 3: Return results
-    return jury_agg_judgements
+        jury_agg_judgements = calculate_metrics_for_response(jury_to_metrics)
+        jury_agg_judgements["generated_answer"] = output_text
+        jury_agg_judgements["question"] = question
+        # Step 3: Return results
+        return jury_agg_judgements
+    except Exception as e:
+        return process_error(e)
+
+def process_error(e):
+    traceback_str = traceback.format_exc()
+    print("🔥 Internal error:\n", traceback_str)  # Print in Colab logs
+    return JSONResponse(status_code=500, content={"error": str(e)})
