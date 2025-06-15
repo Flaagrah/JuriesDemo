@@ -17,9 +17,6 @@ import traceback
 app = FastAPI()
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-# One generator from Hugging Face
-GENERATOR_MODEL_ID = "CohereLabs/c4ai-command-r7b-12-2024"
-
 # Jury model names
 jury1 = "olmo13b"
 jury2 = "llama13b"
@@ -45,16 +42,6 @@ models = {}
 @app.on_event("startup")
 def load_models():
     try:
-        print("🔧 Loading generator model...")
-        gen_tok = AutoTokenizer.from_pretrained(GENERATOR_MODEL_ID)
-        gen_mod = AutoModelForCausalLM.from_pretrained(
-            GENERATOR_MODEL_ID,
-            torch_dtype=torch.float16,
-            device_map="auto"
-        ).to(device)
-        gen_mod.eval()
-        models["generator"] = (gen_tok, gen_mod)
-
         print("🔧 Loading local jury models...")
         for name, path in JURY_MODEL_PATHS.items():
             tok = AutoTokenizer.from_pretrained(path)
@@ -92,15 +79,13 @@ def load_models():
 
 class EvalRequest(BaseModel):
     question: str
+    generated_answer: str
 
 @app.post("/evaluate")
 def evaluate(eval_req: EvalRequest):
     try:
         question = eval_req.question.strip()
-        device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-        # Step 1: Generate answer
-        gen_tok, gen_mod = models["generator"]
-        output_text = get_model_output(gen_mod, gen_tok, question, device)
+        output_text = eval_req.generated_answer.strip()
 
         jury_to_metrics = {}
         # Step 2: Evaluate with all 3 juries
