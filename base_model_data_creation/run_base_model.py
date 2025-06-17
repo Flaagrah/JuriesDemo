@@ -141,6 +141,8 @@ A: Hook
 Q: {}
 A: """
 
+data_folder = "base_model_outputs/"
+
 class StoppingCriteriaSub(transformers.StoppingCriteria):
     def __init__(self, input_length=0, stop_ids=None):
         super().__init__()
@@ -203,7 +205,6 @@ def generate_model_answers(cand_model, tokenizer, data_set, file_name, device):
 
     # Create a pandas dataframe with the columns 'question' and 'answer'
     df = pd.DataFrame(columns=['question', 'answer'])
-    #with open(file_name, "w") as f:
     # Iterate over the calibration set
     i = 0
     results = []
@@ -229,15 +230,12 @@ def create_correctness_column(filename):
     normalized_aliases_list = normalized_aliases.tolist()
     generated_answers_list = generated_answers.tolist()
 
-    # Apply normalize_text to every answer in the generated_answers_list
     # Create a list of strings where each string is "Correct" if the normalized_answer is in the normailzed_aliases and "Incorrect" otherwise
     correctness_list = [exact_match(a, eval(normalized_aliases[i])) for i, a in enumerate(generated_answers_list)]
-    print(correctness_list)
     correctness_df = pd.DataFrame({'accurate_judgement': ['Correct' if c == 1.0 else 'Incorrect' for c in correctness_list]})
 
     ft_df['correctness'] = correctness_df
-    print(ft_df.head())
-    print(ft_df.tail(10))
+
     # get index of '.' in filename
     ft_df.to_csv(filename[:filename.index('.')]+'_correctness.csv', index=False)
     return correctness_df
@@ -248,13 +246,13 @@ def run_base_model(model_name: str, fine_tune_data, fine_tune_test_data, calibra
     model = AutoModelForCausalLM.from_pretrained(model_name, torch_dtype=torch.bfloat16).to(device)
     tokenizer = AutoTokenizer.from_pretrained(model_name)
 
-    generate_model_answers(model, tokenizer, fine_tune_data, "fine_tune_data.csv", device)
-    generate_model_answers(model, tokenizer, fine_tune_test_data, "fine_tune_test_data.csv", device)
-    generate_model_answers(model, tokenizer, calibration_data, "calibration_data.csv", device)
-    generate_model_answers(model, tokenizer, test_data, "test_data.csv", device)
+    generate_model_answers(model, tokenizer, fine_tune_data, data_folder+"fine_tune_data.csv", device)
+    generate_model_answers(model, tokenizer, fine_tune_test_data, data_folder+"fine_tune_test_data.csv", device)
+    generate_model_answers(model, tokenizer, calibration_data, data_folder+"calibration_data.csv", device)
+    generate_model_answers(model, tokenizer, test_data, data_folder+"test_data.csv", device)
 
-    create_correctness_column("fine_tune_data.csv")
-    create_correctness_column("fine_tune_test_data.csv")
-    create_correctness_column("calibration_data.csv")
-    create_correctness_column("test_data.csv")
+    create_correctness_column(data_folder+"fine_tune_data.csv")
+    create_correctness_column(data_folder+"fine_tune_test_data.csv")
+    create_correctness_column(data_folder+"calibration_data.csv")
+    create_correctness_column(data_folder+"test_data.csv")
 
