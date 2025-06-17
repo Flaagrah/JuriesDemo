@@ -5,7 +5,7 @@ import pandas as pd
 import torch
 import transformers
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-from utils import exact_match
+from utils import exact_match, get_quantized_model
 
 
 pre_prompt = "Please answer only the question below in one or two sentences. Do not generate any subsequent questions.\n\n"
@@ -227,7 +227,6 @@ def create_correctness_column(filename):
     normalized_aliases = ft_df['normalized_aliases']
     generated_answers = ft_df['answer']
 
-    normalized_aliases_list = normalized_aliases.tolist()
     generated_answers_list = generated_answers.tolist()
 
     # Create a list of strings where each string is "Correct" if the normalized_answer is in the normailzed_aliases and "Incorrect" otherwise
@@ -243,7 +242,7 @@ def create_correctness_column(filename):
 def run_base_model(model_name: str, fine_tune_data, fine_tune_test_data, calibration_data, test_data):
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    model = AutoModelForCausalLM.from_pretrained(model_name, torch_dtype=torch.bfloat16).to(device)
+    model = get_quantized_model(model_name)
     tokenizer = AutoTokenizer.from_pretrained(model_name)
 
     generate_model_answers(model, tokenizer, fine_tune_data, data_folder+"fine_tune_data.csv", device)

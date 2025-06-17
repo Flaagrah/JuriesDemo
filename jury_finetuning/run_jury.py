@@ -10,6 +10,7 @@ from transformers import (
 )
 from peft import LoraConfig, get_peft_model
 from datasets import Dataset
+from utils import get_quantized_model
 
 # Define a prompt formatting function.
 # Here we train the model to complete the prompt with the correctness value.
@@ -84,25 +85,6 @@ def get_data_sets():
 
     return ft_df_correctness, ft_test_df_correctness
 
-def get_model(model_dir: str, device) -> AutoModelForCausalLM:
-    # Set up 4-bit quantization configuration via bitsandbytes.
-    quant_config = BitsAndBytesConfig(
-        load_in_4bit=True,
-        bnb_4bit_quant_type="nf4",          # NormalFloat 4 (NF4) quantization
-        bnb_4bit_use_double_quant=True,       # Use double quantization for improved accuracy
-        bnb_4bit_compute_dtype=torch.bfloat16 # Use BF16 for compute
-    )
-
-    # # Load the model with 4-bit quantization.
-    model = AutoModelForCausalLM.from_pretrained(
-        model_dir,
-        quantization_config=quant_config,
-        trust_remote_code=True,
-        device_map="auto"
-    ).to(device)
-
-    return model
-
 def fine_tune_jury(model_dir: str, model_name: str) -> None:
     """
     Fine-tune the jury model using the provided model name.
@@ -125,11 +107,11 @@ def fine_tune_jury(model_dir: str, model_name: str) -> None:
     tokenizer = AutoTokenizer.from_pretrained(model_dir, trust_remote_code=True)
     tokenizer.pad_token = tokenizer.eos_token
 
-    model = get_model(model_dir, device)
+    model = get_quantized_model(model_dir, device)
 
-    correctness = fine_tune_data['correctness']
-    answers = fine_tune_data['answer']
-    questions = fine_tune_data['question']
+    correctness = ft_df_data_balanced['correctness']
+    answers = ft_df_data_balanced['answer']
+    questions = ft_df_data_balanced['question']
 
     # Create prompts from the dataframe rows.
     prompts = [

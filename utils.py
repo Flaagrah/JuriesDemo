@@ -4,6 +4,9 @@ import pandas as pd
 import ast
 from typing import Union, Optional, List
 from pandas import DataFrame
+from transformers import AutoModelForCausalLM
+from bitsandbytes import BitsAndBytesConfig
+import torch
 from create_alpha_dict import create_q_alphas, get_s_vals
 from find_epsilon_from_s import find_epsilon_from_s
 
@@ -143,3 +146,22 @@ def calculate_metrics_for_response(juries_to_logits_epsilons):
         "Max Poll (Confidence)": max_poll_confidence_result,
         "Jury Info": jury_info
     }
+
+def get_quantized_model(model_dir: str, device) -> AutoModelForCausalLM:
+    # Set up 4-bit quantization configuration via bitsandbytes.
+    quant_config = BitsAndBytesConfig(
+        load_in_4bit=True,
+        bnb_4bit_quant_type="nf4",          # NormalFloat 4 (NF4) quantization
+        bnb_4bit_use_double_quant=True,       # Use double quantization for improved accuracy
+        bnb_4bit_compute_dtype=torch.bfloat16 # Use BF16 for compute
+    )
+
+    # # Load the model with 4-bit quantization.
+    model = AutoModelForCausalLM.from_pretrained(
+        model_dir,
+        quantization_config=quant_config,
+        trust_remote_code=True,
+        device_map="auto"
+    ).to(device)
+
+    return model
