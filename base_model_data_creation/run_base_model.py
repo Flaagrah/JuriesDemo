@@ -242,7 +242,7 @@ def create_correctness_column(filename):
 def run_base_model(model_name: str, fine_tune_data, fine_tune_test_data, calibration_data, test_data):
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    model = get_quantized_model(model_name)
+    model = get_quantized_model(model_name, device)
     tokenizer = AutoTokenizer.from_pretrained(model_name)
 
     generate_model_answers(model, tokenizer, fine_tune_data, data_folder+"fine_tune_data.csv", device)
