@@ -83,7 +83,7 @@ def get_data_sets():
 
     return ft_df_correctness, ft_test_df_correctness
 
-def fine_tune_jury(model_dir: str, model_name: str) -> None:
+def fine_tune_jury(model_dir: str, model_name: str, balance_dataset: bool = False) -> None:
     """
     Fine-tune the jury model using the provided model name.
     """
@@ -91,10 +91,12 @@ def fine_tune_jury(model_dir: str, model_name: str) -> None:
     fine_tune_data, fine_tune_test_data = get_data_sets()
 
     correct_count, incorrect_count = get_correct_incorrect_counts(fine_tune_data['correctness'])
-    balance_amount = min(correct_count, incorrect_count, 2000)
-
-    # Create a balanced dataset
-    ft_df_data_balanced = create_balanced_dataset(fine_tune_data, balance_amount)
+    
+    if balance_dataset:
+        print("Balancing dataset...")
+        balance_amount = min(correct_count, incorrect_count, 2000)
+        # Create a balanced dataset
+        fine_tune_data = create_balanced_dataset(fine_tune_data, balance_amount)
     
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
@@ -107,9 +109,9 @@ def fine_tune_jury(model_dir: str, model_name: str) -> None:
 
     model = get_quantized_model(model_dir, device)
 
-    correctness = ft_df_data_balanced['correctness']
-    answers = ft_df_data_balanced['answer']
-    questions = ft_df_data_balanced['question']
+    correctness = fine_tune_data['correctness']
+    answers = fine_tune_data['answer']
+    questions = fine_tune_data['question']
 
     # Create prompts from the dataframe rows.
     prompts = [
