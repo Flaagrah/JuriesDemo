@@ -9,6 +9,8 @@ import torch
 from create_alpha_dict import create_q_alphas, get_s_vals
 from find_epsilon_from_s import find_epsilon_from_s
 
+BASE_DATA_FOLDER = "base_model_outputs/"
+
 def normalize_text(s):
     """Lower text and remove punctuation, articles and extra whitespace."""
 

@@ -5,7 +5,7 @@ import pandas as pd
 import torch
 import transformers
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-from utils import exact_match, get_quantized_model
+from utils import exact_match, get_quantized_model, BASE_DATA_FOLDER
 
 
 pre_prompt = "Please answer only the question below in one or two sentences. Do not generate any subsequent questions.\n\n"
@@ -141,8 +141,6 @@ A: Hook
 Q: {}
 A: """
 
-data_folder = "base_model_outputs/"
-
 class StoppingCriteriaSub(transformers.StoppingCriteria):
     def __init__(self, input_length=0, stop_ids=None):
         super().__init__()
@@ -245,13 +243,13 @@ def run_base_model(model_name: str, fine_tune_data, fine_tune_test_data, calibra
     model = get_quantized_model(model_name, device)
     tokenizer = AutoTokenizer.from_pretrained(model_name)
 
-    generate_model_answers(model, tokenizer, fine_tune_data, data_folder+"fine_tune_data.csv", device)
-    generate_model_answers(model, tokenizer, fine_tune_test_data, data_folder+"fine_tune_test_data.csv", device)
-    generate_model_answers(model, tokenizer, calibration_data, data_folder+"calibration_data.csv", device)
-    generate_model_answers(model, tokenizer, test_data, data_folder+"test_data.csv", device)
+    generate_model_answers(model, tokenizer, fine_tune_data, BASE_DATA_FOLDER+"fine_tune_data.csv", device)
+    generate_model_answers(model, tokenizer, fine_tune_test_data, BASE_DATA_FOLDER+"fine_tune_test_data.csv", device)
+    generate_model_answers(model, tokenizer, calibration_data, BASE_DATA_FOLDER+"calibration_data.csv", device)
+    generate_model_answers(model, tokenizer, test_data, BASE_DATA_FOLDER+"test_data.csv", device)
 
-    create_correctness_column(data_folder+"fine_tune_data.csv")
-    create_correctness_column(data_folder+"fine_tune_test_data.csv")
-    create_correctness_column(data_folder+"calibration_data.csv")
-    create_correctness_column(data_folder+"test_data.csv")
+    create_correctness_column(BASE_DATA_FOLDER+"fine_tune_data.csv")
+    create_correctness_column(BASE_DATA_FOLDER+"fine_tune_test_data.csv")
+    create_correctness_column(BASE_DATA_FOLDER+"calibration_data.csv")
+    create_correctness_column(BASE_DATA_FOLDER+"test_data.csv")
 

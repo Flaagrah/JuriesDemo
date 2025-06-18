@@ -10,7 +10,7 @@ from transformers import (
 )
 from peft import LoraConfig, get_peft_model
 from datasets import Dataset
-from utils import get_quantized_model
+from utils import get_quantized_model, BASE_DATA_FOLDER
 
 # Define a prompt formatting function.
 # Here we train the model to complete the prompt with the correctness value.
@@ -70,12 +70,10 @@ def get_data_sets():
     """
     Retrieve the datasets for fine-tuning and testing.
     """
-    ft_df_correctness = pd.read_csv("fine_tune_data_correctness.csv")
-    ft_test_df_correctness = pd.read_csv("fine_tune_test_data_correctness.csv")
+    ft_df_correctness = pd.read_csv(BASE_DATA_FOLDER + "fine_tune_data_correctness.csv")
+    ft_test_df_correctness = pd.read_csv(BASE_DATA_FOLDER + "fine_tune_test_data_correctness.csv")
 
     correctness = ft_df_correctness['correctness']
-    answers = ft_df_correctness['answer']
-    questions = ft_df_correctness['question']
 
     correct_count, incorrect_count = get_correct_incorrect_counts(correctness)
     

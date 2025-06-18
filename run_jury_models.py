@@ -1,5 +1,6 @@
 from jury_finetuning.judge_response import call_jury
 from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
+from utils import BASE_DATA_FOLDER
 import os
 import torch
 import argparse
@@ -40,8 +41,8 @@ if __name__ == "__main__":
         device_map="auto"
     ).to(device)
 
-    call_jury(model, tokenizer, "qlora_"+model_name+"_finetuned", "fine_tune_test_data_correctness.csv")
-    call_jury(model, tokenizer, "qlora_"+model_name+"_calib", "calibration_data_correctness.csv")
-    call_jury(model, tokenizer, "qlora_"+model_name+"_test", "test_data_correctness.csv")
+    call_jury(model, tokenizer, "qlora_"+model_name+"_finetuned", BASE_DATA_FOLDER+"fine_tune_test_data_correctness.csv")
+    call_jury(model, tokenizer, "qlora_"+model_name+"_calib", BASE_DATA_FOLDER+"calibration_data_correctness.csv")
+    call_jury(model, tokenizer, "qlora_"+model_name+"_test", BASE_DATA_FOLDER+"test_data_correctness.csv")
 
 
