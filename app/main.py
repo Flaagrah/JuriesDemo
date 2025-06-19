@@ -24,9 +24,9 @@ jury3 = "stable13b"
 
 # Three jury models stored locally
 JURY_MODEL_PATHS = {
-    jury1: "qlora_olmo13b_finetuned/checkpoint-625",
-    jury2: "qlora_open_llama_13b_finetuned/checkpoint-625",
-    jury3: "qlora_stable13b_finetuned/checkpoint-625",
+    jury1: "qlora_olmo13b_finetuned/checkpoint-313",
+    jury2: "qlora_open_llama_13b_finetuned/checkpoint-313",
+    jury3: "qlora_stable13b_finetuned/checkpoint-313",
 }
 
 # Three jury models' epsilon values
