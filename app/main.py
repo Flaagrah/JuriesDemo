@@ -7,7 +7,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from fastapi import FastAPI
 from fastapi.responses import JSONResponse
 from pydantic import BaseModel
-from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
+from transformers import AutoTokenizer
 from base_model_data_creation.run_base_model import get_model_output
 from utils import get_epsilon_dict, shuffle_jury_data, calculate_metrics_for_response, get_quantized_model
 from jury_finetuning.judge_response import call_jury_on_single_prompt
@@ -16,7 +16,6 @@ import traceback
 
 app = FastAPI()
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-GENERATOR_MODEL_ID = "CohereLabs/c4ai-command-r-v01"
 
 # Jury model names
 jury1 = "olmo13b"
@@ -43,12 +42,6 @@ models = {}
 @app.on_event("startup")
 def load_models():
     try:
-        print("🔧 Loading generator model...")
-        gen_mod = get_quantized_model(GENERATOR_MODEL_ID, device)
-        gen_tok = AutoTokenizer.from_pretrained(GENERATOR_MODEL_ID)
-        gen_mod.eval()
-        models["generator"] = (gen_tok, gen_mod)
-
         print("🔧 Loading local jury models...")
         for name, path in JURY_MODEL_PATHS.items():
             tok = AutoTokenizer.from_pretrained(path)
@@ -73,24 +66,18 @@ def load_models():
 
 class EvalRequest(BaseModel):
     question: str
+    answer: str
 
 @app.post("/evaluate")
 def evaluate(eval_req: EvalRequest):
     try:
         question = eval_req.question.strip()
-        device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-        # Step 1: Generate answer
-        gen_tok, gen_mod = models["generator"]
-        output_text = get_model_output(gen_mod, gen_tok, question, device)
+        answer = eval_req.answer.strip()
 
         jury_to_metrics = {}
-        # Step 2: Evaluate with all 3 juries
         for jury_name, (jury_tok, jury_mod) in models.items():
-            if jury_name == "generator":
-                continue
-            # Call the jury model on the generated answer
             logits = call_jury_on_single_prompt(
-                jury_mod, jury_tok, question, output_text
+                jury_mod, jury_tok, question, answer
             )
             jury_to_metrics[jury_name] = {
                 "logits": logits,
@@ -98,7 +85,7 @@ def evaluate(eval_req: EvalRequest):
             }
 
         jury_agg_judgements = calculate_metrics_for_response(jury_to_metrics)
-        jury_agg_judgements["generated_answer"] = output_text
+        jury_agg_judgements["generated_answer"] = answer
         jury_agg_judgements["question"] = question
         # Step 3: Return results
         return jury_agg_judgements
