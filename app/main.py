@@ -9,13 +9,14 @@ from fastapi.responses import JSONResponse
 from pydantic import BaseModel
 from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
 from base_model_data_creation.run_base_model import get_model_output
-from utils import get_epsilon_dict, shuffle_jury_data, calculate_metrics_for_response
+from utils import get_epsilon_dict, shuffle_jury_data, calculate_metrics_for_response, get_quantized_model
 from jury_finetuning.judge_response import call_jury_on_single_prompt
 import torch
 import traceback
 
 app = FastAPI()
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+GENERATOR_MODEL_ID = "CohereLabs/c4ai-command-r-v01"
 
 # Jury model names
 jury1 = "olmo13b"
@@ -42,6 +43,16 @@ models = {}
 @app.on_event("startup")
 def load_models():
     try:
+        print("🔧 Loading generator model...")
+        gen_tok = get_quantized_model(GENERATOR_MODEL_ID, device)
+        gen_mod = AutoModelForCausalLM.from_pretrained(
+            GENERATOR_MODEL_ID,
+            torch_dtype=torch.float16,
+            device_map="auto"
+        ).to(device)
+        gen_mod.eval()
+        models["generator"] = (gen_tok, gen_mod)
+
         print("🔧 Loading local jury models...")
         for name, path in JURY_MODEL_PATHS.items():
             tok = AutoTokenizer.from_pretrained(path)
@@ -79,13 +90,15 @@ def load_models():
 
 class EvalRequest(BaseModel):
     question: str
-    generated_answer: str
 
 @app.post("/evaluate")
 def evaluate(eval_req: EvalRequest):
     try:
         question = eval_req.question.strip()
-        output_text = eval_req.generated_answer.strip()
+        device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+        # Step 1: Generate answer
+        gen_tok, gen_mod = models["generator"]
+        output_text = get_model_output(gen_mod, gen_tok, question, device)
 
         jury_to_metrics = {}
         # Step 2: Evaluate with all 3 juries
