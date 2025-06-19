@@ -44,12 +44,8 @@ models = {}
 def load_models():
     try:
         print("🔧 Loading generator model...")
-        gen_tok = get_quantized_model(GENERATOR_MODEL_ID, device)
-        gen_mod = AutoModelForCausalLM.from_pretrained(
-            GENERATOR_MODEL_ID,
-            torch_dtype=torch.float16,
-            device_map="auto"
-        ).to(device)
+        gen_mod = get_quantized_model(GENERATOR_MODEL_ID, device)
+        gen_tok = AutoTokenizer.from_pretrained(path)
         gen_mod.eval()
         models["generator"] = (gen_tok, gen_mod)
 
