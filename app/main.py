@@ -45,7 +45,7 @@ def load_models():
     try:
         print("🔧 Loading generator model...")
         gen_mod = get_quantized_model(GENERATOR_MODEL_ID, device)
-        gen_tok = AutoTokenizer.from_pretrained(path)
+        gen_tok = AutoTokenizer.from_pretrained(GENERATOR_MODEL_ID)
         gen_mod.eval()
         models["generator"] = (gen_tok, gen_mod)
 
