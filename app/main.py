@@ -52,21 +52,8 @@ def load_models():
         print("🔧 Loading local jury models...")
         for name, path in JURY_MODEL_PATHS.items():
             tok = AutoTokenizer.from_pretrained(path)
-            # Set up 4-bit quantization configuration via bitsandbytes.
-            quant_config = BitsAndBytesConfig(
-                load_in_4bit=True,
-                bnb_4bit_quant_type="nf4",          # NormalFloat 4 (NF4) quantization
-                bnb_4bit_use_double_quant=True,       # Use double quantization for improved accuracy
-                bnb_4bit_compute_dtype=torch.bfloat16 # Use BF16 for compute
-            )
-
-            # # Load the model with 4-bit quantization.
-            mod = AutoModelForCausalLM.from_pretrained(
-                path,
-                quantization_config=quant_config,
-                trust_remote_code=True,
-                device_map="auto"
-            ).to(device)
+            # Load the model with 4-bit quantization.
+            mod = get_quantized_model(path, device)
             mod.eval()
             models[name] = (tok, mod)
 

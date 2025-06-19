@@ -5,6 +5,7 @@ import ast
 from typing import Union, Optional, List
 from pandas import DataFrame
 from transformers import AutoModelForCausalLM, BitsAndBytesConfig
+from accelerate import infer_auto_device_map, init_empty_weights
 import torch
 from create_alpha_dict import create_q_alphas, get_s_vals
 from find_epsilon_from_s import find_epsilon_from_s
@@ -157,12 +158,23 @@ def get_quantized_model(model_dir: str, device) -> AutoModelForCausalLM:
         bnb_4bit_compute_dtype=torch.bfloat16 # Use BF16 for compute
     )
 
+    # Step 1: Initialize model with empty weights (no GPU allocation)
+    with init_empty_weights():
+        model = AutoModelForCausalLM.from_pretrained(model_dir, quantization_config=quant_config, trust_remote_code=True)
+
+    # Step 2: Infer safe device map
+    device_map = infer_auto_device_map(
+        model,
+        max_memory={"cuda:0": "36GiB", "cpu": "64GiB"},  # Adjust this to your available GPU
+        no_split_module_classes=["LlamaDecoderLayer"]    # Model-specific; replace if needed
+    )
+
     # # Load the model with 4-bit quantization.
     model = AutoModelForCausalLM.from_pretrained(
         model_dir,
         quantization_config=quant_config,
         trust_remote_code=True,
-        device_map="auto"
-    ).to(device)
+        device_map=device_map
+    )
 
     return model
