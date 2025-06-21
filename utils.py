@@ -46,10 +46,68 @@ def get_test_s_vals(test_file_name: str) -> DataFrame:
     file_name = generate_s_values(base_model, test_file_name, False)
     return get_s_vals(file_name)
 
+def get_jury_logit_file_name(jury_model_name: str) -> str:
+    return base_model + "/jury_logits_" + jury_model_name + ".csv"
 
+FILTERED_SUFFIX = "_filtered"
+
+def filter_and_shuffle_jury_data(jury_info: dict[str, dict[str, str]], seed: int = 10, filter_disagreements = False):
+    calib_names = []
+    test_names = []
+    for key, value in jury_info.items():
+        calib_names.append(value['calib_name'])
+        test_names.append(value['test_name'])
+    
+    if filter_disagreements:
+        filter_disagreements_in_jury_data(calib_names)
+        filter_disagreements_in_jury_data(test_names)
+        filter_calib_names = [name + FILTERED_SUFFIX for name in calib_names]
+        filter_test_names = [name + FILTERED_SUFFIX for name in test_names]
+        calib_names = filter_calib_names
+        test_names = filter_test_names
+    # Shuffle the jury data
+    for i in range(len(calib_names)):
+        print(f"Shuffling {calib_names[i]} and {test_names[i]} with seed {seed}")
+        shuffle_jury_data(calib_names[i], test_names[i], seed)
+    
+def filter_disagreements_in_jury_data(file_names: list[str]):
+    list_of_dataframes = []
+    for name in file_names:
+        df = pd.read_csv(get_jury_logit_file_name(name))
+        list_of_dataframes.append(df)
+
+    # Return a filtered version of the dataframes where the logits are not in agreement with the other dataframes.
+    disagreement_indices = []
+    # Iterate through the number of rows in the first dataframe
+    for i in range(len(list_of_dataframes[0])):
+        # Get the logits for the current row in each dataframe
+        logits = [df.iloc[i]['logits'] for df in list_of_dataframes]
+        num_true = 0
+        num_false = 0
+        for logit in logits:
+            # Convert the logit string to a list
+            logit_list = ast.literal_eval(logit)[0]
+            if logit_list[0] > logit_list[1]:
+                num_true += 1
+            else:
+                num_false += 1
+        if num_true > 0 and num_false > 0:
+            disagreement_indices.append(i)
+    # Create disagreement files
+    for file_name in file_names:
+        filtered_file_name = get_jury_logit_file_name(file_name+FILTERED_SUFFIX)
+        df = pd.read_csv(get_jury_logit_file_name(file_name))
+        # Filter the dataframe to only include the rows where the index is in disagreement_indices
+        filtered_df = df.iloc[disagreement_indices]
+        # Write the filtered dataframe to a new csv file
+        filtered_df.to_csv(filtered_file_name, index=False)
+        
+    return [df.iloc[disagreement_indices] for df in list_of_dataframes]
+
+    
 def shuffle_jury_data(jury_model_name: str, jury_model_name_test: str, seed: int = 10):
-    name = base_model+"/jury_logits_"+jury_model_name+".csv"
-    test_name = base_model+"/jury_logits_"+jury_model_name_test+".csv"
+    name = get_jury_logit_file_name(jury_model_name)
+    test_name = get_jury_logit_file_name(jury_model_name_test)
     
     # Read the csv's as pandas dataframes
     df = pd.read_csv(name)

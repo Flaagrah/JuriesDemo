@@ -9,7 +9,7 @@ from fastapi.responses import JSONResponse
 from pydantic import BaseModel
 from transformers import AutoTokenizer
 from base_model_data_creation.run_base_model import get_model_output
-from utils import get_epsilon_dict, shuffle_jury_data, calculate_metrics_for_response, get_quantized_model
+from utils import get_epsilon_dict, shuffle_jury_data, calculate_metrics_for_response, get_quantized_model, filter_and_shuffle_jury_data, FILTERED_SUFFIX
 from jury_finetuning.judge_response import call_jury_on_single_prompt
 import torch
 import traceback
@@ -54,13 +54,30 @@ def load_models():
 
         print("Shuffling calibration data...")
         seed = 9
-        shuffle_jury_data("qlora_olmo13b_calib", "qlora_olmo13b_test", seed)
-        shuffle_jury_data("qlora_llama13b_calib", "qlora_llama13b_test", seed)
-        shuffle_jury_data("qlora_stable13b_calib", "qlora_stable13b_test", seed)
+        jury_dict = {
+            "olmo13b": {
+                "calib_name": "qlora_olmo13b_calib",
+                "test_name": "qlora_olmo13b_test"
+            },
+            "llama13b": {
+                "calib_name": "qlora_llama13b_calib",
+                "test_name": "qlora_llama13b_test"
+            },
+            "stable13b": {
+                "calib_name": "qlora_stable13b_calib",
+                "test_name": "qlora_stable13b_test"
+            }
+        }
+        filter_and_shuffle_jury_data(jury_dict, seed=seed, filter_disagreements=True)
+        # shuffle_jury_data("qlora_olmo13b_calib", "qlora_olmo13b_test", seed)
+        # shuffle_jury_data("qlora_llama13b_calib", "qlora_llama13b_test", seed)
+        # shuffle_jury_data("qlora_stable13b_calib", "qlora_stable13b_test", seed)
 
-        JURY_EPSILONS[jury1] = get_epsilon_dict("qlora_"+jury1+"_calib_shuffled")
-        JURY_EPSILONS[jury2] = get_epsilon_dict("qlora_"+jury2+"_calib_shuffled")
-        JURY_EPSILONS[jury3] = get_epsilon_dict("qlora_"+jury3+"_calib_shuffled")
+        JURY_EPSILONS[jury1] = get_epsilon_dict("qlora_"+jury1+"_calib"+FILTERED_SUFFIX+"_shuffled")
+        JURY_EPSILONS[jury2] = get_epsilon_dict("qlora_"+jury2+"_calib"+FILTERED_SUFFIX+"_shuffled")
+        JURY_EPSILONS[jury3] = get_epsilon_dict("qlora_"+jury3+"_calib"+FILTERED_SUFFIX+"_shuffled")
+        print("JURY_EPSILONS:", JURY_EPSILONS)
+        print("✅ Calibration data shuffled and epsilon values loaded.")
     except Exception as e:
         return process_error(e)
 
