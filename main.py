@@ -46,7 +46,7 @@ for i in range(9, 10):
     results = print_stats(llama13b_test, olmo13b_test, stable13b_test, llama13b_alphas, olmo13b_alphas, stable13b_alphas)
     print_stats2(llama13b_test, olmo13b_test, stable13b_test, llama13b_alphas, olmo13b_alphas, stable13b_alphas)
     print("-----------------------------------------------------------")
-    dist_list.append(results)
+    #dist_list.append(results)
 # print(dist_list)
 # columns = ["Majority Poll", "Calibrated Confidence Poll", "Calibrated Mul Confidence Poll", "Calibrated Max Poll", "Max Poll (Uncalibrated)"]
 # dist_df = pd.DataFrame(dist_list, columns=columns)
@@ -76,32 +76,30 @@ Jury Correct on disagreements: [52, 76, 73]
 Jury Correct on disagreements (normalized): [0.4262295081967213, 0.6229508196721312, 0.5983606557377049]
 '''
 '''
-cohere34b balanced dataset
-Accurate vs Inaccurate judgements
-Majority Poll: 195 109 0.6414473684210527
-Calibrated Confidence Poll: 195 109 0.6414473684210527
-Calibrated Mul Confidence Poll: 194 110 0.6381578947368421
-Calibrated Max Poll: 174 130 0.5723684210526315
-Max Poll (Uncalibrated): 175 129 0.5756578947368421
-Veto Poll: 125 179 0.41118421052631576
-Majorities: 184 120
-True Majority: 127 57
-False Majority: 68 52
+Seed 9, with filtering
+Majority Poll: 107 86 0.5544041450777202
+Calibrated Confidence Poll: 115 78 0.5958549222797928
+Calibrated Mul Confidence Poll: 112 81 0.5803108808290155
+Calibrated Max Poll: 119 74 0.616580310880829
+Max Poll (Uncalibrated): 115 78 0.5958549222797928
+Veto Poll: 116 77 0.6010362694300518
+Majorities: 111 82
+True Majority: 51 60
+False Majority: 56 26
 Start Interval: 0.5
 End Interval: 1
-Llama correct: 749 251 0.749
-Olmo correct: 807 193 0.807
-Stable correct: 782 218 0.782
-Base Model Correct: 671 329
-Max Logits: [91, 91, 122]
-Max Confidence: [86, 108, 110]
-Jury Correct on disagreements: [136, 194, 169]
-Jury Correct on disagreements (normalized): [0.4473684210526316, 0.6381578947368421, 0.555921052631579]
-Majority Vote: 195 109 0.6414473684210527
-Calibrated Confidence Poll: 195 109 0.6414473684210527
-Calibrated Multiplicative Poll: 194 110 0.6381578947368421
-Calibrated Max Poll: 174 130 0.5723684210526315
-Max Poll (Uncalibrated): 175 129 0.5756578947368421
-Veto Poll: 125 179 0.41118421052631576
------------------------------------------------------------
+Llama correct: 102 91 0.5284974093264249
+Olmo correct: 84 109 0.43523316062176165
+Stable correct: 107 86 0.5544041450777202
+Base Model Correct: 77 116
+Max Logits: [82, 70, 41]
+Max Confidence: [88, 50, 55]
+Jury Correct on disagreements: [102, 84, 107]
+Jury Correct on disagreements (normalized): [0.5284974093264249, 0.43523316062176165, 0.5544041450777202]
+Majority Vote: 107 86 0.5544041450777202
+Calibrated Confidence Poll: 115 78 0.5958549222797928
+Calibrated Multiplicative Poll: 112 81 0.5803108808290155
+Calibrated Max Poll: 119 74 0.616580310880829
+Max Poll (Uncalibrated): 115 78 0.5958549222797928
+Veto Poll: 116 77 0.6010362694300518
 '''
