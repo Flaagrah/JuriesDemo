@@ -2,8 +2,6 @@ import pandas as pd
 import torch
 from transformers import (
     AutoTokenizer,
-    AutoModelForCausalLM,
-    BitsAndBytesConfig,
     TrainingArguments,
     Trainer,
     DataCollatorForLanguageModeling
@@ -16,7 +14,11 @@ from utils import get_quantized_model, BASE_DATA_FOLDER
 # Here we train the model to complete the prompt with the correctness value.
 JUDGEMENT_TRUE = "True"
 JUDGEMENT_FALSE = "False"
-def format_prompt(question, answer, correctness=""):
+def format_prompt(question: str, answer: str, correctness: str="") -> str:
+    """
+    Format the prompt for the jury model.
+    The prompt will ask if the answer is correct or incorrect.
+    """
     judgement = ""
     if correctness == "Correct":
         judgement = JUDGEMENT_TRUE
@@ -29,9 +31,11 @@ def format_prompt(question, answer, correctness=""):
         f"Judgement: {judgement}"
     )
 
-def get_correct_incorrect_counts(correctness):
+def get_correct_incorrect_counts(correctness: str) -> tuple[int, int]:
     """
     Count the number of correct and incorrect answers in the correctness column.
+    :param correctness: A list or Series containing the correctness values ("Correct" or "Incorrect").
+    :return: A tuple containing the count of correct and incorrect answers.
     """
     correct_count = 0
     incorrect_count = 0
@@ -42,7 +46,14 @@ def get_correct_incorrect_counts(correctness):
             incorrect_count += 1
     return correct_count, incorrect_count
 
-def create_balanced_dataset(ft_df: pd.DataFrame, balance_amount: int):
+def create_balanced_dataset(ft_df: pd.DataFrame, balance_amount: int) -> pd.DataFrame:
+    """
+    Create a balanced dataset from the fine-tune dataframe.
+    This function ensures that the number of correct and incorrect answers is the same.
+    :param ft_df: The fine-tune dataframe containing 'question', 'answer', and 'correctness' columns.
+    :param balance_amount: The number of correct and incorrect answers to include in the balanced dataset.
+    :return: A balanced dataframe with the same number of correct and incorrect answers.
+    """
     correctness = ft_df['correctness']
     answers = ft_df['answer']
     questions = ft_df['question']
@@ -58,17 +69,14 @@ def create_balanced_dataset(ft_df: pd.DataFrame, balance_amount: int):
                 correct_count += 1
             elif c == "Incorrect":
                 incorrect_count += 1
-    print(ft_df_data_balanced.head(10))
-    print(len(ft_df_data_balanced))
     # shuffle the rows in ft_df_data_balanced
     ft_df_data_balanced = ft_df_data_balanced.sample(frac=1).reset_index(drop=True)
-    print(ft_df_data_balanced.head(10))
-    print(ft_df_data_balanced.tail(10))
     return ft_df_data_balanced
 
-def get_data_sets():
+def get_data_sets() -> tuple[pd.DataFrame, pd.DataFrame]:
     """
     Retrieve the datasets for fine-tuning and testing.
+    :return: A tuple containing the fine-tune dataframe and the fine-tune test dataframe.
     """
     ft_df_correctness = pd.read_csv(BASE_DATA_FOLDER + "fine_tune_data_correctness.csv")
     ft_test_df_correctness = pd.read_csv(BASE_DATA_FOLDER + "fine_tune_test_data_correctness.csv")
@@ -86,6 +94,10 @@ def get_data_sets():
 def fine_tune_jury(model_dir: str, model_name: str, balance_dataset: bool = False) -> None:
     """
     Fine-tune the jury model using the provided model name.
+    :param model_dir: The directory where the model is stored.
+    :param model_name: The name of the model to fine-tune.
+    :param balance_dataset: Whether to balance the dataset or not. If True, the dataset will be balanced to have equal number of correct and incorrect answers.
+    :return: None
     """
     # Load the datasets
     fine_tune_data, fine_tune_test_data = get_data_sets()

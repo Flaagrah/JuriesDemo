@@ -1,4 +1,5 @@
-from transformers import AutoTokenizer, AutoModelForCausalLM
+from transformers import AutoTokenizer, PreTrainedTokenizer, PreTrainedModel
+from datasets.dataset_dict import DatasetDict
 import os
 import sys
 import pandas as pd
@@ -142,7 +143,7 @@ Q: {}
 A: """
 
 class StoppingCriteriaSub(transformers.StoppingCriteria):
-    def __init__(self, input_length=0, stop_ids=None):
+    def __init__(self, input_length: int=0, stop_ids: list=None):
         super().__init__()
         self.stop_ids = stop_ids
         self.input_length = input_length
@@ -161,20 +162,39 @@ class StoppingCriteriaSub(transformers.StoppingCriteria):
 
         return (has_stop_ids.any(dim=1).all())
 
-def get_stop_word_ids(tokenizer):
+def get_stop_word_ids(tokenizer: PreTrainedTokenizer) -> list[int]:
+    """
+    Get the token IDs for the stop words used to terminate the model's output.
+    :param tokenizer: The tokenizer to use for encoding the stop words.
+    :return: A list of token IDs that represent the stop words.
+    """
     newline_token = tokenizer.encode("\n")[-1]
-    # period_token = tokenizer.encode(".")[-1]
-    # comma_token = tokenizer.encode(",")[-1]
 
     stop_word_ids = [
         newline_token
     ]
     return stop_word_ids
 
-def get_formatted_prompt(question):
+def get_formatted_prompt(question: str) -> str:
+    """
+    Format the question into a prompt that the model can understand.
+    :param question: The question to format.
+    :return: A formatted prompt string.
+    """
     return pre_prompt + few_shot_qa.format(question)
 
-def get_model_output(cand_model, tokenizer, question, device):
+def get_model_output(cand_model: PreTrainedModel, 
+                     tokenizer: PreTrainedTokenizer, 
+                     question: str, 
+                     device: torch.device) -> str:
+    """
+    Generate an answer to a question using the provided model and tokenizer.
+    :param cand_model: The model to use for generating the answer.
+    :param tokenizer: The tokenizer to use for encoding the question.
+    :param question: The question to generate an answer for.
+    :param device: The device to run the model on (CPU or GPU).
+    :return: The generated answer as a string.
+    """
     prompt =  get_formatted_prompt(question)
     stop_word_ids = get_stop_word_ids(tokenizer)
     inputs_before = tokenizer(prompt, return_tensors="pt")
@@ -199,15 +219,25 @@ def get_model_output(cand_model, tokenizer, question, device):
     output_text = tokenizer.decode(only_output_ids, skip_special_tokens=True)
     return output_text
 
-def generate_model_answers(cand_model, tokenizer, data_set, file_name, device):
-
+def generate_model_answers(cand_model: PreTrainedModel, 
+                           tokenizer: PreTrainedTokenizer, 
+                           data_set: DatasetDict, 
+                           file_name: str, device: torch.device) -> list[str]:
+    """
+    Generate answers for a given dataset using the provided model and tokenizer, and save the results to a CSV file.
+    :param cand_model: The model to use for generating answers.
+    :param tokenizer: The tokenizer to use for encoding the questions.
+    :param data_set: The dataset containing questions and answers.
+    :param file_name: The name of the file to save the results to.
+    :param device: The device to run the model on (CPU or GPU).
+    """
     # Create a pandas dataframe with the columns 'question' and 'answer'
     df = pd.DataFrame(columns=['question', 'answer'])
     # Iterate over the calibration set
     i = 0
     results = []
     for data_point in data_set:
-        print(i)
+        print("Generating Answer", i)
         i += 1
         output_text = get_model_output(cand_model, tokenizer, data_point['question'], device)
         new_row = pd.DataFrame([{'question': data_point['question'], 'answer': output_text, 'normalized_aliases': data_point['answer']['normalized_aliases']}])
@@ -215,10 +245,14 @@ def generate_model_answers(cand_model, tokenizer, data_set, file_name, device):
 
         results.append(output_text)
     df.to_csv(file_name, index=False)
-    #f.close()
     return results
 
-def create_correctness_column(filename):
+def create_correctness_column(filename: str) -> pd.DataFrame:
+    """
+    Create a correctness column in the fine-tune data CSV file based on the generated answers.
+    :param filename: The name of the CSV file containing the fine-tune data.
+    :return: A pandas DataFrame containing the correctness of the generated answers.
+    """
     # Read fine_tune_data.csv into a pandas dataframe
     ft_df = pd.read_csv(filename, on_bad_lines='skip', engine='python')
     # Get the normalized aliases and the answer of each question
@@ -237,8 +271,19 @@ def create_correctness_column(filename):
     ft_df.to_csv(filename[:filename.index('.')]+'_correctness.csv', index=False)
     return correctness_df
 
-def run_base_model(model_name: str, fine_tune_data, fine_tune_test_data, calibration_data, test_data):
-
+def run_base_model(model_name: str, 
+                   fine_tune_data: DatasetDict, 
+                   fine_tune_test_data: DatasetDict, 
+                   calibration_data: DatasetDict, 
+                   test_data: DatasetDict) -> None:
+    """
+    Get the quantized model and generate answers for the fine-tune, fine-tune test, calibration, and test datasets.
+    :param model_name: The name of the model to use.
+    :param fine_tune_data: The dataset for fine-tuning.
+    :param fine_tune_test_data: The dataset for fine-tuning testing.
+    :param calibration_data: The dataset for calibration.
+    :param test_data: The dataset for testing.
+    """
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     model = get_quantized_model(model_name, device)
     tokenizer = AutoTokenizer.from_pretrained(model_name)
