@@ -8,72 +8,105 @@ JURY1 = "llama13b"
 JURY2 = "olmo13b"
 JURY3 = "stable13b"
 
-def print_stats(jury1_test_vals: DataFrame, jury2_test_vals: DataFrame, jury3_test_vals: DataFrame, jury1_dict: dict, jury2_dict: dict, jury3_dict: dict):
+MAJORITY_VOTE = "Majority Vote"
+CALIBRATED_CONFIDENCE_SCORE = "Calibrated Confidence Score"
+CALIBRATED_MULTIPLICATIVE_SCORE = "Calibrated Multiplicative Score"
+MAX_POLL_CONFIDENCE = "Max Poll (Confidence)"
+MAX_POLL_LOGITS = "Max Poll (Logits)"
+VETO_POLL = "Veto Poll"
 
-    MAJORITY_VOTE = "Majority Vote"
-    CALIBRATED_CONFIDENCE_SCORE = "Calibrated Confidence Score"
-    CALIBRATED_MULTIPLICATIVE_SCORE = "Calibrated Multiplicative Score"
-    MAX_POLL_CONFIDENCE = "Max Poll (Confidence)"
-    MAX_POLL_LOGITS = "Max Poll (Logits)"
-    VETO_POLL = "Veto Poll"
+EVAL_TRACK_LIST = [
+    MAJORITY_VOTE,
+    CALIBRATED_CONFIDENCE_SCORE,
+    CALIBRATED_MULTIPLICATIVE_SCORE,
+    MAX_POLL_CONFIDENCE,
+    MAX_POLL_LOGITS,
+    VETO_POLL
+]
 
-    TRUE_POSITIVE = "True_Positive"
-    FALSE_NEGATIVE = "False_Negative"
-    FALSE_POSITIVE = "False_Positive"
-    TRUE_NEGATIVE = "True_Negative"
+TRUE_POSITIVE = "True_Positive"
+FALSE_NEGATIVE = "False_Negative"
+FALSE_POSITIVE = "False_Positive"
+TRUE_NEGATIVE = "True_Negative"
+TOTAL_ACCURATE = "Total_Accurate"
+ACCURACY_RATE = "Accuracy_Rate"
+PRECISION = "Precision"
+RECALL = "Recall"
+F1_SCORE = "F1_Score"
 
+METRIC_TRACK_LIST = [
+    ACCURACY_RATE,
+    PRECISION,
+    RECALL,
+    F1_SCORE
+]
+
+NUM_ACCURATE = "Num_Accurate"
+NUM_ACCURATE_ON_DISAGREEMENTS = "Num_Accurate_On_Disagreements"
+MAX_LOGITS = "Num_Max_Logits"
+MAX_CONFIDENCE = "Num_Max_Confidence"
+
+INTERVAL_START = 0.5
+INTERVAL_END = 1.0
+
+def get_eval_info_defaults() -> dict:
+    """Returns a dictionary with default values for evaluation metrics."""
+    return { TRUE_POSITIVE: 0, FALSE_NEGATIVE: 0, FALSE_POSITIVE: 0, TRUE_NEGATIVE: 0, TOTAL_ACCURATE: 0, PRECISION: 0, RECALL: 0, F1_SCORE: 0 }
+
+def get_jury_eval_defaults() -> dict:
+    """Returns a dictionary with default values for jury evaluation."""
+    return {
+        NUM_ACCURATE: 0,
+        NUM_ACCURATE_ON_DISAGREEMENTS: 0,
+        MAX_LOGITS: 0,
+        MAX_CONFIDENCE: 0
+    }
+
+def get_eval_result(is_correct: bool, is_eval_approving: bool) -> str:
+    """Determines the evaluation result based on correctness and approval status.
+    :param is_correct: Boolean indicating if the base model's answer is correct.
+    :param is_eval_approving: Boolean indicating if the jury evaluation approves the answer.
+    :return: A string representing the evaluation result.
+    """
+    if is_correct and is_eval_approving:
+        return TRUE_POSITIVE
+    elif is_correct and not is_eval_approving:
+        return FALSE_NEGATIVE
+    elif not is_correct and is_eval_approving:
+        return FALSE_POSITIVE
+    else:
+        return TRUE_NEGATIVE
+
+# TODO: Refactor this function to use the calculate_metrics_for_response function
+def generate_stats(jury1_test_vals: DataFrame, jury2_test_vals: DataFrame, jury3_test_vals: DataFrame, jury1_dict: dict, jury2_dict: dict, jury3_dict: dict):
+    """    Print statistics about the jury evaluations.
+    :param jury1_test_vals: DataFrame containing test values for jury 1.
+    :param jury2_test_vals: DataFrame containing test values for jury 2.
+    :param jury3_test_vals: DataFrame containing test values for jury 3.
+    :param jury1_dict: Dictionary containing epsilon values for jury 1.
+    :param jury2_dict: Dictionary containing epsilon values for jury 2.
+    :param jury3_dict: Dictionary containing epsilon values for jury 3.
+    """
     eval_info = {
-        MAJORITY_VOTE: { TRUE_POSITIVE: 0, FALSE_NEGATIVE: 0, FALSE_POSITIVE: 0, TRUE_NEGATIVE: 0 },
-        CALIBRATED_CONFIDENCE_SCORE: { TRUE_POSITIVE: 0, FALSE_NEGATIVE: 0, FALSE_POSITIVE: 0, TRUE_NEGATIVE: 0 },
-        CALIBRATED_MULTIPLICATIVE_SCORE: { TRUE_POSITIVE: 0, FALSE_NEGATIVE: 0, FALSE_POSITIVE: 0, TRUE_NEGATIVE: 0 },
-        MAX_POLL_CONFIDENCE: { TRUE_POSITIVE: 0, FALSE_NEGATIVE: 0, FALSE_POSITIVE: 0, TRUE_NEGATIVE: 0 },
-        MAX_POLL_LOGITS: { TRUE_POSITIVE: 0, FALSE_NEGATIVE: 0, FALSE_POSITIVE: 0, TRUE_NEGATIVE: 0 },
-        VETO_POLL: { TRUE_POSITIVE: 0, FALSE_NEGATIVE: 0, FALSE_POSITIVE: 0, TRUE_NEGATIVE: 0 }
+        MAJORITY_VOTE: get_eval_info_defaults(),
+        CALIBRATED_CONFIDENCE_SCORE: get_eval_info_defaults(),
+        CALIBRATED_MULTIPLICATIVE_SCORE: get_eval_info_defaults(),
+        MAX_POLL_CONFIDENCE: get_eval_info_defaults(),
+        MAX_POLL_LOGITS: get_eval_info_defaults(),
+        VETO_POLL: get_eval_info_defaults()
     }
     
-    NUM_ACCURATE = "Num_Accurate"
-    NUM_ACCURATE_ON_DISAGREEMENTS = "Num_Accurate_On_Disagreements"
-    MAX_LOGITS = "Num_Max_Logits"
-    MAX_CONFIDENCE = "Num_Max_Confidence"
-
     jury_info = {
-        JURY1: {
-            NUM_ACCURATE: 0,
-            NUM_ACCURATE_ON_DISAGREEMENTS: 0,
-            MAX_LOGITS: 0,
-            MAX_CONFIDENCE: 0,
-        },
-        JURY2: {
-            NUM_ACCURATE: 0,
-            NUM_ACCURATE_ON_DISAGREEMENTS: 0,
-            MAX_LOGITS: 0,
-            MAX_CONFIDENCE: 0,
-        },
-        JURY3: {
-            NUM_ACCURATE: 0,
-            NUM_ACCURATE_ON_DISAGREEMENTS: 0,
-            MAX_LOGITS: 0,
-            MAX_CONFIDENCE: 0,
-        }
+        JURY1: get_jury_eval_defaults(),
+        JURY2: get_jury_eval_defaults(),
+        JURY3: get_jury_eval_defaults()
     }
     
     total_disagreements = 0
     base_model_correct = 0
-    interval_start = 0.5
-    interval_end = 1.0
 
     results_list = []
     len_points = len(jury1_test_vals)
-
-    def get_eval_result(is_correct: bool, is_eval_approving: bool) -> str:
-        if is_correct and is_eval_approving:
-            return TRUE_POSITIVE
-        elif is_correct and not is_eval_approving:
-            return FALSE_NEGATIVE
-        elif not is_correct and is_eval_approving:
-            return FALSE_POSITIVE
-        else:
-            return TRUE_NEGATIVE
 
     for i in range(len_points):
         
@@ -114,7 +147,7 @@ def print_stats(jury1_test_vals: DataFrame, jury2_test_vals: DataFrame, jury3_te
 
         # Loop through info_list
         for index, information in enumerate(info_list):
-            if information['confidence'] >= interval_start and information['confidence'] <= interval_end:
+            if information['confidence'] >= INTERVAL_START and information['confidence'] <= INTERVAL_END:
                 if information['data']['is_base_model_correct'] == information['data']['is_jury_approving']:
                     jury_info[information['name']][NUM_ACCURATE] += 1
                     if not has_consensus():
@@ -183,12 +216,16 @@ def print_stats(jury1_test_vals: DataFrame, jury2_test_vals: DataFrame, jury3_te
     print("Max Poll (Confidence):", eval_info[MAX_POLL_CONFIDENCE])
     print("Max Poll (Logits):", eval_info[MAX_POLL_LOGITS])
     print("Veto Poll:", eval_info[VETO_POLL])
-    # print("Majorities:", true_majority, false_majority)
-    # print("True Majority:", true_majority_true, true_majority_false)
-    # print("False Majority:", false_majority_false, false_majority_true)
-    print("Start Interval:", interval_start)
-    print("End Interval:", interval_end)
+    print("Start Interval:", INTERVAL_START)
+    print("End Interval:", INTERVAL_END)
     print(jury_info)
+    # Put all of the printed information into a dictionary
+    eval_results = {
+        "eval_info": eval_info,
+        "jury_info": jury_info,
+        "total_disagreements": total_disagreements,
+        "base_model_correct": base_model_correct,
+    }
     # Print precision and recall for each evaluation metric
     for key, value in eval_info.items():
         if value[TRUE_POSITIVE] + value[FALSE_POSITIVE] > 0:
@@ -199,19 +236,18 @@ def print_stats(jury1_test_vals: DataFrame, jury2_test_vals: DataFrame, jury3_te
             recall = value[TRUE_POSITIVE] / (value[TRUE_POSITIVE] + value[FALSE_NEGATIVE])
         else:
             recall = 0
-        print(f"{key} - Precision: {precision:.2f}, Recall: {recall:.2f}")
-    # print("Llama correct:", jury_info[JURY1][NUM_ACCURATE], len_points - jury_info[JURY1][NUM_ACCURATE], jury_info[JURY1][NUM_ACCURATE]/len_points)
-    # print("Olmo correct:", jury_info[JURY2][NUM_ACCURATE], len_points - jury_info[JURY2][NUM_ACCURATE], jury_info[JURY2][NUM_ACCURATE]/len_points)
-    # print("Stable correct:", jury_info[JURY3][NUM_ACCURATE], len_points - jury_info[JURY3][NUM_ACCURATE], jury_info[JURY3][NUM_ACCURATE]/len_points)
-    # print("Base Model Correct:", base_model_correct, len_points - base_model_correct)
-    # print("Max Logits:", min_s_val)
-    # print("Max Confidence:", max_confidence)
-    # print("Jury Correct on disagreements:", jury_correct_disagreements)
-    # print("Jury Correct on disagreements (normalized):", [x/total_disagreements for x in jury_correct_disagreements])
+        # Print F1 scores
+        f1_score = 2 * (precision * recall) / (precision + recall) if (precision + recall) > 0 else 0
+        print(f"{key} - Precision: {precision:.2f}, Recall: {recall:.2f}, F1 Score: {f1_score:.2f}")
+        eval_info[key][PRECISION] = precision
+        eval_info[key][RECALL] = recall
+        eval_info[key][F1_SCORE] = f1_score
+        eval_info[key][TOTAL_ACCURATE] = value[TRUE_POSITIVE] + value[TRUE_NEGATIVE]
+        eval_info[key][ACCURACY_RATE] = (value[TRUE_POSITIVE] + value[TRUE_NEGATIVE]) / (total_disagreements if total_disagreements > 0 else 1)
 
-    #return [accurate_judgements/(total_disagreements), cal_acc_judgements/(total_disagreements), cal_mul_acc_judgements/(total_disagreements), max_cal_acc_judgements/(total_disagreements), max_acc_judgements/(total_disagreements)]
+    return eval_results
 
-def print_stats2(llama_test_vals: DataFrame, olmo_test_vals: DataFrame, stable_test_vals: DataFrame, llama_dict: dict, olmo_dict: dict, stable_dict: dict):
+def generate_stats2(llama_test_vals: DataFrame, olmo_test_vals: DataFrame, stable_test_vals: DataFrame, llama_dict: dict, olmo_dict: dict, stable_dict: dict):
     def get_logits(row):
         if not row['is_jury_approving']:
             return [row['s_val'], 1 - row['s_val']]
@@ -266,4 +302,39 @@ def print_stats2(llama_test_vals: DataFrame, olmo_test_vals: DataFrame, stable_t
     print("Max Poll (Uncalibrated):", max_poll_uncalibrated, total - max_poll_uncalibrated, max_poll_uncalibrated / total)
     print("Veto Poll:", veto_poll, total - veto_poll, veto_poll / total)
 
+def get_paths() -> list[list]:
+    """Returns a list of paths to the statistics to be aggregated.
+    :return: A list of lists, where each inner list contains the keys to access the statistics.
+    """
+    list_of_paths = [[adj, metric] for adj in EVAL_TRACK_LIST for metric in METRIC_TRACK_LIST]
+    return list_of_paths
 
+def aggregate_stats(stats_list: list[dict]) -> dict:
+    """Aggregate statistics from multiple runs.
+    :param stats_list: List of dictionaries containing statistics from different runs.
+    :param paths: List of paths to the files containing the statistics.
+    :return: A dictionary with aggregated statistics.
+    """
+    paths = get_paths()
+    aggregated = {}
+    
+    # Iterate through each stats in stats_list and aggregate the values
+    for stats in stats_list:
+        for path in paths:
+            current = aggregated
+            current_stats = stats['eval_info']
+            # print(f"Current stats: {current_stats}")
+            # print(".............................................")
+            for i, key in enumerate(path):
+                # print(f"Processing key: {key}, Index: {i}, Current stats: {current_stats}")
+                if i == len(path) - 1:
+                    if key not in current:
+                        current[key] = 0
+                    current[key] += current_stats[key] / len(stats_list)
+                else:
+                    if key not in current:
+                        current[key] = {}
+                    current = current[key]
+                    # print(f"Current path: {path}, Current key: {current}, Current stats: {current_stats}")
+                    current_stats = current_stats[key]
+    return aggregated
