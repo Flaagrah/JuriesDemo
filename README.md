@@ -39,7 +39,33 @@ This project considers the following adjudication processes as alternatives to m
 1) Max polling (logits): Takes the answer of the jury that is most certain of it's judgement as determined by the highest logits (eg, if jury A says "True" with logit of 0.8 for "True" and jury B says "False" with
    logit of 0.6 for "False", then jury A takes precedence because it has a higher logit for the judgement it gave).
 2) Max polling (confidence): Same as above except it uses the calibrated confidence of the juries.
-3) Total confidence score: Sum the calibrated confidence scores for the juries that said "True" and the juries that said "False".
+3) Calibrated confidence score: Sum the calibrated confidence scores for the juries that said "True" and the juries that said "False".
 4) Calibrated multiplicative score: Given the confidence of each jury, calculate the probability that the juries saying "False" are independantly wrong and the probability that the juries saying "True" are
    independently wrong. The one that is least likely to occur is considered the correct judgement.
 5) Veto poll: If any of the juries say that the answer is incorrect, it is considered incorrect.
+
+The following data for each of the adjudication processes has been created by:
+1) Calibration and test data is filtered to only include data on which one of the jury models disagree's with the other two.
+2) Calibration and test sets are then shuffled between each other given a random seed.
+3) Results of the test data are aggregated for each seed.
+4) The data on which the models were finetuned are allowed to be imbalanced.
+
+Given seeds 0 to 9 inclusive, the results for each adjudication process is:
+
+{
+   'Majority Vote': {'Accuracy_Rate': 0.5958549222797928, 'Precision': 0.49758254623010234, 'Recall': 0.7363936236782458, 'F1_Score': 0.5933857681718934}, 
+   'Calibrated Confidence Score': {'Accuracy_Rate': 0.6367875647668394, 'Precision': 0.5318437675719275, 'Recall': 0.7831944113320879, 'F1_Score': 0.6329117764439798}, 
+   'Calibrated Multiplicative Score': {'Accuracy_Rate': 0.6316062176165803, 'Precision': 0.5277211387427494, 'Recall': 0.7767505297878669, 'F1_Score': 0.6278391043764162}, 
+   'Max Poll (Confidence)': {'Accuracy_Rate': 0.6544041450777202, 'Precision': 0.547906418288586, 'Recall': 0.7883254259768248, 'F1_Score': 0.6459601316932039}, 
+   'Max Poll (Logits)': {'Accuracy_Rate': 0.655440414507772, 'Precision': 0.5472472944246098, 'Recall': 0.8128103181085518, 'F1_Score': 0.6536184292765282}, 
+   'Veto Poll': {'Accuracy_Rate': 0.5989637305699482, 'Precision': 0.0, 'Recall': 0.0, 'F1_Score': 0.0}
+}
+
+Calibrated confidence score, calibrated multiplicative score, max poll (confidence), and max poll (logits) all give more accurate results than majority vote. Note: Veto poll has 0 precision, recall, and F1 because for data on which there are disagreements between the jury models, the veto method always considers the answer to be false and it's about as accurate as majority vote.
+
+Conclusion:
+The results suggest that Majority Voting is a suboptimal adjudication process and that other adjudication processes may provide higher accuracy.
+
+Further exploration:
+In theory, "Max Poll (Confidence)" should give better results than "Max Poll (Logits)" because the calibrated confidence takes into account the miscalibration of the logits for each model. However, max polling on the confidence only does about as well as max polling on the logits. This needs further investigation and experimentation with different calibration methodologies (eg, calibrating on derived subsets of the data).
+
