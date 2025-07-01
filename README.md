@@ -8,8 +8,9 @@ https://arxiv.org/abs/2305.18404
 ### Conformal Language Modelling
 https://arxiv.org/abs/2306.10193
 
-Some of the code is derived from: 
-https://github.com/Varal7/conformal-language-modeling?tab=readme-ov-file 
+#### Some of the code is derived from
+https://github.com/Varal7/conformal-language-modeling?tab=readme-ov-file
+
 https://github.com/Varal7/clm_aux
 
 # Purpose
