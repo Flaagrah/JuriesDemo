@@ -65,8 +65,68 @@ Calibrated confidence score, calibrated multiplicative score, max poll (confiden
 # Conclusion
 The results suggest that Majority Voting is a suboptimal adjudication process and that other adjudication processes may provide higher accuracy.
 
-# Further exploration:
+# Further exploration
 In theory, "Max Poll (Confidence)" should give better results than "Max Poll (Logits)" because the calibrated confidence takes into account the miscalibration of the logits for each model. However, max polling on the confidence only does about as well as max polling on the logits. This needs further investigation and experimentation with different calibration methodologies (eg, calibrating on derived subsets of the data). The following graph shows significant miscalibration between the logits and the confidence
 
 ![Alt text](plots/miscalibration.png)
 
+# Instructions
+
+The following are the commands used to run the code on Google Colab. This includes everything from generating the data from the base model, finetuning the jury models, getting jury responses, calibrating for confidence scores, and test results.
+
+### Importing To Colab
+!git clone --branch master https://github.com/Flaagrah/JuriesDemo.git
+
+import os
+
+os.environ["TORCHINDUCTOR_DISABLE_CUDA_GRAPH"] = "1"
+
+os.environ["TORCHINDUCTOR_DISABLE"] = "1"  # disables TorchInductor entirely
+
+os.environ["TORCH_COMPILE_DISABLE"] = "1"  # disables torch.compile() backend
+
+os.environ["HF_TOKEN"] = <Hugging Face Token>
+
+### Importing Libraries
+
+!pip install accelerate cohere transformers datasets bitsandbytes --quiet
+
+!pip install --upgrade datasets huggingface_hub fsspec
+
+### Change Working Directory
+
+%cd JuriesDemo
+
+All following commands assume that the root of the project is working directory.
+
+### Generate Base Model Data
+
+!python create_data_sets.py CohereLabs/c4ai-command-r-v01 <Hugging Face Token>
+
+This command creates the answers to the question in the triviaqa dataset along with the correctness of the answer which is then used as a label to fine tune and test the juries.
+
+### Fine Tune Jury Models
+
+!python fine_tune_jury.py stabilityai/StableBeluga-13B stable13b <Hugging Face Token>
+
+!python fine_tune_jury.py allenai/OLMo-2-1124-13B olmo13b <Hugging Face Token>
+
+!python fine_tune_jury.py openlm-research/open_llama_13b open_llama_13b <Hugging Face Token>
+
+These commands fine tune the jury models.
+
+### Run Jury Models
+
+!python run_jury_models.py qlora_stable13b_finetuned/checkpoint-313 stable13b <Hugging Face Token>
+
+!python run_jury_models.py qlora_olmo13b_finetuned/checkpoint-313 olmo13b <Hugging Face Token>
+
+!python run_jury_models.py qlora_open_llama_13b_finetuned/checkpoint-313 llama13b <Hugging Face Token>
+
+These commands generate the response of the juries to the question/answer pairs from the data generated from the base model.
+
+### Generate Results
+
+!python main.py
+
+This script generates the data need to analyze the various adjudication processes.
