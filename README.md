@@ -52,14 +52,7 @@ The following data for each of the adjudication processes has been created by:
 
 Given seeds 0 to 9 inclusive, the results for each adjudication process is:
 
-{
-   'Majority Vote': {'Accuracy_Rate': 0.5958549222797928, 'Precision': 0.49758254623010234, 'Recall': 0.7363936236782458, 'F1_Score': 0.5933857681718934}, 
-   'Calibrated Confidence Score': {'Accuracy_Rate': 0.6367875647668394, 'Precision': 0.5318437675719275, 'Recall': 0.7831944113320879, 'F1_Score': 0.6329117764439798}, 
-   'Calibrated Multiplicative Score': {'Accuracy_Rate': 0.6316062176165803, 'Precision': 0.5277211387427494, 'Recall': 0.7767505297878669, 'F1_Score': 0.6278391043764162}, 
-   'Max Poll (Confidence)': {'Accuracy_Rate': 0.6544041450777202, 'Precision': 0.547906418288586, 'Recall': 0.7883254259768248, 'F1_Score': 0.6459601316932039}, 
-   'Max Poll (Logits)': {'Accuracy_Rate': 0.655440414507772, 'Precision': 0.5472472944246098, 'Recall': 0.8128103181085518, 'F1_Score': 0.6536184292765282}, 
-   'Veto Poll': {'Accuracy_Rate': 0.5989637305699482, 'Precision': 0.0, 'Recall': 0.0, 'F1_Score': 0.0}
-}
+![Alt text](plots/jury_adjudication.png)
 
 Calibrated confidence score, calibrated multiplicative score, max poll (confidence), and max poll (logits) all give more accurate results than majority vote. Note: Veto poll has 0 precision, recall, and F1 because for data on which there are disagreements between the jury models, the veto method always considers the answer to be false and it's about as accurate as majority vote.
 
@@ -67,5 +60,7 @@ Conclusion:
 The results suggest that Majority Voting is a suboptimal adjudication process and that other adjudication processes may provide higher accuracy.
 
 Further exploration:
-In theory, "Max Poll (Confidence)" should give better results than "Max Poll (Logits)" because the calibrated confidence takes into account the miscalibration of the logits for each model. However, max polling on the confidence only does about as well as max polling on the logits. This needs further investigation and experimentation with different calibration methodologies (eg, calibrating on derived subsets of the data).
+In theory, "Max Poll (Confidence)" should give better results than "Max Poll (Logits)" because the calibrated confidence takes into account the miscalibration of the logits for each model. However, max polling on the confidence only does about as well as max polling on the logits. This needs further investigation and experimentation with different calibration methodologies (eg, calibrating on derived subsets of the data). The following graph shows significant miscalibration between the logits and the confidence
+
+![Alt text](plots/miscalibration.png)
 
