@@ -1,17 +1,12 @@
-# Citations
-### Replacing Judges with Juries: Evaluating LLM Generations with a Panel of Diverse Models
-https://arxiv.org/abs/2404.18796
+# Problem
+The lack of reliability of LLM's is a significant issue holding back their utility. Models might hallucinate as a consequence of intra-model bias or random chance. This is especially costly in situations that require a high degree of accuracy or in reasoning models where one error on any reasoning step can throw off the whole chain of reasoning. Having a model self verify it's own answers can reduce hallucinations that occur by random chance but this does not account for intra-model biases introduced in the model's training or data collection. Furthermore, there should be a way to quantify the confidence of the model's answer in order to reduce the chances of an hallucination to an acceptable level. 
 
-### Conformal Prediction with Large Language Models for Multi-Choice Question Answering
-https://arxiv.org/abs/2305.18404
+# Solution
+This project uses 3 smaller models (called "juries") to judge the veracity of the answers given by a larger model on Triviaqa questions. It uses Conformal Prediction to quantify each jury model's certainty in it's judgement of the base model and evaluates various adjudication processes to come up with a final verdict for the answer of the base model. This project also demonstrates the benefits of uncertainty quantification in evaluating model outputs. The following diagram displays the architecture of the system.
 
-### Conformal Language Modelling
-https://arxiv.org/abs/2306.10193
+![Alt text](plots/JuryFile.drawio.png)
 
-#### Some of the code is derived from
-https://github.com/Varal7/conformal-language-modeling?tab=readme-ov-file
-
-https://github.com/Varal7/clm_aux
+Once the base model generates an answer to a given trivia question, the question/answer pair is sent to each jury to determine the veracity of the answer. Each of the jury models generates it's own judgement (True or False) and softmax logits for the tokens True/False and corresponding calibrated confidence score.
 
 # Purpose
 
@@ -124,6 +119,21 @@ These commands fine tune the jury models.
 !python run_jury_models.py qlora_open_llama_13b_finetuned/checkpoint-313 llama13b <Hugging Face Token>
 
 These commands generate the response of the juries to the question/answer pairs from the data generated from the base model.
+
+# Citations
+### Replacing Judges with Juries: Evaluating LLM Generations with a Panel of Diverse Models
+https://arxiv.org/abs/2404.18796
+
+### Conformal Prediction with Large Language Models for Multi-Choice Question Answering
+https://arxiv.org/abs/2305.18404
+
+### Conformal Language Modelling
+https://arxiv.org/abs/2306.10193
+
+#### Some of the code is derived from
+https://github.com/Varal7/conformal-language-modeling?tab=readme-ov-file
+
+https://github.com/Varal7/clm_aux
 
 ### Generate Results
 
