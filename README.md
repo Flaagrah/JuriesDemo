@@ -2,21 +2,21 @@
 The lack of reliability of LLM's is a significant issue holding back their utility. Models might hallucinate as a consequence of intra-model bias or random chance. This is especially costly in situations that require a high degree of accuracy or in reasoning models where one error on any reasoning step can throw off the whole chain of reasoning. Having a model self verify it's own answers can reduce hallucinations that occur by random chance but this does not account for intra-model biases introduced in the model's training or data collection. Furthermore, there should be a way to quantify the confidence of the model's answer in order to reduce the chances of an hallucination to an acceptable level. 
 
 # Solution
-This project uses 3 smaller models (called "juries") to judge the veracity of the answers given by a larger model on Triviaqa questions. It uses Conformal Prediction to quantify each jury model's certainty in it's judgement of the base model and evaluates various adjudication processes to come up with a final verdict for the answer of the base model. This project also demonstrates the benefits of uncertainty quantification in evaluating model outputs. The following diagram displays the architecture of the system.
+This project uses 3 smaller fine-tuned models (called "juries") to judge the veracity of the answers given by a larger model on Triviaqa questions. It uses Conformal Prediction to quantify each jury model's certainty in it's judgement of the base model and evaluates various adjudication processes to come up with a final verdict for the answer of the base model. This project also demonstrates the benefits of uncertainty quantification in evaluating model outputs. The following diagram displays the architecture of the system.
 
 ![Alt text](plots/JuryFile.drawio.png)
 
 Once the base model generates an answer to a given trivia question, the question/answer pair is sent to each jury to determine the veracity of the answer. Each of the jury models generates it's own judgement (True or False) and softmax logits for the tokens True/False and corresponding calibrated confidence score.
 
-# Purpose
+# Uncertainty Quantification
+A key element to this project is uncertainty quantification using logits and conformal prediction. Quantifying the uncertainty of the juries can make the adjudication and the final verdict more accurate because it allows the adjudication process to consider the confidence of the judgement by each jury model. In this project, there are two ways that we quantify the uncertainty of the juries: through softmax logits of "True"/"False" tokens and the calibrated confidence.
 
-This project is inspired by the Panel of Juries paper by Cohere. The Panel of Juries paper uses three LLM's to determine the accuracy of the output of a base model given a reference answer. 
-For example, given a question such as "What is the capital of France?", the base model might output "Paris". The original question and its output is sent to a panel of 3 LLM's, each of which 
-determines if the given answer to the question is correct or incorrect.
-However, when determining the final judgement of the juries, their methodology simply uses a majority vote (ie, if 2 of out 3 juries say the answer is correct, than the answer is deemed correct)
-rather than exploring other adjudication processes based on the confidence of each jury. If one jury is more certain of its response than another jury, it does not make sense to consider the 
-votes of both of those juries as equal. This project explores and measures various adjudication methods that take into account the confidence of each jury. 
-This can be used for model evaluation, exam grading, LLM reasoning, etc.
+The softmax logits of True and False relative to each other represents the model's estimate of how confident it is that the given answer to the question is accurate or inaccurate. For example, if a jury gives logits of 0.8 and 0.2 for True and False respectively, that represents a higher level of certainty than if the same model were to give logits of 0.6 and 0.4. 
+
+Also, if we are comparing the certainty of one jury to another jury, we need a way to convert the logits of each model to a quantification of it's certainty because logits of 0.8/0.2 for one jury may represent a different level of certainty than logits of 0.8/0.2 for another jury. For example, when jury 1 gives logits of 0.8/0.2, it may be right 75% of the time while jury 2 may be right 85% of the time when it gives logits of 0.8/0.2. This is where Conformal Prediction can be used to provide a quantification of uncertainty.
+
+# Conformal Prediction
+Conformal Prediction is a statistical framework in machine learning that allows models to provide reliable confidence measures for their predictions. Unlike traditional models that output a single prediction, conformal predictors generate prediction sets or intervals that are guaranteed (under certain assumptions) to contain the true value with a specified probability. In this project, the juries can only output "True" or "False", in the prediction (judgement) sets. However, for any specified probability and question/answer pairing, conformal prediction methods may return a set of two answers (True and False) rather than one because it may be the case that the jury is not certain enough in either possible answer for the conformal prediction methodology to return a single judgement (True or False) with enough confidence. In this project, we determine a jury's confidence in its judgement using the highest confidence with which it can return a set of one answer ("True" or "False"). 
 
 ### Other notable differences between this project and the Panel of Juries
 
