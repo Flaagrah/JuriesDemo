@@ -16,34 +16,19 @@ The softmax logits of True and False relative to each other represents the model
 Also, if we are comparing the certainty of one jury to another jury, we need a way to convert the logits of each model to a quantification of it's certainty because logits of 0.8/0.2 for one jury may represent a different level of certainty than logits of 0.8/0.2 for another jury. For example, when jury 1 gives logits of 0.8/0.2, it may be right 75% of the time while jury 2 may be right 85% of the time when it gives logits of 0.8/0.2. This is where Conformal Prediction can be used to provide a quantification of uncertainty.
 
 # Conformal Prediction
-Conformal Prediction is a statistical framework in machine learning that allows models to provide reliable confidence measures for their predictions. Unlike traditional models that output a single prediction, conformal predictors generate prediction sets or intervals that are guaranteed (under certain assumptions) to contain the true value with a specified probability. In this project, the juries can only output "True" or "False", in the prediction (judgement) sets. However, for any specified probability and question/answer pairing, conformal prediction methods may return a set of two answers (True and False) rather than one because it may be the case that the jury is not certain enough in either possible answer for the conformal prediction methodology to return a single judgement (True or False) with enough confidence. In this project, we determine a jury's confidence in its judgement using the highest confidence with which it can return a set of one answer ("True" or "False"). 
-
-### Other notable differences between this project and the Panel of Juries
-
-1) Juries in this project are finetuned to output either "True" or "False". The original paper uses a few shot prompt rather than finetuning. Using a few-shot prompt collapses the output space such that the logits
-   of "True" and "False" repeat themselves across each sample (eg, you might see softmax logits of [0.62, 0.38] for True and False respectively across many samples). This appears to be because
-   the few shot pre-prompt dominates the question/answer pair such that variations in the question/answer pair only change the logits to one of a finite set of possibilities that are effectively
-   determined by the pre-prompt. This is a problem because if we want to judge the confidence of the jury LLM's using logits, we shouldn't have the confidence be influenced by the pre-prompt. This is why the
-   juries in this project are being finetuned and given a zero-shot prompt so that we can more accurately measure the confidence of each jury.
-2) The juries in the panel of juries paper are given a reference answer against which the base model's answer is judged. This project does not provide a reference answer and expects the juries to use their own
-   internal knowledge to judge the answer.
-
-# Measuring Confidence
-
-The calibrated confidence is measured using a method derived from the paper "Conformal Prediction with Large Language Models for Multi-Choice Question Answering". That paper uses conformal prediction to provide
-a subset of answers from multiple choices while providing a probabilistic gaurantee that one of those given answers is correct. This project adapts that methodology to provide the highest confidence with which
-the model can return one answer from a set of two (ie, "True" or "False"). This confidence is then used in some of the adjudication processes given below.
+Conformal Prediction is a statistical framework in machine learning that allows models to provide reliable confidence measures for their predictions. Unlike traditional models that output a single prediction, conformal predictors generate prediction sets or intervals that are guaranteed (under certain assumptions) to contain the true value with a specified probability. In this project, the juries can only output "True" or "False", in the prediction (judgement) sets. However, for any specified probability and question/answer pairing, conformal prediction methods may return a set of two answers (True and False) rather than one because it may be the case that the jury is not certain enough in either possible answer for the conformal prediction methodology to return a single judgement (True or False) with enough confidence. In this project, we determine a jury's confidence in its judgement as the highest confidence with which it can return a set of one answer ("True" or "False"). 
 
 # Adjudication processes
 
-This project considers the following adjudication processes as alternatives to majority voting:
-1) Max polling (logits): Takes the answer of the jury that is most certain of it's judgement as determined by the highest logits (eg, if jury A says "True" with logit of 0.8 for "True" and jury B says "False" with
+This project considers the following adjudication processes:
+1) Majority Voting: Polls the 3 jury model and returns the most common verdict between them.
+2) Max polling (logits): Takes the answer of the jury that is most certain of it's judgement as determined by the highest logits (eg, if jury A says "True" with logit of 0.8 for "True" and jury B says "False" with
    logit of 0.6 for "False", then jury A takes precedence because it has a higher logit for the judgement it gave).
-2) Max polling (confidence): Same as above except it uses the calibrated confidence of the juries.
-3) Calibrated confidence score: Sum the calibrated confidence scores for the juries that said "True" and the juries that said "False".
-4) Calibrated multiplicative score: Given the confidence of each jury, calculate the probability that the juries saying "False" are independantly wrong and the probability that the juries saying "True" are
+3) Max polling (confidence): Same as above except it uses the calibrated confidence of the juries.
+4) Calibrated confidence score: Sum the calibrated confidence scores for the juries that said "True" and the juries that said "False".
+5) Calibrated multiplicative score: Given the confidence of each jury, calculate the probability that the juries saying "False" are independantly wrong and the probability that the juries saying "True" are
    independently wrong. The one that is least likely to occur is considered the correct judgement.
-5) Veto poll: If any of the juries say that the answer is incorrect, it is considered incorrect.
+6) Veto poll: If any of the juries say that the answer is incorrect, it is considered incorrect.
 
 The following data for each of the adjudication processes has been created by:
 1) Calibration and test data is filtered to only include data on which one of the jury models disagree's with the other two.
@@ -135,7 +120,7 @@ https://github.com/Varal7/conformal-language-modeling?tab=readme-ov-file
 
 https://github.com/Varal7/clm_aux
 
-### Generate Results
+### Generate Experimental Results
 
 !python main.py
 
