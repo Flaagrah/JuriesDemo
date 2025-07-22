@@ -18,6 +18,22 @@ Also, if we are comparing the certainty of one jury to another jury, we need a w
 # Conformal Prediction
 Conformal Prediction is a statistical framework in machine learning that allows models to provide reliable confidence measures for their predictions. Unlike traditional models that output a single prediction, conformal predictors generate prediction sets or intervals that are guaranteed (under certain assumptions) to contain the true value with a specified probability. In this project, the juries can only output "True" or "False", in the prediction (judgement) sets. However, for any specified probability and question/answer pairing, conformal prediction methods may return a set of two answers (True and False) rather than one because it may be the case that the jury is not certain enough in either possible answer for the conformal prediction methodology to return a single judgement (True or False) with enough confidence. In this project, we determine a jury's confidence in its judgement as the highest confidence with which it can return a set of one answer ("True" or "False"). 
 
+# Calibration Method for Predicting Confidence
+The problem of judging an answer as either "True" or "False" can be considered a 2-class classification problem with "True" and "False" being the two classes. Let us define M as the softmax logits of tokens "True" and "False" with respect to each other (as opposed to the entire vocabulary). This means that the sum of M always adds up to 1. The label for each input will be either [1,0] (True) or [0,1] (False). Let us define S to be the difference between the correct class in the label and the corresponding class in M. For example, if the label is [1,0] and M is [0.85, 0.15], S is 0.15 (result of 1 - 0.85). Conversely, if the label is [1,0] and M is [0.2, 0.8], S is 0.8 (result of 1 - 0.2). 
+
+Conformal prediction for a classification task will generate a set of answers while providing a probabilistic gaurantee that the set contains a correct answer. When producing such a set, let St represent the size of the range of S values that would be admissable into such a set. For example, if we choose St of 0.6, then all classes with S values below 0.6 will be included in the set. If we choose St of 0.3, then all classes with S value below 0.3 will be included. Given a small subset of the data which we will call the calibration set, for each St value we determine the percentage of the data points for which that St value will cover the correct class. 
+
+Example 1: Given a label of [1,0], M of [0.85, 0.15] an St value of 0.2 would cover the correct class which has an S of 0.15 (1 - 0.85). However, an St of 0.1 would not cover it.  
+Example 2: Given a label of [0,1], M of [0.6, 0.4] an St value of 0.5 would not cover the correct class which has an S of 0.6 (1 - 0.4) but it would include the incorrect class which has an S 0.4 (1 - 0.6). It should be noted that an St of 0.65, in this case, would cover both classes and produce a set which has both "True" and "False".
+
+The error rate, e, for a given St is the percent of data points in the calibration set for which the St does not cover the correct class. We can use this method to map various St values to corresponding e values.
+
+# Test and Inference Time
+
+During test/inference time, we don't want to produce answer sets with more than one potential answer so we assume that the true class is the one with the highest logits and return the lowest error rate, e (highest St), for which we get a set of one answer. The value of 1-e then becomes the confidence reported for that answer.
+
+Example: Given M of [0.9, 0.1], the S value of the second highest logit would be 0.9 (1 - 0.1). We retrieve the corresponding e value for the largest St value that is less than 0.9 (Determined during calibration). Suppose the e for St=0.9 is 0.05. Then 0.95 becomes the confidence associated with having a set of one answer because it is the highest confidence with which it can retrieve a set of one answer. 
+
 # Adjudication processes
 
 This project considers the following adjudication processes:
