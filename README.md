@@ -1,3 +1,6 @@
+# Demo Video
+https://www.loom.com/share/9857a01614114523956722cace173f0f?sid=abd877de-0e72-4ffe-b148-570830bed06d
+
 # Problem
 The lack of reliability of LLM's is a significant issue holding back their utility. Models might hallucinate as a consequence of intra-model bias or random chance. This is especially costly in situations that require a high degree of accuracy or in reasoning models where one error on any reasoning step can throw off the whole chain of reasoning. Having a model self verify it's own answers can reduce hallucinations that occur by random chance but this does not account for intra-model biases introduced in the model's training or data collection. Furthermore, there should be a way to quantify the confidence of the model's answer in order to reduce the chances of an hallucination to an acceptable level. 
 
