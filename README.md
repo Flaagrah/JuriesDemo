@@ -1,6 +1,3 @@
-# Demo Video
-https://www.loom.com/share/9857a01614114523956722cace173f0f?sid=abd877de-0e72-4ffe-b148-570830bed06d
-
 # Problem
 The lack of reliability of LLM's is a significant issue holding back their utility. Models might hallucinate as a consequence of intra-model bias or random chance. This is especially costly in situations that require a high degree of accuracy or in reasoning models where one error on any reasoning step can throw off the whole chain of reasoning. Having a model self verify it's own answers can reduce hallucinations that occur by random chance but this does not account for intra-model biases introduced in the model's training or data collection. Furthermore, there should be a way to quantify the confidence of the model's answer in order to reduce the chances of an hallucination to an acceptable level. 
 
@@ -10,6 +7,9 @@ This project uses 3 smaller fine-tuned models (called "juries") to judge the ver
 ![Alt text](plots/JuryFile.drawio.png)
 
 Once the base model generates an answer to a given trivia question, the question/answer pair is sent to each jury to determine the veracity of the answer. Each of the jury models generates it's own judgement (True or False) and softmax logits for the tokens True/False and corresponding calibrated confidence score.
+
+# Demo Video
+https://www.loom.com/share/9857a01614114523956722cace173f0f?sid=abd877de-0e72-4ffe-b148-570830bed06d
 
 # Uncertainty Quantification
 A key element to this project is uncertainty quantification using logits and conformal prediction. Quantifying the uncertainty of the juries can make the adjudication and the final verdict more accurate because it allows the adjudication process to consider the confidence of the judgement by each jury model. In this project, there are two ways that we quantify the uncertainty of the juries: through softmax logits of "True"/"False" tokens and the calibrated confidence.
